@@ -1,0 +1,386 @@
+/* ---- Fonts (self-hosted, OFL; see fonts/LICENSE-*) ------------------------------- */
+@font-face { font-family: 'Source Serif 4'; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/source-serif-4-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Source Serif 4'; font-style: italic; font-weight: 400; font-display: swap; src: url('../fonts/source-serif-4-latin-400-italic.woff2') format('woff2'); }
+@font-face { font-family: 'Source Serif 4'; font-style: normal; font-weight: 600; font-display: swap; src: url('../fonts/source-serif-4-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Source Serif 4'; font-style: italic; font-weight: 600; font-display: swap; src: url('../fonts/source-serif-4-latin-600-italic.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/inter-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url('../fonts/inter-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('../fonts/inter-latin-600-normal.woff2') format('woff2'); }
+
+/* ---- Tokens ----------------------------------------------------------------------- */
+:root {
+    color-scheme: light;
+    --bg: #f9f7f3;
+    --panel: #efede8;
+    --hover: #e6e4df;
+    --select: #ecdea588;
+	--select-soft: color-mix(in srgb, #eee6d6 75%, transparent);
+    --text: #161514;
+    --muted: #756e73;
+    --link: #2a5b8f;
+    --line: #e0ded9;
+    --miss: #b3261e;
+
+    --ref-c1: #0061a1;
+    --ref-c2: #974200;
+    --ref-c3: #006d50;
+    --ref-c4: #7b0d8f;
+
+    --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+    --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --head: 3.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        color-scheme: dark;
+        --bg: #22272e; --panel: #1c2128; --hover: #373e47;
+        --select: #ffdd003d; --select-soft: #2e2920;
+        --text: #cdd9e5; --muted: #8b949e; --link: #539bf5; --line: #444c56; --miss: #f47067;
+        --ref-c1: #45afd8; --ref-c2: #d19a1a; --ref-c3: #0fb08d; --ref-c4: #d0679a;
+    }
+}
+:root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #22272e; --panel: #1c2128; --hover: #373e47;
+    --select: #ffdd003d; --select-soft: #2e2920;
+    --text: #cdd9e5; --muted: #8b949e; --link: #539bf5; --line: #444c56; --miss: #f47067;
+    --ref-c1: #45afd8; --ref-c2: #d19a1a; --ref-c3: #0fb08d; --ref-c4: #d0679a;
+}
+
+.c0 { --c: var(--line); }
+.c1 { --c: var(--ref-c1); }
+.c2 { --c: var(--ref-c2); }
+.c3 { --c: var(--ref-c3); }
+.c4 { --c: var(--ref-c4); }
+
+/* ---- Base ------------------------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+    background: var(--bg);
+    color: var(--text);
+    font: 400 1rem/1.5 var(--sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+a { color: var(--link); }
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 3px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.icon {
+    display: inline-grid; place-items: center;
+    width: 2.25rem; height: 2.25rem; flex: none;
+    padding: 0; border: 0; border-radius: 6px;
+    background: none; color: var(--muted); cursor: pointer;
+}
+a.icon:hover, button.icon:hover { background: var(--hover); color: var(--text); }
+.icon svg { width: 1.15rem; height: 1.15rem; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+.icon .fill { fill: currentColor; stroke: none; }
+
+/* ---- Layout: nav | text | references ---------------------------------------------- */
+.reader {
+    display: grid;
+    grid-template-columns: 15.5rem minmax(0, 1fr) minmax(19rem, 27rem);
+    height: 100dvh;
+    overflow: hidden;
+}
+
+/* ---- Nav -------------------------------------------------------------------------- */
+.nav {
+    display: flex; flex-direction: column; min-height: 0;
+    background: var(--panel);
+    border-right: 1px solid var(--line);
+}
+.nav-top {
+    display: flex; align-items: center; gap: .5rem;
+    height: var(--head); padding: 0 .6rem 0 .75rem; flex: none;
+    border-bottom: 1px solid var(--line);
+}
+.tr-pick { flex: 1; min-width: 0; }
+.tr-select {
+    width: 100%;
+    padding: .38rem .5rem;
+    font-size: .8125rem;
+    background: var(--bg);
+    border: 1px solid var(--line); border-radius: 6px;
+}
+.books { list-style: none; margin: 0; padding: .35rem 0 2rem; overflow-y: auto; flex: 1; }
+.book.nt { margin-top: .9rem; }
+.book-name {
+    display: block; width: 100%;
+    padding: .42rem .9rem .42rem .8rem;
+    border: 0; border-left: 5px solid var(--spine, var(--line));
+    background: none; text-align: left;
+    font-size: .875rem; color: var(--muted); cursor: pointer;
+}
+.book-name:hover { background: var(--hover); color: var(--text); }
+.book.open .book-name { background: var(--bg); color: var(--text); font-weight: 600; }
+.chapters {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(2.2rem, 1fr)); gap: .25rem;
+    padding: .35rem .75rem .8rem .8rem;
+    border-left: 5px solid var(--spine, var(--line));
+    background: var(--bg);
+}
+.chapters a {
+    padding: .32rem 0; border-radius: 4px;
+    background: var(--panel); color: var(--muted);
+    font-size: .8125rem; font-variant-numeric: tabular-nums; text-align: center; text-decoration: none;
+}
+.chapters a:hover { background: var(--hover); color: var(--text); }
+.chapters a.on { background: var(--spine); color: #fff; font-weight: 600; }
+
+/* ---- Text ------------------------------------------------------------------------- */
+.text-pane { position: relative; overflow-y: auto; min-width: 0; scroll-padding-top: calc(var(--head) + 1rem); }
+.chapter-head {
+    position: sticky; top: 0; z-index: 2;
+    display: flex; align-items: center; justify-content: center; gap: .75rem;
+    height: var(--head); padding: 0 .75rem;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line);
+}
+.chapter-head h1 {
+    margin: 0; min-width: 9rem;
+    font: 600 1.15rem/1.2 var(--serif); text-align: center;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.nav-toggle { display: none; position: absolute; left: .5rem; }
+
+/* The heading is also the reference input: a click swaps one for the other. */
+.goto {
+    max-width: 100%; padding: .15rem .5rem; border: 0; border-radius: 6px;
+    background: none; font: inherit; cursor: text;
+    overflow: hidden; text-overflow: ellipsis;
+}
+.goto:hover { background: var(--hover); }
+.chapter-head.editing h1 { display: none; }
+.goto-box { position: relative; flex: 0 1 16rem; min-width: 9rem; }
+.goto-box[hidden] { display: none; }
+.goto-input, .goto-ghost {
+    font: 600 1.15rem/1.2 var(--serif);
+    padding: .3rem .55rem; border: 1px solid transparent; border-radius: 6px;
+}
+.goto-input { display: block; width: 100%; margin: 0; background: var(--bg); color: var(--text); border-color: var(--line); }
+.goto-input:focus { outline: none; border-color: var(--link); }
+.goto-input[aria-invalid="true"] { border-color: var(--miss); }
+.goto-ghost {
+    position: absolute; inset: 0;
+    white-space: pre; overflow: hidden;
+    color: var(--muted); pointer-events: none;
+}
+.goto-ghost .ghost-typed { visibility: hidden; }
+.goto-ghost .ghost-rest { pointer-events: auto; cursor: pointer; }
+
+.scripture {
+    max-width: 48rem; margin: 0 auto; padding: 1.75rem 1.5rem 2rem;
+    font: 400 1.1875rem/1.72 var(--serif);
+    hyphens: manual;
+}
+p.verse { margin: 0 -.45rem .25em; padding: .05em .45rem; border-radius: 4px; }
+.verse.on { background: var(--select-soft); }
+.verse.flash { animation: flash 3.4s ease-out; }
+@keyframes flash {
+    0%, 35% { background: var(--select); }
+    100% { background: transparent; }
+}
+
+/* Paragraph layout (BSB): blocks hold verses inline, and a verse crossing blocks is several
+   span.verse pieces. The highlight follows each line it wraps onto. */
+span.verse { padding: .05em 0; border-radius: 3px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.ln { margin: 0; }
+.p-p, .p-pmo, .p-m { margin-top: .6em; }
+.p-pc { margin-top: .6em; text-align: center; }
+/* Poetry and lists hang: a line that wraps continues further in than it starts. */
+.p-q1, .p-li1 { padding-left: 2.5em; text-indent: -1em; }
+.p-q2, .p-li2 { padding-left: 3.5em; text-indent: -1em; }
+/* A number opening a line hangs in the indent, so every line's words start in the same place.
+   Its em is .6 of the text's: 2.4em here is the 1.5em between the block edge and the words. */
+:is(.p-q1, .p-q2, .p-li1, .p-li2) > .verse:first-child > .vn:first-child {
+    display: inline-block; box-sizing: border-box; width: 2.4em; margin-left: -2.4em;
+    padding: .15em .5em .15em 0; text-align: right; text-indent: 0;
+}
+/* A run of poetry is as wide as its longest line, so qr lines right-align to the poem. */
+.poem { width: fit-content; max-width: 100%; }
+.p-qr { text-align: right; font-style: italic; }
+.p-d { margin-top: .4em; font-style: italic; }
+.stanza { margin-top: .75em; }
+.scripture > .ln:first-child, .sh + .ln, .sh + .poem > .ln:first-child { margin-top: 0; }
+
+/* Headings are the translators' aids, not Scripture: set apart in the interface face. */
+.sh { margin: 1.6rem 0 .3rem; font: 600 .875rem/1.4 var(--sans); color: var(--muted); }
+.scripture > .sh:first-child { margin-top: 0; }
+.sh-s2 { margin-top: 1.2rem; font-size: .8125rem; }
+.sh-ms { margin-top: 2.2rem; text-align: center; letter-spacing: .14em; }
+.sh-mr { margin-top: 0; text-align: center; font-weight: 400; font-size: .8125rem; }
+.sh-r { margin-top: -.15rem; font-weight: 400; font-size: .8125rem; }
+.sh-qa { margin-top: 1.4rem; }
+.sh-qa + .sh-qa { margin-top: 0; }
+.xr { color: inherit; text-decoration: underline 1px color-mix(in srgb, currentColor 45%, transparent); text-underline-offset: .18em; }
+.xr:hover { color: var(--link); text-decoration-color: currentColor; }
+
+.vn {
+    position: relative; top: -.42em;
+    padding: .15em .28em; margin-left: -.28em; border-radius: 3px;
+    font: 500 .6em/1 var(--sans); color: var(--muted);
+    cursor: pointer; user-select: none;
+}
+.vn:hover, .vn.on { background: var(--hover); color: var(--link); }
+
+.a {
+    color: var(--c); cursor: pointer;
+    text-decoration: underline 1px transparent;
+    text-underline-offset: .22em;
+    transition: text-decoration-color .12s;
+}
+.a:hover { text-decoration-color: currentColor; }
+/* More than one anchor on this piece of text: the pane lists them all, innermost first. */
+.a.m { text-decoration: underline double 1px color-mix(in srgb, currentColor 55%, transparent); }
+.a.on { background: var(--select); border-radius: 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+
+.chapter-foot {
+    max-width: 48rem; margin: 0 auto; padding: 1.25rem 1.5rem 3rem;
+    border-top: 1px solid var(--line);
+    font-size: .75rem; line-height: 1.55; color: var(--muted);
+}
+.chapter-foot p { margin: 0 0 .5rem; }
+.chapter-foot a { color: inherit; }
+
+/* ---- Reference pane ---------------------------------------------------------------- */
+.ref-pane {
+    display: flex; flex-direction: column; min-height: 0; min-width: 0;
+    background: var(--panel);
+    border-left: 1px solid var(--line);
+}
+.pane-head {
+    display: flex; align-items: center; justify-content: space-between; flex: none;
+    height: var(--head); padding: 0 .6rem 0 1.25rem;
+    border-bottom: 1px solid var(--line);
+    font-size: .8125rem; font-weight: 600; color: var(--muted);
+}
+.pane-close { display: none; }
+.pane-body { flex: 1; overflow-y: auto; padding: 0 1.25rem 3rem; overscroll-behavior: contain; }
+/* The top spacing lives on the first child, not the scroll container: sticky headings are
+   measured from inside the container's padding and would otherwise stop short of the edge. */
+.pane-body > :first-child { margin-top: 1.1rem; }
+/* Delayed, so a fast response never flickers. */
+.pane-body[aria-busy="true"] { opacity: .5; transition: opacity .15s .12s; }
+
+.hint { margin: 0; font-size: .875rem; color: var(--muted); }
+.hint.error { color: var(--ref-c2); }
+
+.pane-title { margin: 0 0 1.1rem; font: 600 1.1rem/1.3 var(--serif); }
+.group { margin: 0 0 1.6rem; padding-left: .9rem; border-left: 3px solid var(--c); }
+/* Sticky, so the anchor stays in view while its references scroll; on a phone the verse
+   itself is hidden behind the pane, and the heading is the only reminder. */
+.group-head {
+    position: sticky; top: 0; z-index: 1;
+    margin: 0 0 .5rem; padding: .45rem 0 .4rem;
+    background: var(--panel);
+    font-size: .875rem; font-weight: 600; line-height: 1.35; color: var(--c);
+}
+.c0 .group-head { color: var(--text); }
+.group-head .kjv { margin-right: .35em; font-weight: 500; color: var(--muted); }
+.group-head .kjv-note { margin-left: .5em; font-weight: 400; color: var(--muted); }
+
+.refs { list-style: none; margin: 0; padding: 0; }
+.refs li { margin: 0 0 .9rem; }
+.cite { font-size: .875rem; font-weight: 500; text-decoration: none; }
+.cite:hover { text-decoration: underline; text-underline-offset: .18em; }
+.rt { margin: .15rem 0 0; font: 400 1.03rem/1.58 var(--serif); }
+.rt sup { margin-right: .18em; font: 500 .62em/1 var(--sans); color: var(--muted); }
+.gap { color: var(--muted); }
+.rest, .more-less { display: none; }
+.rt.open .rest, .rt.open .more-less { display: inline; }
+.rt.open .more-n { display: none; }
+.more {
+    padding: 0 .15em; border: 0; background: none;
+    font: 500 .8125rem/1 var(--sans); color: var(--link); cursor: pointer;
+}
+.more:hover { text-decoration: underline; }
+
+/* Cited by: where this verse is taken up elsewhere. A different kind of thing from the
+   anchor groups above it, so no colour bar and no text: a rule, a count, and links. */
+.cited { margin: 2.25rem 0 0; border-top: 1px solid var(--line); }
+.cited-head {
+    position: sticky; top: 0; z-index: 1;
+    margin: 0 0 .5rem; padding: .7rem 0 .45rem;
+    background: var(--panel);
+    font-size: .8125rem; font-weight: 600; line-height: 1.35; color: var(--muted);
+}
+.cited-list {
+    margin: 0; padding: 0; list-style: none;
+    font-size: .875rem; line-height: 1.45;
+}
+.cited-list li { margin: 0 0 .3rem; }
+.cited-row {
+    display: block; width: 100%; padding: .1rem 0;
+    border: 0; background: none; text-align: left; cursor: pointer;
+    font: inherit; color: inherit;
+}
+/* A small disclosure caret: this row opens in place rather than taking you away. */
+.cited-row::before {
+    content: ""; display: inline-block; width: .38em; height: .38em; margin: 0 .5em .12em .05em;
+    border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted);
+    transform: rotate(-45deg); transition: transform .12s;
+}
+.cited-row[aria-expanded="true"]::before { transform: rotate(45deg); }
+.cited-row .cl { font-weight: 500; color: var(--link); }
+.cited-row:hover .cl { text-decoration: underline; text-underline-offset: .18em; }
+.cited-list .cp { margin-left: .35em; font-family: var(--serif); font-style: italic; color: var(--muted); }
+/* Already listed among the references above. */
+.cited-list .dim .cited-row { opacity: .5; }
+
+.cited-preview { margin: .2rem 0 .7rem 1.05em; padding-left: .75rem; border-left: 2px solid var(--line); }
+.cited-preview[aria-busy="true"] { min-height: 1.5rem; opacity: .5; }
+.cited-text { margin: 0 0 .3rem; font: 400 1.03rem/1.58 var(--serif); }
+.cited-text sup { margin-right: .18em; font: 500 .62em/1 var(--sans); color: var(--muted); }
+.cited-text mark {
+    background: none;
+    color: var(--ref-c2);
+    text-decoration: underline 0.35px rgba(0, 0, 0, 0.25);
+    text-underline-offset: .22em;
+}
+.cited-go { font-size: .8125rem; font-weight: 500; text-decoration: none; }
+.cited-go:hover { text-decoration: underline; text-underline-offset: .18em; }
+
+/* ---- Plain pages (not found, error) ------------------------------------------------ */
+.plain-page { max-width: 32rem; margin: 18vh auto 0; padding: 0 1.5rem; }
+.plain-page h1 { font: 600 1.5rem/1.3 var(--serif); }
+
+/* ---- Narrower screens: the nav becomes a drawer ------------------------------------ */
+@media (max-width: 1100px) {
+    .reader { grid-template-columns: minmax(0, 1fr) minmax(18rem, 24rem); }
+    .nav {
+        position: fixed; inset: 0 auto 0 0; z-index: 20;
+        width: min(18rem, 85vw);
+        transform: translateX(-100%);
+        transition: transform .2s ease-out, visibility 0s .2s;
+        box-shadow: 0 0 2rem rgb(0 0 0 / .18);
+        visibility: hidden;
+    }
+    .nav.nav-open { transform: none; visibility: visible; transition: transform .2s ease-out, visibility 0s; }
+    .nav-toggle { display: inline-grid; }
+}
+
+/* ---- Phones: the references slide over the text ------------------------------------ */
+@media (max-width: 760px) {
+    .reader { grid-template-columns: minmax(0, 1fr); }
+    .scripture { padding: 1.25rem 1.1rem 1.5rem; font-size: 1.125rem; }
+    .chapter-foot { padding: 1rem 1.1rem 2.5rem; }
+    .ref-pane {
+        position: fixed; inset: 0; z-index: 15;
+        border-left: 0;
+        transform: translateX(100%);
+        transition: transform .2s ease-out, visibility 0s .2s;
+        visibility: hidden;
+    }
+    .reader.pane-open .ref-pane { transform: none; visibility: visible; transition: transform .2s ease-out, visibility 0s; }
+    .pane-close { display: inline-grid; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .nav, .ref-pane, .a { transition: none; }
+    .verse.flash { animation: none; background: var(--select-soft); }
+}

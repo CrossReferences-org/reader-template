@@ -1,0 +1,54 @@
+@*
+    The nav survives enhanced navigation untouched (data-permanent); reader.js keeps its
+    active book and chapter in step. Only the current book's chapter links are rendered here;
+    the others are built in the browser when a book is opened, and removed when it closes.
+    Each book also carries its abbreviation and spelling variants (BookAliases), which the
+    reference input in the chapter heading matches against.
+*@
+<nav class="nav" id="nav" data-permanent="nav" aria-label="@View.T.Ui.Books" data-url="@($"__B__/__C__/{View.T.Code}")">
+    <div class="nav-top">
+        <label class="tr-pick">
+            <span class="visually-hidden">@View.T.Ui.Translation</span>
+            <select class="tr-select" data-url="__B__/__C__/__T__">
+                @foreach (var v in Views)
+                {
+                    <option value="@v.T.Code" selected="@(v == View)">@v.T.Label</option>
+                }
+            </select>
+        </label>
+        <button type="button" class="icon theme-toggle" aria-label="@View.T.Ui.ToggleTheme">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" /><path d="M12 4a8 8 0 0 1 0 16z" class="fill" /></svg>
+        </button>
+    </div>
+    <ol class="books">
+        @foreach (var b in View.Books)
+        {
+            var current = b.Id == Book;
+            var aliases = BookAliases.For(View.T.Language, b.Id);
+            <li class="@BookClass(b, current)" style="--spine: @b.Spine" data-book="@b.Id" data-chapters="@b.Chapters"
+                data-abbr="@b.Book.Abbreviation(View.T.Language)" data-alias="@(aliases.Count > 0 ? string.Join('|', aliases) : null)">
+                <button type="button" class="book-name" aria-expanded="@(current ? "true" : "false")">@b.Name</button>
+                @if (current)
+                {
+                    <div class="chapters">
+                        @for (var c = 1; c <= b.Chapters; c++)
+                        {
+                            var on = c == Chapter;
+                            <a href="@($"{b.Id}/{c}/{View.T.Code}")" class="@(on ? "on" : null)" aria-current="@(on ? "page" : null)">@c</a>
+                        }
+                    </div>
+                }
+            </li>
+        }
+    </ol>
+</nav>
+
+@code {
+    [Parameter, EditorRequired] public TranslationView View { get; set; } = default!;
+    [Parameter, EditorRequired] public IReadOnlyList<TranslationView> Views { get; set; } = default!;
+    [Parameter] public int Book { get; set; }
+    [Parameter] public int Chapter { get; set; }
+
+    private static string BookClass(BookEntry b, bool current) =>
+        "book" + (current ? " open" : "") + (b.StartsNewTestament ? " nt" : "");
+}

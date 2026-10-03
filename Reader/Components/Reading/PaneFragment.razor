@@ -1,0 +1,65 @@
+@*
+    Returned on its own by the /pane endpoints and swapped into the reference pane.
+    Groups arrive in the order the JSON gives them; nothing is re-sorted here.
+*@
+<h2 class="pane-title">@Model.Title</h2>
+@if (Model.Groups.Count == 0)
+{
+    <p class="hint">@Model.Ui.NoReferences</p>
+}
+@foreach (var g in Model.Groups)
+{
+    <section class="group c@(g.Colour)">
+        @if (g.Heading.Length > 0)
+        {
+            <h3 class="group-head">
+                @if (g.IsKjvFallback)
+                {
+                    <span class="kjv">KJV:</span><span>‘@g.Heading’</span>
+                }
+                else
+                {
+                    @g.Heading
+                }
+                @if (g.KjvNote is not null)
+                {
+                    <span class="kjv-note">KJV: @g.KjvNote</span>
+                }
+            </h3>
+        }
+        <ol class="refs">
+            @foreach (var r in g.Items)
+            {
+                <li>
+                    <a class="cite" href="@r.Href">@r.Label</a>
+                    <p class="rt">@((MarkupString)r.TextHtml)</p>
+                </li>
+            }
+        </ol>
+    </section>
+}
+@if (Model.CitedBy is { } cited)
+{
+    <section class="cited">
+        <h3 class="cited-head">@cited.Heading</h3>
+        <ul class="cited-list">
+            @foreach (var c in cited.Entries)
+            {
+                <li class="@(c.Dimmed ? "dim" : null)">
+                    <button type="button" class="cited-row" aria-expanded="false" data-k="@c.Keys">
+                        <span class="cl">@c.Label</span>
+                        @if (c.Phrases.Length > 0)
+                        {
+                            <span class="cp" title="@(c.FullPhrases != c.Phrases ? c.FullPhrases : null)">@c.Phrases</span>
+                        }
+                    </button>
+                    <div class="cited-preview" hidden></div>
+                </li>
+            }
+        </ul>
+    </section>
+}
+
+@code {
+    [Parameter, EditorRequired] public PaneModel Model { get; set; } = default!;
+}

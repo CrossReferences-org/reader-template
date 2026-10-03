@@ -1,0 +1,10 @@
+@*
+    A citing verse from the cited-by list, opened in place under its entry.
+    The words that point back to the verse in the pane are marked.
+*@
+<p class="cited-text">@((MarkupString)Model.TextHtml)</p>
+<a class="cited-go" href="@Model.Href">@Model.GoLabel →</a>
+
+@code {
+    [Parameter, EditorRequired] public PreviewModel Model { get; set; } = default!;
+}

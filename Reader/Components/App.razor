@@ -1,0 +1,33 @@
+@inject Corpus Corpus
+<!DOCTYPE html>
+<html lang="@Lang">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <base href="@BaseHref" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <meta name="theme-color" content="#faf8f6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#22272e" media="(prefers-color-scheme: dark)" />
+    <script>try { var t = localStorage.getItem('cr-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) { }</script>
+    <link rel="preload" href="fonts/source-serif-4-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="@Assets["css/reader.css"]" />
+    <HeadOutlet />
+</head>
+<body>
+    <Routes />
+    <script src="@Assets["_framework/blazor.web.js"]"></script>
+    <script src="@Assets["js/reader.js"]"></script>
+</body>
+</html>
+
+@code {
+    [CascadingParameter] private HttpContext? HttpContext { get; set; }
+
+    private string BaseHref => $"{HttpContext?.Request.PathBase}/";
+
+    private string Lang => Corpus.Find(HttpContext?.GetRouteValue("Tr") as string)?.T.HtmlLang ?? "en";
+}

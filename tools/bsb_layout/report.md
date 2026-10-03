@@ -1,0 +1,1264 @@
+# BSB layout report
+
+Records with breaks: 20693  
+Breaks: 38507 (exact 38507, approximate 0, dropped 0)  
+Superscriptions: 116, sharing a record with the first line: 53 (Ps 11, 14, 15, 16, 17, 23, 24, 25, 26, 27, 28, 29, 32, 35, 37, 50, 66, 72, 73, 74, 78, 79, 82, 86, 87, 90, 98, 100, 101, 103, 109, 110, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 138, 139, 141, 143, 144, 145)  
+Block styles: {'q2': 12549, 'p': 12274, 'q1': 11563, 'li1': 1343, 'pmo': 233, 'qr': 223, 'li2': 194, 'd': 117, 'pc': 11}  
+Headings: {'s1': 3016, 'r': 1325, 's2': 80, 'qa': 44, 'ms': 5, 'mr': 5}  
+Parallel-passage links: 2026 (unlinked chapter spans: 7)  
+BSB anchors crossed by a line break: 1244  
+
+## Oddities (0)
+
+
+## Breaks to review (0)
+
+`‖` marks where the break was placed in our text; the second line is the USJ line it came from.
+
+
+## Anchors crossed by a break (1244)
+
+- 2130: be fruitful and multiply; ‖spread out across the earth and multiply upon it
+- 2130: be fruitful and multiply; spread out across the earth ‖and multiply upon it
+- 2370: The sons of Japheth: ‖Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras.
+- 3010: I will make you into a great nation, ‖and I will bless you; I will make your name great, so that
+- 3010: I will make you into a great nation, and I will bless you; ‖I will make your name great, so that
+- 3010: I will make you into a great nation, and I will bless you; I will make your name great, ‖so that
+- 4540: Once again Abraham spoke to the LORD, “Suppose forty are found there?” ‖He answered, “On account of the forty, I will not do it.”
+- 4550: Then Abraham said, “May the Lord not be angry, but let me speak further. Suppose thirty are found there?” ‖He replied, “If I find thirty there, I will not do it.”
+- 4560: And Abraham said, “Now that I have ventured to speak to the Lord, suppose twenty are found there?” ‖He answered, “On account of the twenty, I will not destroy it.”
+- 6250: Then a meal was set before the man, but he said, “I will not eat until I have told you what I came to say.” ‖So Laban said, “Please speak.”
+- 6500: They called Rebekah and asked her, “Will you go with this man?” ‖“I will go,” she replied.
+- 8460: But Leah replied, “Is it not enough that you have taken away my husband? Now you want to take my son’s mandrakes as well?” ‖“Very well,” said Rachel, “he may sleep with you tonight in exchange for your son’s mandrakes.”
+- 8620: “What can I give you?” Laban asked. ‖“You do not need to give me anything,” Jacob replied. “If you do this one thing for me, I will keep on shepherding and keeping your flocks.
+- 13270: Put my cup, the silver one, in the mouth of the youngest one’s sack, along with the silver for his grain.” ‖So the steward did as Joseph had instructed.
+- 14510: but when I lie down with my fathers, carry me out of Egypt and bury me with them.” ‖Joseph answered, “I will do as you have requested.”
+- 14860: His eyes are darker than wine, ‖and his teeth are whiter than milk.
+- 14870: Zebulun shall dwell by the seashore ‖and become a harbor for ships; his border shall extend to Sidon.
+- 14870: Zebulun shall dwell by the seashore and become a harbor for ships; ‖his border shall extend to Sidon.
+- 14880: Issachar is a strong donkey, ‖lying down between the sheepfolds.
+- 14900: Dan shall provide justice for his people ‖as one of the tribes of Israel.
+- 14930: Gad will be attacked by raiders, ‖but he will attack their heels.
+- 14940: Asher’s food will be rich; ‖he shall provide royal delicacies.
+- 14950: Naphtali is a doe set free ‖that bears beautiful fawns.
+- 14970: The archers attacked him with bitterness; ‖they aimed at him in hostility.
+- 16750: sons of Merari were Mahli and Mushi. ‖These were the clans of the Levites according to their records
+- 19250: Pharaoh’s chariots and army ‖He has cast into the sea; the finest of his officers are drowned in the Red Sea.
+- 19250: Pharaoh’s chariots and army He has cast into the sea; ‖the finest of his officers are drowned in the Red Sea.
+- 19250: Pharaoh’s chariots and army He has cast into the sea; the finest of his officers ‖are drowned in the Red Sea.
+- 20350: all the people answered together, “We will do everything that the LORD has spoken.” ‖So Moses brought their words back to the LORD.
+- 27040: the bronze altar with its bronze grating, its poles, and all its utensils; ‖the basin with its stand;
+- 31560: the priest must come and inspect it. ‖If the mildew has spread in the house, it is a destructive mildew; the house is unclean.
+- 36240: just as the LORD had commanded Moses. ‖So Moses numbered them in the Wilderness of Sinai:
+- 36370: From the sons of Joseph: ‖From the sons of Ephraim, according to the records of their clans and families, counting the names of all those twenty years of age or older who could serve in the army,
+- 43540: From there they moved on and camped on the other side of the Arnon, in the wilderness that extends into the Amorite territory. ‖Now the Arnon is the border between the Moabites and the Amorites.
+- 43680: That is why the poets say: ‖“Come to Heshbon, let it be rebuilt; let the city of Sihon be restored.
+- 43680: That is why the poets say: “Come to Heshbon, let it be rebuilt; ‖let the city of Sihon be restored.
+- 43700: Woe to you, O Moab! ‖You are destroyed, O people of Chemosh! He gave up his sons as refugees, and his daughters into captivity to Sihon king of the Amorites.
+- 43700: Woe to you, O Moab! You are destroyed, O people of Chemosh! ‖He gave up his sons as refugees, and his daughters into captivity to Sihon king of the Amorites.
+- 43700: Woe to you, O Moab! You are destroyed, O people of Chemosh! He gave up his sons as refugees, ‖and his daughters into captivity to Sihon king of the Amorites.
+- 43700: Woe to you, O Moab! You are destroyed, O people of Chemosh! He gave up his sons as refugees, and his daughters into captivity ‖to Sihon king of the Amorites.
+- 50470: to which a manslayer could flee after killing his neighbor unintentionally without prior malice. ‖To save one’s own life, he could flee to one of these cities:
+- 52950: These are the animals that you may eat: ‖The ox, the sheep, the goat,
+- 52980: But of those that chew the cud or have a completely divided hoof, you are not to eat the following: ‖the camel, the rabbit, or the rock badger. Although they chew the cud, they do not have a divided hoof. They are unclean for you,
+- 52980: But of those that chew the cud or have a completely divided hoof, you are not to eat the following: the camel, ‖the rabbit, or the rock badger. Although they chew the cud, they do not have a divided hoof. They are unclean for you,
+- 52980: But of those that chew the cud or have a completely divided hoof, you are not to eat the following: the camel, the rabbit, ‖or the rock badger. Although they chew the cud, they do not have a divided hoof. They are unclean for you,
+- 52980: But of those that chew the cud or have a completely divided hoof, you are not to eat the following: the camel, the rabbit, or the rock badger. ‖Although they chew the cud, they do not have a divided hoof. They are unclean for you,
+- 53030: but these you may not eat: ‖the eagle, the bearded vulture, the black vulture,
+- 56160: The fruit of your womb will be blessed, ‖as well as the produce of your land and the offspring of your livestock—the calves of your herds and the lambs of your flocks.
+- 56160: The fruit of your womb will be blessed, as well as the produce of your land ‖and the offspring of your livestock—the calves of your herds and the lambs of your flocks.
+- 56160: The fruit of your womb will be blessed, as well as the produce of your land and the offspring of your livestock—‖the calves of your herds and the lambs of your flocks.
+- 56160: The fruit of your womb will be blessed, as well as the produce of your land and the offspring of your livestock—the calves of your herds ‖and the lambs of your flocks.
+- 56180: You will be blessed when you come in ‖and blessed when you go out.
+- 56310: You will be cursed when you come in ‖and cursed when you go out.
+- 57600: Give ear, O heavens, and I will speak; ‖hear, O earth, the words of my mouth.
+- 57700: As an eagle stirs up its nest ‖and hovers over its young, He spread His wings to catch them and carried them on His pinions.
+- 57700: As an eagle stirs up its nest and hovers over its young, ‖He spread His wings to catch them and carried them on His pinions.
+- 57700: As an eagle stirs up its nest and hovers over its young, He spread His wings to catch them ‖and carried them on His pinions.
+- 57850: I would have said that I would cut them to pieces ‖and blot out their memory from mankind
+- 57870: Israel is a nation devoid of counsel, ‖with no understanding among them.
+- 57900: For their rock is not like our Rock, ‖even our enemies concede.
+- 57930: Have I not stored up these things, ‖sealed up within My vaults
+- 57960: Where are their gods, ‖the rock in which they took refuge
+- 57980: no one ‖who can deliver
+- 57990: For I lift up My hand to heaven and declare: ‖As surely as I live forever,
+- 58170: Let Reuben live and not die, ‖nor his men be few.”
+- 58260: with the best of the ancient mountains ‖and the bounty of the everlasting hills,
+- 58290: Concerning Zebulun he said: ‖“Rejoice, Zebulun, in your journeys, and Issachar, in your tents.
+- 58290: Concerning Zebulun he said: “Rejoice, Zebulun, in your journeys, ‖and Issachar, in your tents.
+- 58330: Concerning Dan he said: ‖“Dan is a lion’s cub, leaping out of Bashan.”
+- 58330: Concerning Dan he said: “Dan is a lion’s cub, ‖leaping out of Bashan.”
+- 62080: The eastern border was the Salt Sea as far as the mouth of the Jordan. ‖The northern border started from the bay of the sea at the mouth of the Jordan
+- 66480: Most blessed among women is Jael, ‖the wife of Heber the Kenite, most blessed of tent-dwelling women.
+- 66480: Most blessed among women is Jael, the wife of Heber the Kenite, ‖most blessed of tent-dwelling women.
+- 67660: sweetness ‖and my good fruit
+- 71450: death ‖separates
+- 79740: Saul has slain his thousands, ‖and David his tens of thousands
+- 80480: O daughters of Israel, ‖weep for Saul, who clothed you in scarlet and luxury, who decked your garments with ornaments of gold.
+- 80480: O daughters of Israel, weep for Saul, ‖who clothed you in scarlet and luxury, who decked your garments with ornaments of gold.
+- 80480: O daughters of Israel, weep for Saul, who clothed you in scarlet and luxury, ‖who decked your garments with ornaments of gold.
+- 81160: die ‖the death of a fool
+- 86060: He said: ‖“The LORD is my rock, my fortress, and my deliverer.
+- 86060: He said: “The LORD is my rock, ‖my fortress, and my deliverer.
+- 86420: I pursued my enemies and destroyed them; ‖I did not turn back until they were consumed.
+- 86430: I devoured and crushed them so they could not rise; ‖they have fallen under my feet.
+- 86570: The Spirit of the LORD spoke through me; ‖His word was on my tongue.
+- 97920: He looked up at the window and called out, “Who is on my side? Who?” ‖And two or three
+- 103860: The descendants of Hananiah: ‖Pelatiah, Jeshaiah, and the sons of Rephaiah, of Arnan, of Obadiah, and of Shecaniah.
+- 105590: The descendants of Ephraim: ‖Shuthelah, Bered his son, Tahath his son, Eleadah his son, Tahath his son
+- 108490: Declare His glory among the nations, ‖His wonders among all peoples
+- 121130: He is good; ‖for His loving devotion to Israel endures forever
+- 125220: exalted ‖above all
+- 125290: pillar of cloud by day ‖and a pillar of fire
+- 125290: way ‖in which they should travel
+- 125340: failed to remember ‖the wonders
+- 125340: appointed a leader ‖to return
+- 125340: gracious and compassionate, ‖slow to anger
+- 125350: cast for themselves ‖an image of a calf and said, ‘This is your God who brought you up out of Egypt,’ and when they committed terrible blasphemies
+- 125350: cast for themselves an image of a calf and said, ‖‘This is your God who brought you up out of Egypt,’ and when they committed terrible blasphemies
+- 125350: cast for themselves an image of a calf and said, ‘This is your God who brought you up out of Egypt,’ ‖and when they committed terrible blasphemies
+- 125400: multiplied their descendants ‖like the stars
+- 125440: delivered them into the hands ‖of enemies
+- 125530: here we are today as slaves ‖in the land You gave our fathers to enjoy its fruit and goodness—here we are as slaves!
+- 125530: here we are today as slaves in the land You gave our fathers to enjoy its fruit and goodness—‖here we are as slaves!
+- 129750: He wounds, but He also binds; ‖He strikes, but His hands also heal
+- 129940: not denied ‖the words
+- 130840: forget my complaint ‖and change my expression and smile
+- 130870: wash myself with snow ‖and cleanse my hands with lye
+- 130970: Are Your days like those of a mortal, ‖or Your years like those of a man
+- 130980: seek my iniquity ‖and search out my sin
+- 131110: never come to be, ‖but had been carried from the womb to the grave
+- 131190: God would speak ‖and open His lips against you
+- 131200: God exacts from you ‖less than your iniquity deserves
+- 131460: Wisdom is found with the elderly, ‖and understanding comes with long life
+- 131510: leads counselors away barefoot ‖and makes fools of judges
+- 131520: loosens the bonds placed by kings ‖and fastens a belt around their waists
+- 131530: leads priests away barefoot ‖and overthrows the established
+- 131650: Hear now my argument, ‖and listen to the plea of my lips.
+- 131660: Will you speak wickedly on God’s behalf ‖or speak deceitfully for Him?
+- 131670: Would you show Him partiality ‖or argue in His defense?
+- 131760: Listen carefully to my words; ‖let my declaration ring in your ears.
+- 131810: Then call me, and I will answer, ‖or let me speak, and You can reply.
+- 131990: lies down ‖and does not rise
+- 132990: The memory of him perishes from the earth, ‖and he has no name in the land.
+- 133490: streams, ‖the rivers
+- 133690: descendants are established around them, ‖and their offspring before their eyes
+- 133720: little ones like a flock; ‖their children skip about
+- 133730: singing to the tambourine and lyre ‖and making merry at the sound of the flute
+- 134090: Thick clouds veil Him so He does not see us ‖as He traverses the vault of heaven
+- 134330: If I go east, He is not there, ‖and if I go west, I cannot find Him.
+- 134400: I am terrified in His presence; ‖when I consider this, I fear Him.
+- 134510: The fatherless infant is snatched from the breast; ‖the nursing child of the poor is seized for a debt.
+- 134530: They crush olives within their walls; ‖they tread the winepresses, but go thirsty.
+- 134560: murderer rises ‖to kill the poor and needy
+- 134800: He stretches out the north over empty space; ‖He hangs the earth upon nothing.
+- 134820: He covers the face of the full moon, ‖spreading over it His cloud.
+- 134910: my lips will not speak wickedness, ‖and my tongue will not utter deceit
+- 134940: May my enemy be like the wicked ‖and my opponent like the unjust
+- 135220: where can wisdom be found, ‖and where does understanding dwell
+- 135240: The ocean depths say, ‘It is not in me,’ ‖while the sea declares, ‘It is not with me.’
+- 135330: God understands its way, ‖and He knows its place
+- 135340: He looks to the ends of the earth ‖and sees everything under the heavens
+- 135350: fixed the weight of the wind ‖and measured out the waters
+- 135900: I am churning within and cannot rest; ‖days of affliction confront me
+- 135910: I go about blackened, but not by the sun. ‖I stand up in the assembly and cry for help
+- 135940: My harp is tuned to mourning ‖and my flute to the sound of weeping
+- 135960: allotment of God from above, ‖or the heritage from the Almighty on high
+- 135980: see my ways ‖and count my every step
+- 136060: fire that burns down to Abaddon; ‖it would root out my entire harvest
+- 136110: eaten my morsel alone, ‖not sharing
+- 136130: seen one perish for lack of clothing, ‖or a needy man without a cloak
+- 136140: heart has not blessed me ‖for warming him with the fleece of my sheep
+- 136180: put my trust in gold ‖or called pure gold my security
+- 136230: rejoiced in my enemy’s ruin, ‖or exulted when evil befell him
+- 136280: kept silent ‖and would not go outside
+- 136410: age should speak, ‖and many years should teach wisdom
+- 136600: The Spirit of God has made me, ‖and the breath of the Almighty gives me life
+- 136870: Pay attention, Job, and listen to me; ‖be silent, and I will speak
+- 136880: But if you have something to say, answer me; ‖speak up, for I would like to vindicate you
+- 136910: Hear my words, O wise men; ‖give ear to me, O men of learning
+- 136970: keeps company with evildoers ‖and walks with wicked men
+- 137040: all flesh would perish together ‖and mankind would return to the dust
+- 137070: who says to kings, ‘You are worthless!’ ‖and to nobles, ‘You are wicked,’
+- 137100: His eyes are on the ways of a man, ‖and He sees his every step
+- 137190: godless men should not rule ‖or lay snares for the people
+- 137240: Job speaks without knowledge; ‖his words lack insight
+- 137320: If you sin, what do you accomplish against Him? ‖If you multiply your transgressions, what do you do to Him?
+- 137330: If you are righteous, what do you give Him, ‖or what does He receive from your hand?
+- 137370: who teaches us more than the beasts of the earth ‖and makes us wiser than the birds of the air?
+- 137420: Job opens his mouth in vain ‖and multiplies words without knowledge
+- 137700: clouds pour out ‖and shower abundantly
+- 137730: judges the nations ‖and provides food
+- 137740: fills His hands with lightning ‖and commands it to strike
+- 137760: heart also pounds ‖and leaps from its place
+- 137850: breath of God the ice is formed ‖and the watery expanses are frozen
+- 137960: no one can gaze at the sun ‖when it is bright in the skies after the wind has swept them clean
+- 137960: no one can gaze at the sun when it is bright in the skies ‖after the wind has swept them clean
+- 138390: crouch in their dens ‖and lie in wait
+- 138420: Can you count the months they are pregnant? ‖Do you know the time they give birth?
+- 138480: He roams the mountains for pasture, ‖searching for any green thing.
+- 138500: Can you hold him to the furrow with a harness? ‖Will he plow the valleys behind you?
+- 138570: God has deprived her of wisdom; ‖He has not endowed her with understanding.
+- 138580: when she proudly spreads her wings, ‖she laughs at the horse and its rider.
+- 138620: He laughs at fear, frightened of nothing; ‖he does not turn back from the sword.
+- 138630: A quiver rattles at his side, ‖along with a flashing spear and lance.
+- 138880: His bones are tubes of bronze; ‖his limbs are rods of iron.
+- 138940: Can anyone capture him as he looks on, ‖or pierce his nose with a snare?
+- 138960: Can you put a cord through his nose ‖or pierce his jaw with a hook?
+- 138970: Will he beg you for mercy ‖or speak to you softly?
+- 139000: Will traders barter for him ‖or divide him among the merchants?
+- 139020: lay a hand on him, ‖you will remember the battle and never repeat it
+- 139130: Firebrands stream from his mouth; ‖fiery sparks shoot forth!
+- 139140: Smoke billows from his nostrils ‖as from a boiling pot over burning reeds.
+- 139150: His breath sets coals ablaze, ‖and flames pour from his mouth.
+- 139230: A club is regarded as straw, ‖and he laughs at the sound of the lance.
+- 139310: Who is this ‖who conceals My counsel
+- 139540: “Let us break Their chains ‖and cast away Their cords.”
+- 139570: Zion, ‖upon My holy mountain
+- 139600: You will break them with an iron scepter; ‖You will shatter them like pottery
+- 139850: In the morning, O LORD, You hear my voice; ‖at daybreak I lay my plea before You and wait in expectation.
+- 139850: In the morning, O LORD, You hear my voice; at daybreak I lay my plea before You ‖and wait in expectation.
+- 140170: God is a righteous judge ‖and a God who feels indignation each day
+- 140200: travails with evil; ‖he conceives trouble and births falsehood
+- 140220: His trouble recoils on himself, ‖and his violence falls on his own head
+- 140250: Your glory ‖above the heavens
+- 140330: O LORD, our Lord, ‖how majestic is Your name in all the earth
+- 140420: He judges the world with justice; ‖He governs the people with equity.
+- 140490: The nations have fallen into a pit of their making; ‖their feet are caught in the net they have hidden.
+- 141650: who is God besides the LORD? ‖And who is the Rock except our God?
+- 141710: I pursued my enemies and overtook them; ‖I did not turn back until they were consumed.
+- 141720: I crushed them so they could not rise; ‖they have fallen under my feet.
+- 141750: They cried for help, but there was no one to save them—‖to the LORD, but He did not answer.
+- 142040: desires of your heart ‖and make all your plans succeed
+- 142120: granted his heart’s desire ‖and have not withheld the request of his lips
+- 142180: Your hand will apprehend all Your enemies; ‖Your right hand will seize those who hate You
+- 142280: In You our fathers trusted; ‖they trusted and You delivered them.
+- 142420: They divide my garments among them ‖and cast lots for my clothing.
+- 142520: For dominion belongs to the LORD ‖and He rules over the nations.
+- 142750: Show me Your ways, O LORD; ‖teach me Your paths.
+- 142880: The troubles of my heart increase; ‖free me from my distress.
+- 142920: May integrity and uprightness preserve me, ‖because I wait for You.
+- 142930: Redeem Israel, O God, ‖from all its distress.
+- 142950: Test me, O LORD, and try me; ‖examine my heart and mind
+- 142970: I do not sit with deceitful men, ‖nor keep company with hypocrites
+- 143120: Hear, O LORD, my voice when I call; ‖be merciful and answer me.
+- 143250: Blessed be the LORD, ‖for He has heard my cry for mercy
+- 143410: not allowed my foes ‖to rejoice
+- 144120: I will bless the LORD at all times; ‖His praise will always be on my lips.
+- 144310: He protects all his bones; ‖not one of them will be broken.
+- 144350: Take up Your shield and buckler; ‖arise and come to my aid
+- 144420: rejoice in the LORD ‖and exult in His salvation
+- 144610: tongue will proclaim Your righteousness ‖and Your praises all day long
+- 144640: too full of conceit ‖to detect
+- 144760: For they wither quickly like grass ‖and wilt like tender plants.
+- 144900: Better is the little of the righteous ‖than the abundance of many who are wicked.
+- 145030: The righteous will inherit the land ‖and dwell in it forever.
+- 145040: The mouth of the righteous man utters wisdom, ‖and his tongue speaks justice.
+- 145100: yet he passed away and was no more; ‖though I searched, he could not be found.
+- 145110: Consider the blameless and observe the upright, ‖for posterity awaits the man of peace.
+- 145120: But the transgressors will all be destroyed; ‖the future of the wicked will be cut off.
+- 145280: But like a deaf man, I do not hear; ‖and like a mute man, I do not open my mouth.
+- 145910: breakers and waves ‖have rolled over me
+- 146000: Why are you downcast, O my soul? ‖Why the unease within me? Put your hope in God, for I will yet praise Him, my Savior and my God.
+- 146000: Why are you downcast, O my soul? Why the unease within me? ‖Put your hope in God, for I will yet praise Him, my Savior and my God.
+- 146000: Why are you downcast, O my soul? Why the unease within me? Put your hope in God, for I will yet praise Him, ‖my Savior and my God.
+- 146070: I do not trust in my bow, ‖nor does my sword save me
+- 146100: You have rejected and humbled us; ‖You no longer go forth with our armies
+- 146260: our soul has sunk to the dust; ‖our bodies cling to the earth
+- 146710: God is in her citadels; ‖He has shown Himself to be a fortress
+- 146720: kings assembled; ‖they all advanced together
+- 146850: both low and high, ‖rich and poor alike
+- 146910: redemption of his soul is costly, ‖and never can payment suffice
+- 147070: summons the heavens above, ‖and the earth
+- 147110: I do not rebuke you for your sacrifices, ‖and your burnt offerings are ever before Me.
+- 147120: I have no need for a bull from your stall ‖or goats from your pens,
+- 147290: O God, ‖according to Your loving devotion; according to Your great compassion
+- 147290: O God, according to Your loving devotion; ‖according to Your great compassion
+- 147410: Then I will teach transgressors Your ways, ‖and sinners will return to You
+- 147450: a broken spirit; ‖a broken and a contrite heart
+- 147470: You will delight in righteous sacrifices, ‖in whole burnt offerings
+- 147570: olive tree ‖flourishing in the house of God
+- 147690: Hear my prayer, O God; ‖listen to the words of my mouth
+- 147710: Surely God is my helper; ‖the Lord is the sustainer of my soul
+- 147810: wings like a dove! ‖I would fly away and find rest
+- 147820: far away I would flee! ‖In the wilderness I would remain
+- 147910: I call to God, ‖and the LORD saves me
+- 147980: men of bloodshed and deceit ‖will not live out half their days
+- 148020: When I am afraid, ‖I put my trust in You
+- 148090: In God, whose word I praise, ‖in the LORD, whose word I praise
+- 148160: sends forth ‖His loving devotion and His truth
+- 148220: I will praise You, O Lord, among the nations; ‖I will sing Your praises among the peoples
+- 148240: Be exalted, O God, above the heavens; ‖may Your glory cover all the earth
+- 148320: vanish ‖like water that runs off
+- 148350: wash their feet ‖in the blood
+- 148430: They return in the evening, snarling like dogs ‖and prowling around the city.
+- 148710: rock ‖that is higher
+- 148740: inheritance ‖reserved
+- 148760: loving devotion ‖and Your faithfulness
+- 148900: repay each man ‖according to his deeds
+- 149290: Sing the glory of His name; ‖make His praise glorious
+- 149310: All the earth bows down to You; ‖they sing praise to You; they sing praise to Your name.
+- 149310: All the earth bows down to You; they sing praise to You; ‖they sing praise to Your name.
+- 149460: God has surely heard; ‖He has attended to the sound of my prayer
+- 149470: Blessed be God, who has not rejected my prayer ‖or withheld from me His loving devotion!
+- 149510: Let the peoples praise You, O God; ‖let all the peoples praise You.
+- 149530: Let the peoples praise You, O God; ‖let all the peoples praise You.
+- 149960: did not steal, ‖I must repay
+- 150020: I wept and fasted, ‖but it brought me reproach.
+- 150330: May all who seek You ‖rejoice and be glad in You; may those who love Your salvation always say, “Let God be magnified!”
+- 150330: May all who seek You rejoice and be glad in You; ‖may those who love Your salvation always say, “Let God be magnified!”
+- 150330: May all who seek You rejoice and be glad in You; may those who love Your salvation always say, ‖“Let God be magnified!”
+- 150420: filled with Your praise ‖and with Your splendor all day long
+- 150680: kings of Tarshish and distant shores bring tribute; ‖may the kings of Sheba and Seba offer gifts
+- 150920: I am afflicted all day long ‖and punished every morning
+- 151140: every place ‖where God met us
+- 151160: How long, O God, will the enemy taunt You? ‖Will the foe revile Your name forever?
+- 151590: the days of old, ‖the years long in the past
+- 151650: I will remember the works of the LORD; ‖yes, I will remember Your wonders of old.
+- 151700: The waters saw You, O God; ‖the waters saw You and swirled; even the depths were shaken.
+- 151700: The waters saw You, O God; the waters saw You and swirled; ‖even the depths were shaken.
+- 151740: You led Your people like a flock ‖by the hand of Moses and Aaron.
+- 151770: we have heard and known ‖and our fathers have relayed to us
+- 151840: failed to keep God’s covenant ‖and refused to live by His law
+- 151850: forgot what He had done, ‖the wonders He had shown them
+- 151880: led them with a cloud by day ‖and with a light of fire all night
+- 151890: split the rocks in the wilderness ‖and gave them drink
+- 151900: brought streams from the stone ‖and made water flow down like rivers
+- 151910: continued to sin against Him, ‖rebelling in the desert against the Most High
+- 151960: did not believe God ‖or rely on His salvation
+- 152120: compassionate; ‖He forgave
+- 152300: tested and disobeyed God Most High, ‖for they did not keep His decrees
+- 152340: abandoned the tabernacle of Shiloh, ‖the tent He had pitched among men
+- 152410: rejected the tent of Joseph ‖and refused the tribe of Ephraim
+- 152480: corpses of Your servants ‖as food to the birds of the air, the flesh of Your saints to the beasts of the earth
+- 152480: corpses of Your servants as food to the birds of the air, ‖the flesh of Your saints to the beasts of the earth
+- 152710: branches to the Sea, ‖and its shoots toward the River
+- 152770: Let Your hand be upon the man at Your right hand, ‖on the son of man You have raised up for Yourself
+- 152820: Lift up a song, strike the tambourine, ‖play the sweet-sounding harp and lyre
+- 153020: You are gods; ‖you are all sons of the Most High
+- 153170: possess for ourselves ‖the pastures of God
+- 153200: pursue them with Your tempest, ‖and terrify them with Your storm
+- 153210: Cover their faces with shame, ‖that they may seek Your name
+- 153220: ashamed and terrified; ‖may they perish in disgrace
+- 153440: Show us Your loving devotion, O LORD, ‖and grant us Your salvation
+- 153560: Hear my prayer, O LORD, ‖and attend to my plea for mercy
+- 153570: In the day of my distress I call on You, ‖because You answer me
+- 153770: May my prayer come before You; ‖incline Your ear to my cry
+- 153980: I will establish your offspring forever ‖and build up your throne for all generations
+- 154010: God is greatly feared, ‖and awesome above all who surround Him
+- 154030: You rule the raging sea; ‖when its waves mount up, You still them.
+- 154050: The heavens are Yours, and also the earth. ‖The earth and its fullness You founded.
+- 154140: I have found My servant David; ‖with My sacred oil I have anointed him.
+- 154260: I will attend to their transgression with the rod, ‖and to their iniquity with stripes.
+- 154360: You have exalted the right hand of his foes; ‖You have made all his enemies rejoice.
+- 154440: Remember, O Lord, the reproach of Your servants, ‖which I bear in my heart from so many people
+- 154520: in the morning it springs up new, ‖but by evening it fades and withers
+- 154560: length of our days is seventy years—‖or eighty
+- 154570: Who knows the power of Your anger? ‖Your wrath matches the fear You are due.
+- 154700: Though a thousand may fall at your side, ‖and ten thousand at your right hand, no harm will come near you
+- 154700: Though a thousand may fall at your side, and ten thousand at your right hand, ‖no harm will come near you
+- 154840: You, O LORD, have made me glad by Your deeds; ‖I sing for joy at the works of Your hands
+- 154910: My eyes see the downfall of my enemies; ‖my ears hear the wailing of my wicked foes
+- 155060: They kill the widow and the foreigner; ‖they murder the fatherless.
+- 155110: thoughts of man, ‖that they are futile
+- 155190: anxiety overwhelms me, ‖Your consolation delights
+- 155370: Declare His glory among the nations, ‖His wonders among all peoples
+- 155460: Let the fields exult, ‖and all that is in them. Then all the trees of the forest will sing for joy
+- 155460: Let the fields exult, and all that is in them. ‖Then all the trees of the forest will sing for joy
+- 155460: Let the fields exult, and all that is in them. Then all the trees of the forest ‖will sing for joy
+- 155500: Fire goes before Him ‖and consumes His foes on every side
+- 155640: with the lyre, ‖in melodious song with the harp
+- 156050: Your servants delight in her stones ‖and take pity on her dust
+- 156060: nations will fear the name of the LORD, ‖and all the kings of the earth will fear Your glory
+- 156120: proclaim the name of the LORD in Zion ‖and praise Him in Jerusalem
+- 156130: peoples and kingdoms assemble ‖to serve the LORD
+- 156160: In the beginning You laid the foundations of the earth, ‖and the heavens are the work of Your hands
+- 156470: You covered it with the deep like a garment; ‖the waters stood above the mountains
+- 156600: He made the moon to mark the seasons; ‖the sun knows when to set
+- 156630: The sun rises, and they withdraw; ‖they lie down in their dens
+- 156640: Man goes forth to his work ‖and to his labor until evening
+- 156680: All creatures look to You ‖to give them their food in due season
+- 156710: renew ‖the face of the earth
+- 156740: I will sing to the LORD all my life; ‖I will sing praise to my God while I have my being
+- 156850: covenant He made with Abraham, ‖and the oath He swore to Isaac
+- 156900: He let no man oppress them; ‖He rebuked kings on their behalf
+- 156960: king sent and released him; ‖the ruler of peoples set him free
+- 157050: turned their waters to blood ‖and caused their fish to die
+- 157090: struck their vines and fig trees ‖and shattered the trees of their country
+- 157270: We have sinned like our fathers; ‖we have done wrong and acted wickedly.
+- 157320: The waters covered their foes; ‖not one of them remained.
+- 157330: Then they believed His promises ‖and sang His praise.
+- 157380: The earth opened up and swallowed Dathan; ‖it covered the assembly of Abiram.
+- 157390: fire blazed through their company; ‖flames consumed the wicked.
+- 157400: they made a calf ‖and worshiped a molten image.
+- 157510: Phinehas stood and intervened, ‖and the plague was restrained.
+- 157520: It was credited to him as righteousness ‖for endless generations to come.
+- 157650: Nevertheless He heard their cry; ‖He took note of their distress.
+- 157670: He made them objects of compassion ‖to all who held them captive.
+- 157780: satisfies the thirsty ‖and fills the hungry
+- 158360: wander as beggars, ‖seeking sustenance far from their ruined homes
+- 158430: The cursing that he loved, ‖may it fall on him; the blessing in which he refused to delight, may it be far from him.
+- 158430: The cursing that he loved, may it fall on him; ‖the blessing in which he refused to delight, may it be far from him.
+- 158430: The cursing that he loved, may it fall on him; the blessing in which he refused to delight, ‖may it be far from him.
+- 158530: Let them know that this is Your hand, ‖that You, O LORD, have done it.
+- 158580: until I make Your enemies ‖a footstool for Your feet
+- 158610: You are a priest forever ‖in the order of Melchizedek
+- 158760: His descendants will be mighty in the land; ‖the generation of the upright will be blessed.
+- 158860: Blessed be the name of the LORD ‖both now and forevermore
+- 158870: From where the sun rises to where it sets, ‖the name of the LORD is praised
+- 158920: to seat them with nobles, ‖with the princes of His people
+- 158950: Judah became God’s sanctuary, ‖Israel His dominion
+- 158970: mountains skipped like rams, ‖the hills like lambs
+- 158980: Why was it, O sea, that you fled, ‖O Jordan, that you turned back
+- 159010: turned the rock into a pool, ‖the flint into a fountain of water
+- 159030: Why should the nations say, ‖“Where is their God?”
+- 159090: Those who make them become like them, ‖as do all who trust in them
+- 159110: O house of Aaron, trust in the LORD! ‖He is their help and shield.
+- 159120: You who fear the LORD, trust in the LORD! ‖He is their help and shield.
+- 159190: we who will bless the LORD, ‖both now and forevermore. Hallelujah!
+- 159190: we who will bless the LORD, both now and forevermore. ‖Hallelujah!
+- 159310: How can I repay the LORD ‖for all His goodness to me?
+- 159370: fulfill my vows to the LORD ‖in the presence of all His people
+- 159380: in the courts of the LORD’s house, ‖in your midst, O Jerusalem. Hallelujah!
+- 159380: in the courts of the LORD’s house, in your midst, O Jerusalem. ‖Hallelujah!
+- 159400: For great is His loving devotion toward us, ‖and the faithfulness of the LORD endures forever. Hallelujah!
+- 159400: For great is His loving devotion toward us, and the faithfulness of the LORD endures forever. ‖Hallelujah!
+- 159410: Give thanks to the LORD, for He is good; ‖His loving devotion endures forever.
+- 159420: Let Israel say, ‖“His loving devotion endures forever.”
+- 159430: Let the house of Aaron say, ‖“His loving devotion endures forever.”
+- 159440: Let those who fear the LORD say, ‖“His loving devotion endures forever.”
+- 159480: take refuge in the LORD ‖than to trust in man
+- 159510: They surrounded me on every side, ‖but in the name of the LORD I cut them off.
+- 159530: I was pushed so hard I was falling, ‖but the LORD helped me.
+- 159690: Give thanks to the LORD, for He is good; ‖His loving devotion endures forever.
+- 159720: They do no iniquity; ‖they walk in His ways.
+- 159730: You have ordained Your precepts, ‖that we should keep them diligently.
+- 159740: Oh, that my ways were committed ‖to keeping Your statutes!
+- 160100: May Your loving devotion come to me, O LORD, ‖Your salvation, according to Your promise.
+- 160230: Your statutes are songs to me ‖in the house of my pilgrimage.
+- 160920: My eyes fail, looking for Your salvation, ‖and for Your righteous promise.
+- 161030: Redeem me from the oppression of man, ‖that I may keep Your precepts.
+- 161050: My eyes shed streams of tears ‖because Your law is not obeyed.
+- 161060: Righteous are You, O LORD, ‖and upright are Your judgments.
+- 161270: I look on the faithless with loathing ‖because they do not keep Your word.
+- 161680: For the sake of my brothers and friends, ‖I will say, “Peace be within you.”
+- 161710: eyes of servants ‖look to the hand
+- 161810: Our help is in the name of the LORD, ‖the Maker of heaven and earth
+- 162650: O house of Israel, bless the LORD; ‖O house of Aaron, bless the LORD
+- 162990: exalt Jerusalem ‖as my greatest joy
+- 163040: exalted Your name ‖and Your word
+- 163100: fulfill ‖His purpose
+- 163110: You have searched me ‖and known me
+- 163170: Where can I go to escape Your Spirit? ‖Where can I flee from Your presence?
+- 163200: even there Your hand will guide me; ‖Your right hand will hold me fast
+- 164310: Sing to the LORD with thanksgiving; ‖make music on the harp to our God
+- 164330: He provides food for the animals, ‖and for the young ravens when they call
+- 164420: He sends forth His word and melts them; ‖He unleashes His winds, and the waters flow
+- 164650: to inflict vengeance on the nations ‖and punishment on the peoples
+- 164660: to bind their kings with chains ‖and their nobles with shackles of iron
+- 164750: for gaining wisdom and discipline, ‖for comprehending words of insight
+- 164830: My son, if sinners entice you, ‖do not yield to them.
+- 164860: We will find all manner of precious goods; ‖we will fill our houses with plunder.
+- 164890: For their feet run to evil, ‖and they are swift to shed blood.
+- 164910: But they lie in wait for their own blood; ‖they ambush their own lives.
+- 164940: in the main concourse she cries aloud, ‖at the city gates she makes her speech:
+- 164990: in turn I will mock your calamity; ‖I will sneer when terror strikes you,
+- 165030: They accepted none of my counsel; ‖they despised all my reproof.
+- 165040: So they will eat the fruit of their own way, ‖and be filled with their own devices.
+- 165150: discern righteousness ‖and justice and equity—every good path
+- 165160: wisdom will enter your heart, ‖and knowledge will delight your soul
+- 165170: Discretion will watch over you, ‖and understanding will guard you
+- 165210: whose paths are crooked ‖and whose ways are devious
+- 165240: For her house sinks down to death, ‖and her tracks to the departed spirits
+- 165260: follow in the ways of the good, ‖and keep to the paths of the righteous
+- 165270: For the upright will inhabit the land, ‖and the blameless will remain in it
+- 165370: Honor the LORD with your wealth ‖and with the firstfruits of all your crops
+- 165380: then your barns will be filled with plenty, ‖and your vats will overflow with new wine
+- 165400: for the LORD disciplines the one He loves, ‖as does a father the son in whom he delights
+- 165420: for she is more profitable than silver, ‖and her gain is better than fine gold
+- 165460: She is a tree of life to those who embrace her, ‖and those who lay hold of her are blessed
+- 165510: Then you will go on your way in safety, ‖and your foot will not stumble
+- 165560: Do not tell your neighbor, ‖“Come back tomorrow and I will provide”—when you already have the means
+- 165560: Do not tell your neighbor, “Come back tomorrow and I will provide”—‖when you already have the means
+- 165580: Do not accuse a man without cause, ‖when he has done you no harm
+- 165660: When I was a son to my father, ‖tender and the only child of my mother,
+- 165710: Prize her, and she will exalt you; ‖if you embrace her, she will honor you.
+- 165770: Do not set foot on the path of the wicked ‖or walk in the way of evildoers.
+- 165780: Avoid it; do not travel on it. ‖Turn from it and pass on by.
+- 165790: For they cannot sleep ‖unless they do evil; they are deprived of slumber until they make someone fall.
+- 165790: For they cannot sleep unless they do evil; ‖they are deprived of slumber until they make someone fall.
+- 165790: For they cannot sleep unless they do evil; they are deprived of slumber ‖until they make someone fall.
+- 165800: For they eat the bread of wickedness ‖and drink the wine of violence.
+- 165810: The path of the righteous is like the first gleam of dawn, ‖shining brighter and brighter until midday.
+- 165820: But the way of the wicked is like the darkest gloom; ‖they do not know what makes them stumble.
+- 165830: My son, pay attention to my words; ‖incline your ear to my sayings.
+- 165880: Let your eyes look forward; ‖fix your gaze straight ahead.
+- 165950: Her feet go down to death; ‖her steps lead straight to Sheol
+- 165980: Keep your path far from her; ‖do not go near the door of her house
+- 165990: lest you concede your vigor to others, ‖and your years to one who is cruel
+- 166030: I did not listen to the voice of my teachers ‖or incline my ear to my mentors
+- 166040: I am on the brink of utter ruin ‖in the midst of the whole assembly
+- 166050: Drink water from your own cistern, ‖and running water from your own well
+- 166110: For a man’s ways are before the eyes of the LORD, ‖and the LORD examines all his paths
+- 166150: if you have been trapped by the words of your lips, ‖ensnared by the words of your mouth,
+- 166170: Allow no sleep to your eyes ‖or slumber to your eyelids.
+- 166200: Without a commander, ‖without an overseer or ruler,
+- 166210: it prepares its provisions in summer; ‖it gathers its food at harvest.
+- 166230: A little sleep, a little slumber, ‖a little folding of the hands to rest,
+- 166240: and poverty will come upon you like a robber, ‖and need like a bandit.
+- 166260: winking his eyes, speaking with his feet, ‖and pointing with his fingers.
+- 166330: My son, keep your father’s commandment, ‖and do not forsake your mother’s teaching.
+- 166340: Bind them always upon your heart; ‖tie them around your neck.
+- 166350: When you walk, they will guide you; ‖when you lie down, they will watch over you; when you awake, they will speak to you.
+- 166350: When you walk, they will guide you; when you lie down, they will watch over you; ‖when you awake, they will speak to you.
+- 166400: Can a man embrace fire ‖and his clothes not be burned?
+- 166470: For jealousy enrages a husband, ‖and he will show no mercy in the day of vengeance.
+- 166510: Tie them to your fingers; ‖write them on the tablet of your heart
+- 166530: that they may keep you from the adulteress, ‖from the stranger with seductive words
+- 166560: crossing the street near her corner, ‖strolling down the road to her house
+- 166600: Now in the street, now in the squares, ‖she lurks at every corner
+- 166650: with myrrh, ‖with aloes, and with cinnamon
+- 166740: For she has brought many down to death; ‖her slain are many in number
+- 166750: Her house is the road to Sheol, ‖descending to the chambers of death
+- 166760: Does not wisdom call out, ‖and understanding raise her voice?
+- 166780: Beside the gates to the city, ‖at the entrances she cries out:
+- 166790: “To you, O men, I call out, ‖and my cry is to the sons of men.
+- 166800: O simple ones, learn to be shrewd; ‖O fools, gain understanding.
+- 166840: They are all plain to the discerning, ‖and upright to those who find knowledge.
+- 166850: Receive my instruction instead of silver, ‖and knowledge rather than pure gold.
+- 166940: My fruit is better than gold, pure gold, ‖and my harvest surpasses choice silver.
+- 166970: The LORD created me as His first course, ‖before His works of old.
+- 166980: From everlasting I was established, ‖from the beginning, before the earth began.
+- 167000: Before the mountains were settled, ‖before the hills, I was brought forth,
+- 167150: Whoever is simple, let him turn in here!” ‖she says to him who lacks judgment
+- 167160: Come, eat my bread ‖and drink the wine I have mixed
+- 167180: He who corrects a mocker brings shame on himself; ‖he who rebukes a wicked man taints himself
+- 167200: Instruct a wise man, and he will be wiser still; ‖teach a righteous man, and he will increase his learning
+- 167220: For through wisdom your days will be multiplied, ‖and years will be added to your life
+- 167230: If you are wise, you are wise to your own advantage; ‖but if you scoff, you alone will bear the consequences
+- 167240: The woman named Folly is loud; ‖she is naive and knows nothing
+- 167260: calling out to those who pass by, ‖who make their paths straight
+- 167520: The fool delights in shameful conduct, ‖but a man of understanding has wisdom.
+- 167680: When the wicked man dies, his hope perishes, ‖and the hope of his strength vanishes.
+- 167690: The righteous man is delivered from trouble; ‖in his place the wicked man goes in.
+- 167750: For lack of guidance, a nation falls, ‖but with many counselors comes deliverance.
+- 167920: If the righteous receive their due on earth, ‖how much more the ungodly and the sinner!
+- 168230: He who guards his mouth protects his life, ‖but the one who opens his lips invites his own ruin
+- 168440: He who spares the rod hates his son, ‖but he who loves him disciplines him diligently
+- 168500: An honest witness does not deceive, ‖but a dishonest witness pours forth lies.
+- 168520: Stay away from a foolish man; ‖you will gain no knowledge from his speech.
+- 168570: There is a way that seems right to a man, ‖but its end is the way of death.
+- 168580: Even in laughter the heart may ache, ‖and joy may end in sorrow.
+- 168640: The evil bow before the good, ‖and the wicked at the gates of the righteous.
+- 168700: A truthful witness saves lives, ‖but one who utters lies is deceitful.
+- 168730: A large population is a king’s splendor, ‖but a lack of subjects is a prince’s ruin.
+- 168780: Wisdom rests in the heart of the discerning; ‖even among fools she is known.
+- 168830: The eyes of the LORD are in every place, ‖observing the evil and the good.
+- 168970: Better a dish of vegetables where there is love ‖than a fattened ox with hatred.
+- 169020: Plans fail for lack of counsel, ‖but with many advisers they succeed.
+- 169220: A man’s heart plans his course, ‖but the LORD determines his steps.
+- 169260: Righteous lips are a king’s delight, ‖and he who speaks honestly is beloved.
+- 169290: How much better to acquire wisdom than gold! ‖To gain understanding is more desirable than silver.
+- 169310: Pride goes before destruction, ‖and a haughty spirit before a fall.
+- 169380: There is a way that seems right to a man, ‖but its end is the way of death.
+- 169420: A violent man entices his neighbor ‖and leads him down a path that is not good.
+- 169460: The lot is cast into the lap, ‖but its every decision is from the LORD.
+- 169490: A crucible for silver and a furnace for gold, ‖but the LORD is the tester of hearts.
+- 169500: A wicked man listens to evil lips; ‖a liar gives ear to a destructive tongue.
+- 169560: A rebuke cuts into a man of discernment ‖deeper than a hundred lashes cut into a fool.
+- 169570: An evil man seeks only rebellion; ‖a cruel messenger will be sent against him.
+- 169590: If anyone returns evil for good, ‖evil will never leave his house.
+- 169630: A friend loves at all times, ‖and a brother is born for adversity.
+- 169690: A wicked man takes a covert bribe ‖to subvert the course of justice.
+- 169710: A foolish son brings grief to his father ‖and bitterness to her who bore him.
+- 169740: Even a fool is considered wise if he keeps silent, ‖and discerning when he holds his tongue.
+- 169770: With a wicked man comes contempt as well, ‖and shame is accompanied by disgrace
+- 169850: A rich man’s wealth is his fortified city; ‖it is like a high wall in his imagination
+- 169890: The heart of the discerning acquires knowledge, ‖and the ear of the wise seeks it out
+- 169900: A man’s gift opens doors for him, ‖and brings him before great men
+- 169910: The first to state his case seems right ‖until another comes and cross-examines him
+- 169920: Casting the lot ends quarrels ‖and separates strong opponents
+- 169940: From the fruit of his mouth a man’s belly is filled; ‖with the harvest from his lips he is satisfied
+- 170220: The slacker buries his hand in the dish; ‖he will not even bring it back to his mouth.
+- 170250: If you cease to hear instruction, my son, ‖you will stray from the words of knowledge.
+- 170280: Wine is a mocker, strong drink is a brawler, ‖and whoever is led astray by them is not wise.
+- 170320: The intentions of a man’s heart are deep waters, ‖but a man of understanding draws them out
+- 170350: A king who sits on a throne to judge ‖sifts out all evil with his eyes.
+- 170360: Who can say, “I have kept my heart pure; ‖I am cleansed from my sin”?
+- 170380: Even a young man is known by his actions—‖whether his conduct is pure and upright.
+- 170390: Ears that hear and eyes that see—‖the LORD has made them both.
+- 170600: To do righteousness and justice ‖is more desirable to the LORD than sacrifice.
+- 170790: A wise man scales the city of the mighty ‖and pulls down the stronghold in which they trust.
+- 170800: He who guards his mouth and tongue ‖keeps his soul from distress.
+- 170820: The craving of the slacker kills him ‖because his hands refuse to work.
+- 170870: There is no wisdom, no understanding, no counsel ‖that can prevail against the LORD.
+- 170890: A good name is more desirable than great riches; ‖favor is better than silver and gold.
+- 170980: Drive out the mocker, and conflict will depart; ‖even quarreling and insults will cease.
+- 171080: Have I not written for you thirty sayings ‖about counsel and knowledge,
+- 171120: Do not make friends with an angry man, ‖and do not associate with a hot-tempered man,
+- 171130: or you may learn his ways ‖and entangle yourself in a snare.
+- 171140: Do not be one who gives pledges, ‖who puts up security for debts.
+- 171150: If you have nothing with which to pay, ‖why should your bed be taken from under you?
+- 171180: When you sit down to dine with a ruler, ‖consider carefully what is set before you,
+- 171190: and put a knife to your throat ‖if you possess a great appetite.
+- 171200: Do not crave his delicacies, ‖for that food is deceptive.
+- 171220: it makes wings for itself ‖and flies like an eagle to the sky
+- 171240: for he is keeping track, ‖inwardly counting the cost
+- 171240: “Eat and drink,” he says to you, ‖but his heart is not with you
+- 171280: for their Redeemer is strong; ‖He will take up their case against you
+- 171290: Apply your heart to instruction ‖and your ears to words of knowledge
+- 171300: Do not withhold discipline from a child; ‖although you strike him with a rod, he will not die
+- 171310: Strike him with a rod, ‖and you will deliver his soul from Sheol
+- 171320: if your heart is wise, ‖my own heart will indeed rejoice
+- 171370: Do not join those who drink too much wine ‖or gorge themselves on meat
+- 171440: For a prostitute is a deep pit, ‖and an adulteress is a narrow well.
+- 171480: Do not gaze at wine while it is red, ‖when it sparkles in the cup and goes down smoothly.
+- 171480: Do not gaze at wine while it is red, when it sparkles in the cup ‖and goes down smoothly.
+- 171550: for their hearts devise violence, ‖and their lips declare trouble.
+- 171570: through knowledge its rooms are filled ‖with every precious and beautiful treasure.
+- 171610: He who plots evil ‖will be called a schemer.
+- 171700: Do not gloat when your enemy falls, ‖and do not let your heart rejoice when he stumbles,
+- 171800: Complete your outdoor work and prepare your field; ‖after that, you may build your house.
+- 171860: A little sleep, a little slumber, ‖a little folding of the hands to rest,
+- 171910: Remove the dross from the silver, ‖and a vessel for a silversmith will come forth.
+- 172000: Like the cold of snow in the time of harvest ‖is a trustworthy messenger to those who send him; he refreshes the soul of his masters.
+- 172000: Like the cold of snow in the time of harvest is a trustworthy messenger to those who send him; ‖he refreshes the soul of his masters.
+- 172050: Like a club or sword or sharp arrow ‖is a man who bears false witness against his neighbor.
+- 172060: Like a broken tooth or a foot out of joint ‖is confidence in a faithless man in time of trouble.
+- 172080: If your enemy is hungry, give him food to eat, ‖and if he is thirsty, give him water to drink.
+- 172110: Better to live on a corner of the roof ‖than to share a house with a quarrelsome wife.
+- 172130: Like a muddied spring or a polluted well ‖is a righteous man who gives way to the wicked.
+- 172150: Like a city whose walls are broken down ‖is a man who does not control his temper.
+- 172180: A whip for the horse, a bridle for the donkey, ‖and a rod for the backs of fools!
+- 172190: Do not answer a fool according to his folly, ‖or you yourself will be like him.
+- 172240: Like a thorn that goes into the hand of a drunkard ‖is a proverb in the mouth of a fool.
+- 172280: The slacker says, “A lion is in the road! ‖A fierce lion roams the public square!”
+- 172290: As a door turns on its hinges, ‖so the slacker turns on his bed.
+- 172360: Like charcoal for embers and wood for fire, ‖so is a quarrelsome man for kindling strife.
+- 172380: Like glaze covering an earthen vessel ‖are burning lips and a wicked heart.
+- 172410: Though his hatred is concealed by deception, ‖his wickedness will be exposed in the assembly.
+- 172450: Let another praise you, and not your own mouth—‖a stranger, and not your own lips.
+- 172480: Better an open rebuke ‖than love that is concealed.
+- 172530: do not go to your brother’s house ‖in the day of your calamity
+- 172530: better a neighbor nearby ‖than a brother far away
+- 172560: Take the garment of him who posts security for a stranger; ‖get collateral if it is for a foreigner.
+- 172650: Though you grind a fool like grain with mortar and a pestle, ‖yet his folly will not depart from him.
+- 172690: the lambs will provide you with clothing, ‖and the goats with the price of a field
+- 172750: Evil men do not understand justice, ‖but those who seek the LORD comprehend fully.
+- 172760: Better a poor man who walks with integrity ‖than a rich man whose ways are perverse.
+- 172870: A man burdened by bloodguilt will flee into the Pit; ‖let no one support him.
+- 172930: He who rebukes a man will later find more favor ‖than one who flatters with his tongue.
+- 173070: If a wise man goes to court with a fool, ‖there will be raving and laughing with no resolution.
+- 173090: A fool vents all his anger, ‖but a wise man holds it back.
+- 173100: If a ruler listens to lies, ‖all his officials will be wicked.
+- 173150: Discipline your son, and he will give you rest; ‖he will bring delight to your soul.
+- 173250: An unjust man is detestable to the righteous, ‖and one whose way is upright is detestable to the wicked.
+- 173380: There is a generation—how haughty are their eyes ‖and pretentious are their glances—
+- 173390: whose teeth are swords ‖and whose jaws are knives
+- 173410: Sheol, ‖the barren womb, land never satisfied with water, and fire that never says, ‘Enough!’
+- 173410: Sheol, the barren womb, ‖land never satisfied with water, and fire that never says, ‘Enough!’
+- 173410: Sheol, the barren womb, land never satisfied with water, ‖and fire that never says, ‘Enough!’
+- 173450: This is the way of an adulteress: ‖She eats and wipes her mouth and says, ‘I have done nothing wrong.’
+- 173450: This is the way of an adulteress: She eats and wipes her mouth ‖and says, ‘I have done nothing wrong.’
+- 173620: It is not for kings, O Lemuel, ‖it is not for kings to drink wine, or for rulers to crave strong drink,
+- 173620: It is not for kings, O Lemuel, it is not for kings to drink wine, ‖or for rulers to crave strong drink,
+- 173650: Let him drink and forget his poverty, ‖and remember his misery no more.
+- 173670: Open your mouth, judge righteously, ‖and defend the cause of the poor and needy.
+- 173690: The heart of her husband trusts in her, ‖and he lacks nothing of value.
+- 173700: She brings him good and not harm ‖all the days of her life.
+- 173720: She is like the merchant ships, ‖bringing her food from afar.
+- 173770: She stretches out her hands to the distaff ‖and grasps the spindle with her fingers.
+- 173820: She makes linen garments and sells them; ‖she delivers sashes to the merchants.
+- 173850: She watches over the affairs of her household ‖and does not eat the bread of idleness.
+- 173910: “Futility of futilities,” ‖says the Teacher, “futility of futilities! Everything is futile!”
+- 173910: “Futility of futilities,” says the Teacher, ‖“futility of futilities! Everything is futile!”
+- 173910: “Futility of futilities,” says the Teacher, “futility of futilities! ‖Everything is futile!”
+- 174610: Better one handful with tranquility ‖than two handfuls with toil and pursuit of the wind.
+- 175220: Wisdom makes the wise man ‖stronger than ten rulers in a city.
+- 175660: The calm words of the wise are heeded ‖over the shouts of a ruler among fools.
+- 175740: I have seen slaves on horseback, ‖while princes go on foot like slaves
+- 175850: Through laziness the roof caves in, ‖and in the hands of the idle, the house leaks
+- 175910: He who watches the wind will fail to sow, ‖and he who observes the clouds will fail to reap
+- 176050: “Futility of futilities,” says the Teacher. ‖“Everything is futile!”
+- 176220: We will make you ornaments of gold, ‖studded with beads of silver
+- 176300: lily among the thorns ‖is my darling among the maidens
+- 176340: His left hand is under my head, ‖and his right arm embraces me
+- 176390: winter is past; ‖the rain is over and gone
+- 176460: sought him, ‖but did not find him
+- 176500: Do not arouse or awaken love ‖until the time is right
+- 176550: posts of silver, ‖its base of gold, its seat of purple
+- 176630: You are altogether beautiful, my darling; ‖in you there is no flaw.
+- 176940: Your teeth are like a flock of sheep ‖coming up from the washing; each has its twin, and not one of them is lost.
+- 176940: Your teeth are like a flock of sheep coming up from the washing; ‖each has its twin, and not one of them is lost.
+- 176940: Your teeth are like a flock of sheep coming up from the washing; each has its twin, ‖and not one of them is lost.
+- 176950: Your brow behind your veil ‖is like a slice of pomegranate.
+- 176960: sixty queens and eighty concubines, ‖and maidens without number
+- 177040: Your breasts are like two fawns, ‖twins of a gazelle.
+- 177070: How fair and pleasant you are, ‖O love, with your delights!
+- 177160: bring you ‖to the house of my mother
+- 177170: His left hand is under my head, ‖and his right arm embraces me
+- 177720: against all the cedars of Lebanon, lofty and lifted up, ‖against all the oaks of Bashan
+- 177730: against all the tall mountains, ‖against all the high hills
+- 178630: It will not arise; ‖it will not happen.
+- 179640: The wolf will live with the lamb, ‖and the leopard will lie down with the goat; the calf and young lion and fatling will be together, and a little child will lead them.
+- 179640: The wolf will live with the lamb, and the leopard will lie down with the goat; ‖the calf and young lion and fatling will be together, and a little child will lead them.
+- 179640: The wolf will live with the lamb, and the leopard will lie down with the goat; the calf and young lion and fatling will be together, ‖and a little child will lead them.
+- 180100: cypresses and cedars of Lebanon ‖exult
+- 180110: eager ‖to meet you
+- 180190: refused to let the captives ‖return
+- 180250: place ‖for owls
+- 180530: Joy and gladness are removed from the orchard; ‖no one sings or shouts in the vineyards. No one tramples the grapes in the winepresses; I have put an end to the cheering.
+- 180530: Joy and gladness are removed from the orchard; no one sings or shouts in the vineyards. ‖No one tramples the grapes in the winepresses; I have put an end to the cheering.
+- 180530: Joy and gladness are removed from the orchard; no one sings or shouts in the vineyards. No one tramples the grapes in the winepresses; ‖I have put an end to the cheering.
+- 180830: waters of the Nile will dry up, ‖and the riverbed will be parched and empty
+- 180860: fishermen will mourn, ‖all who cast a hook into the Nile will lament, and those who spread nets on the waters will pine away
+- 180860: fishermen will mourn, all who cast a hook into the Nile will lament, ‖and those who spread nets on the waters will pine away
+- 180930: nothing Egypt can do—‖head or tail, palm or reed
+- 181310: a day ‖of tumult
+- 181340: uncovered ‖the defenses
+- 181650: Wail, O ships of Tarshish, ‖for your harbor has been destroyed!
+- 181670: Take up your harp, ‖stroll through the city, O forgotten harlot. Make sweet melody, sing many a song, so you will be remembered.
+- 181670: Take up your harp, stroll through the city, ‖O forgotten harlot. Make sweet melody, sing many a song, so you will be remembered.
+- 181670: Take up your harp, stroll through the city, O forgotten harlot. ‖Make sweet melody, sing many a song, so you will be remembered.
+- 181670: Take up your harp, stroll through the city, O forgotten harlot. Make sweet melody, ‖sing many a song, so you will be remembered.
+- 181670: Take up your harp, stroll through the city, O forgotten harlot. Make sweet melody, sing many a song, ‖so you will be remembered.
+- 181930: O LORD, You are my God! ‖I will exalt You; I will praise Your name. For You have worked wonders—plans formed long ago—in perfect faithfulness.
+- 181930: O LORD, You are my God! I will exalt You; ‖I will praise Your name. For You have worked wonders—plans formed long ago—in perfect faithfulness.
+- 181930: O LORD, You are my God! I will exalt You; I will praise Your name. ‖For You have worked wonders—plans formed long ago—in perfect faithfulness.
+- 181930: O LORD, You are my God! I will exalt You; I will praise Your name. For You have worked wonders—‖plans formed long ago—in perfect faithfulness.
+- 181930: O LORD, You are my God! I will exalt You; I will praise Your name. For You have worked wonders—plans formed long ago—‖in perfect faithfulness.
+- 181950: Therefore, a strong people will honor You. ‖The cities of ruthless nations will revere You.
+- 181990: swallow up ‖the shroud
+- 182100: Feet trample it down—‖the feet of the oppressed, the steps of the poor.
+- 182100: Feet trample it down—the feet of the oppressed, ‖the steps of the poor.
+- 182210: As a woman with child about to give birth ‖writhes and cries out in pain, so were we in Your presence, O LORD.
+- 182210: As a woman with child about to give birth writhes and cries out in pain, ‖so were we in Your presence, O LORD.
+- 182310: Jacob will take root. ‖Israel will bud and blossom and fill the whole world with fruit
+- 182310: Jacob will take root. Israel will bud and blossom ‖and fill the whole world with fruit
+- 182460: For all their tables are covered with vomit; ‖there is not a place without filth.
+- 182610: Listen and hear my voice. ‖Pay attention and hear what I say.
+- 182640: For his God instructs ‖and teaches him properly.
+- 182700: I will camp in a circle around you; ‖I will besiege you with towers and set up siege works against you.
+- 182700: I will camp in a circle around you; I will besiege you with towers ‖and set up siege works against you.
+- 182730: you will be visited by the LORD of Hosts ‖with thunder and earthquake and loud noise, with windstorm and tempest and consuming flame of fire.
+- 182730: you will be visited by the LORD of Hosts with thunder and earthquake and loud noise, ‖with windstorm and tempest and consuming flame of fire.
+- 182820: dig deep ‖to hide
+- 183280: come down ‖to do battle
+- 183360: Then the eyes of those who see will no longer be closed, ‖and the ears of those who hear will listen.
+- 183490: Then justice will inhabit the wilderness, ‖and righteousness will dwell in the fertile field.
+- 183510: Then my people will dwell in a peaceful place, ‖in safe and secure places of rest.
+- 183560: The peoples flee the thunder of Your voice; ‖the nations scatter when You rise.
+- 183860: streams will be turned to tar, ‖and her soil to sulfur; her land will become a blazing pitch
+- 183860: streams will be turned to tar, and her soil to sulfur; ‖her land will become a blazing pitch
+- 183970: Strengthen the limp hands ‖and steady the feeble knees
+- 184500: tallest cedars, ‖the finest of its cypresses
+- 184560: eat ‖what grows on its own
+- 184600: He will go back the way he came, ‖and he will not enter this city,’ declares the LORD.
+- 184600: He will go back the way he came, and he will not enter this city,’ ‖declares the LORD.
+- 185120: To whom will you liken God? ‖To what image will you compare Him?
+- 185130: idol that a craftsman casts ‖and a metalworker overlays with gold and fits with silver chains
+- 185130: idol that a craftsman casts and a metalworker overlays with gold ‖and fits with silver chains
+- 185150: Do you not know? ‖Have you not heard? Has it not been declared to you from the beginning? Have you not understood since the foundation of the earth?
+- 185150: Do you not know? Have you not heard? ‖Has it not been declared to you from the beginning? Have you not understood since the foundation of the earth?
+- 185150: Do you not know? Have you not heard? Has it not been declared to you from the beginning? ‖Have you not understood since the foundation of the earth?
+- 185170: He brings the princes to nothing ‖and makes the rulers of the earth meaningless.
+- 185190: “To whom will you liken Me, ‖or who is My equal?” asks the Holy One.
+- 185230: He gives power to the faint ‖and increases the strength of the weak.
+- 185240: Even youths grow tired and weary, ‖and young men stumble and fall.
+- 185430: I will open rivers on the barren heights, ‖and fountains in the middle of the valleys. I will turn the desert into a pool of water, and the dry land into flowing springs.
+- 185430: I will open rivers on the barren heights, and fountains in the middle of the valleys. ‖I will turn the desert into a pool of water, and the dry land into flowing springs.
+- 185430: I will open rivers on the barren heights, and fountains in the middle of the valleys. I will turn the desert into a pool of water, ‖and the dry land into flowing springs.
+- 185450: so that all may see and know, ‖may consider and understand, that the hand of the LORD has done this and the Holy One of Israel has created it
+- 185450: so that all may see and know, may consider and understand, ‖that the hand of the LORD has done this and the Holy One of Israel has created it
+- 185450: so that all may see and know, may consider and understand, that the hand of the LORD has done this ‖and the Holy One of Israel has created it
+- 185560: He will not cry out or raise His voice, ‖nor make His voice heard in the streets.
+- 185660: Let them give glory to the LORD ‖and declare His praise in the islands.
+- 185690: I will lay waste the mountains and hills ‖and dry up all their vegetation. I will turn the rivers into dry land and drain the marshes.
+- 185690: I will lay waste the mountains and hills and dry up all their vegetation. ‖I will turn the rivers into dry land and drain the marshes.
+- 185690: I will lay waste the mountains and hills and dry up all their vegetation. I will turn the rivers into dry land ‖and drain the marshes.
+- 185780: Who gave Jacob up for spoil, ‖and Israel to the plunderers? Was it not the LORD, against whom we have sinned? They were unwilling to walk in His ways, and they would not obey His law.
+- 185780: Who gave Jacob up for spoil, and Israel to the plunderers? ‖Was it not the LORD, against whom we have sinned? They were unwilling to walk in His ways, and they would not obey His law.
+- 185780: Who gave Jacob up for spoil, and Israel to the plunderers? Was it not the LORD, ‖against whom we have sinned? They were unwilling to walk in His ways, and they would not obey His law.
+- 185780: Who gave Jacob up for spoil, and Israel to the plunderers? Was it not the LORD, against whom we have sinned? ‖They were unwilling to walk in His ways, and they would not obey His law.
+- 185780: Who gave Jacob up for spoil, and Israel to the plunderers? Was it not the LORD, against whom we have sinned? They were unwilling to walk in His ways, ‖and they would not obey His law.
+- 185870: eyes but are blind, ‖and who have ears but are deaf
+- 185890: believe Me ‖and understand
+- 186000: formed for Myself ‖will declare My praise
+- 186170: Who fashions a god or casts an idol ‖which profits him nothing?
+- 186650: To whom will you liken Me or count Me equal? ‖To whom will you compare Me, that we should be alike?
+- 186740: no longer be called ‖tender or delicate
+- 186780: no longer be called ‖the queen of kingdoms
+- 187030: I, even I, have spoken; ‖yes, I have called him. I have brought him, and he will succeed in his mission.
+- 187030: I, even I, have spoken; yes, I have called him. ‖I have brought him, and he will succeed in his mission.
+- 187030: I, even I, have spoken; yes, I have called him. I have brought him, ‖and he will succeed in his mission.
+- 187100: “There is no peace,” says the LORD, ‖“for the wicked.”
+- 187130: He said to Me, “You are My Servant, Israel, ‖in whom I will display My glory.”
+- 187180: appoint You ‖to be a covenant
+- 187210: I will turn all My mountains into roads, ‖and My highways will be raised up.
+- 187400: given Me ‖the tongue
+- 187410: opened My ears, ‖and I have not been rebellious
+- 187730: You were sold for nothing, ‖and without money you will be redeemed
+- 187910: laid upon Him ‖the iniquity
+- 188220: My thoughts are not your thoughts, ‖neither are your ways My ways
+- 188230: as the heavens are higher than the earth, ‖so My ways are higher than your ways and My thoughts than your thoughts
+- 188230: as the heavens are higher than the earth, so My ways are higher than your ways ‖and My thoughts than your thoughts
+- 188340: house of prayer ‖for all the nations
+- 188360: Come, all you beasts of the field; ‖eat greedily
+- 188370: mute dogs, ‖they cannot bark
+- 188460: On a high and lofty hill you have made your bed, ‖and there you went up to offer sacrifices.
+- 188500: failed ‖to remember
+- 188510: I will expose your righteousness and your works, ‖and they will not profit you.
+- 188600: “There is no peace,” says my God, ‖“for the wicked.”
+- 188880: So justice is turned away, ‖and righteousness stands at a distance. For truth has stumbled in the public square, and honesty cannot enter.
+- 188880: So justice is turned away, and righteousness stands at a distance. ‖For truth has stumbled in the public square, and honesty cannot enter.
+- 188880: So justice is turned away, and righteousness stands at a distance. For truth has stumbled in the public square, ‖and honesty cannot enter.
+- 189070: For the nation or kingdom that will not serve you will perish; ‖it will be utterly destroyed.
+- 189360: Never again will I give your grain ‖to your enemies
+- 189390: proclaimed ‖to the ends of the earth
+- 189630: no ear has perceived, ‖no eye has seen
+- 189690: Your holy cities have become a wilderness. ‖Zion has become a wasteland and Jerusalem a desolation.
+- 189710: will You restrain Yourself? ‖Will You keep silent and afflict us beyond measure?
+- 189710: will You restrain Yourself? Will You keep silent ‖and afflict us beyond measure?
+- 189840: eat, ‖but you will go hungry
+- 189840: rejoice, ‖but you will be put to shame
+- 189860: name ‖as a curse
+- 189900: weeping and crying ‖will no longer be heard
+- 190030: Before she was in labor, she gave birth; ‖before she was in pain, she delivered a boy.
+- 190090: mother comforts her son, ‖so will I comfort you
+- 190120: For by fire and by His sword, ‖the LORD will execute judgment on all flesh, and many will be slain by the LORD.
+- 190120: For by fire and by His sword, the LORD will execute judgment on all flesh, ‖and many will be slain by the LORD.
+- 190190: New Moon to another ‖and from one Sabbath to another
+- 190200: horror ‖to all mankind
+- 190270: For to everyone I send you, ‖you must go
+- 190290: I have put My words ‖in your mouth
+- 190500: exchanged their Glory ‖for useless idols
+- 190510: Be stunned by this, O heavens; ‖be shocked and utterly appalled
+- 190590: For long ago you broke your yoke ‖and tore off your chains
+- 190590: on every high hill ‖and under every green tree
+- 190610: Although you wash with lye ‖and use an abundance of soap
+- 190610: the stain of your guilt ‖is still before Me
+- 190620: How can you say, ‘I am not defiled; ‖I have not run after the Baals’?
+- 190620: You are a swift young she-camel ‖galloping here and there
+- 190640: You should have kept your feet from going bare ‖and your throat from being thirsty
+- 190650: They, their kings, their officials, ‖their priests, and their prophets
+- 190660: They have turned their backs to Me ‖and not their faces
+- 190660: Yet in the time of trouble, they say, ‖‘Rise up and save us!’
+- 190670: But where are the gods you made for yourselves? ‖Let them rise up in your time of trouble and save you if they can
+- 190670: But where are the gods you made for yourselves? Let them rise up in your time of trouble ‖and save you if they can
+- 190670: for your gods are as numerous ‖as your cities
+- 190690: “I have struck your sons in vain; ‖they accepted no discipline
+- 190690: Your own sword has devoured your prophets ‖like a voracious lion
+- 190700: ‘We are free to roam; ‖we will come to You no more’
+- 190710: Does a maiden forget her jewelry ‖or a bride her wedding sash?
+- 190710: Yet My people have forgotten Me ‖for days without number
+- 190720: Even the most immoral of women ‖could learn from your ways
+- 190730: your skirts are stained ‖with the blood of the innocent poor
+- 190750: How impulsive you are, ‖constantly changing your ways!
+- 190950: the most beautiful inheritance ‖of all the nations
+- 190990: Surely the salvation of Israel ‖is in the LORD our God
+- 191000: From our youth, that shameful god ‖has consumed what our fathers have worked for—their flocks and herds, their sons and daughters.
+- 191000: From our youth, that shameful god has consumed what our fathers have worked for—‖their flocks and herds, their sons and daughters.
+- 191000: From our youth, that shameful god has consumed what our fathers have worked for—their flocks and herds, ‖their sons and daughters.
+- 191010: Let us lie down in our shame; ‖let our disgrace cover us
+- 191050: Otherwise, My wrath will break out like fire ‖and burn with no one to extinguish it
+- 191090: the fierce anger of the LORD ‖has not turned away from us
+- 191100: The priests will tremble in fear, ‖and the prophets will be astounded
+- 191150: How long will you harbor ‖wicked thoughts
+- 191190: Your ways and deeds ‖have brought this upon you
+- 191230: For My people are fools; ‖they have not known Me
+- 191240: the earth, ‖and it was formless and void
+- 191240: the heavens, ‖and they had no light
+- 191250: mountains, ‖and behold, they were quaking
+- 191290: I have spoken, I have planned, ‖and I will not relent or turn back
+- 191300: They enter the thickets ‖and climb among the rocks
+- 191360: Then I said, “They are only the poor; ‖they have played the fool, for they do not know the way of the LORD, the justice of their God.
+- 191360: Then I said, “They are only the poor; they have played the fool, ‖for they do not know the way of the LORD, the justice of their God.
+- 191360: Then I said, “They are only the poor; they have played the fool, for they do not know the way of the LORD, ‖the justice of their God.
+- 191480: Their quivers are like open graves; ‖they are all mighty men.
+- 191490: they will destroy ‖the fortified cities in which you trust
+- 191570: Your iniquities have diverted these from you; ‖your sins have deprived you of My bounty.
+- 191610: Should I not punish them for these things?” ‖declares the LORD. “Should I not avenge Myself on such a nation as this?
+- 191610: Should I not punish them for these things?” declares the LORD. ‖“Should I not avenge Myself on such a nation as this?
+- 191610: Should I not punish them for these things?” declares the LORD. “Should I not avenge Myself ‖on such a nation as this?
+- 191710: I will make you a desolation, ‖a land without inhabitant
+- 191720: Glean the remnant of Israel ‖as thoroughly as a vine
+- 191730: To whom can I give this warning? ‖Who will listen to me?
+- 191740: But I am full of the LORD’s wrath; ‖I am tired of holding it back
+- 191750: Their houses will be turned over to others, ‖their fields and wives as well
+- 191750: I will stretch out My hand ‖against the inhabitants of the land
+- 191760: For from the least of them to the greatest, ‖all are greedy for gain
+- 191760: from prophet to priest, ‖all practice deceit
+- 191790: Stand at the crossroads and look. ‖Ask for the ancient paths
+- 191850: an army is coming ‖from the land of the north
+- 191860: Their voice roars like the sea, ‖and they ride upon horses
+- 191870: We have heard the report; ‖our hands hang limp
+- 191870: Anguish has gripped us, ‖pain like that of a woman in labor
+- 191880: Do not go out to the fields; ‖do not walk the road
+- 191880: the enemy has a sword; ‖terror is on every side
+- 191890: Mourn with bitter wailing, ‖as you would for an only son
+- 191900: I have appointed you to examine My people like ore, ‖so you may know and try their ways
+- 192340: do not know ‖the requirements
+- 192350: the lying pen of the scribes ‖has produced a deception
+- 192370: Therefore I will give their wives to other men ‖and their fields to new owners
+- 192370: For from the least of them to the greatest, ‖all are greedy for gain
+- 192370: from prophet to priest, ‖all practice deceit
+- 192380: They dress the wound of the daughter of My people ‖with very little care, saying, ‘Peace, peace,’ when there is no peace at all
+- 192380: They dress the wound of the daughter of My people with very little care, ‖saying, ‘Peace, peace,’ when there is no peace at all
+- 192380: They dress the wound of the daughter of My people with very little care, saying, ‘Peace, peace,’ ‖when there is no peace at all
+- 192390: Are they ashamed of the abomination they have committed? ‖No, they have no shame at all
+- 192400: There will be no grapes on the vine, ‖nor figs on the tree
+- 192420: We hoped for peace, ‖but no good has come, for a time of healing, but there was only terror.
+- 192420: We hoped for peace, but no good has come, ‖for a time of healing, but there was only terror.
+- 192420: We hoped for peace, but no good has come, for a time of healing, ‖but there was only terror.
+- 192460: Listen to the cry of the daughter of my people ‖from a land far away
+- 192460: Why have they provoked Me to anger ‖with their carved images, with their worthless foreign idols?
+- 192460: Why have they provoked Me to anger with their carved images, ‖with their worthless foreign idols?
+- 192470: The harvest has passed, the summer has ended, ‖but we have not been saved.
+- 192580: Should I not punish them for these things? ‖declares the LORD. Should I not avenge Myself on such a nation as this?
+- 192580: Should I not punish them for these things? declares the LORD. ‖Should I not avenge Myself on such a nation as this?
+- 192580: Should I not punish them for these things? declares the LORD. Should I not avenge Myself ‖on such a nation as this?
+- 192680: the sound of wailing ‖is heard from Zion
+- 192680: How devastated we are! ‖How great is our shame!
+- 192700: For death has climbed in through our windows; ‖it has entered our fortresses to cut off the children from the streets, the young men from the town squares.
+- 192700: For death has climbed in through our windows; it has entered our fortresses ‖to cut off the children from the streets, the young men from the town squares.
+- 192700: For death has climbed in through our windows; it has entered our fortresses to cut off the children from the streets, ‖the young men from the town squares.
+- 192980: I know, O LORD, that a man’s way is not his own; ‖no one who walks directs his own steps.
+- 192990: Correct me, O LORD, ‖but only with justice
+- 193280: you have raced with men on foot ‖and they have worn you out
+- 193290: your brothers—‖your own father’s household
+- 193660: So I will pull your skirts up over your face, ‖that your shame may be seen.
+- 193720: Even the doe in the field deserts her newborn fawn ‖because there is no grass
+- 193840: My eyes overflow with tears; ‖day and night they do not cease
+- 193860: We hoped for peace, ‖but no good has come
+- 193880: Remember Your covenant with us; ‖do not break it
+- 194080: It is they who must turn to you, ‖but you must not turn to them
+- 194090: I will make you a wall to this people, ‖a fortified wall of bronze
+- 194300: Can man make gods for himself? ‖Such are not gods!”
+- 194340: I will give over your wealth ‖and all your treasures as plunder
+- 194340: the sin of your high places, ‖within all your borders
+- 194350: will relinquish ‖the inheritance
+- 194350: I will enslave you to your enemies ‖in a land that you do not know
+- 194350: for you have kindled My anger; ‖it will burn forever
+- 194380: blessed is the man who trusts in the LORD, ‖whose confidence is in Him
+- 194400: The heart is deceitful above all things ‖and beyond cure. Who can understand it?
+- 194400: The heart is deceitful above all things and beyond cure. ‖Who can understand it?
+- 194410: search the heart; ‖I examine the mind
+- 194430: A glorious throne, exalted from the beginning, ‖is the place of our sanctuary
+- 194440: abandoned the LORD, ‖the fountain of living water
+- 194460: Behold, they keep saying to me, ‖“Where is the word of the LORD? Let it come now!”
+- 194460: Behold, they keep saying to me, “Where is the word of the LORD? ‖Let it come now!”
+- 194470: the utterance of my lips ‖was spoken in Your presence
+- 195040: the word of the LORD has become to me ‖a reproach and derision
+- 195100: Cursed be the day I was born! ‖May the day my mother bore me never be blessed.
+- 195120: May he hear an outcry in the morning ‖and a battle cry at noon
+- 195500: Then you will be ashamed and humiliated ‖because of all your wickedness
+- 195570: O land, land, land, ‖hear the word of the LORD!
+- 195770: the storm of the LORD ‖has gone out with fury, a whirlwind swirling down upon the heads of the wicked.
+- 195770: the storm of the LORD has gone out with fury, ‖a whirlwind swirling down upon the heads of the wicked.
+- 195770: the storm of the LORD has gone out with fury, a whirlwind swirling down ‖upon the heads of the wicked.
+- 195790: I did not send these prophets, ‖yet they have run with their message; I did not speak to them, yet they have prophesied.
+- 195790: I did not send these prophets, yet they have run with their message; ‖I did not speak to them, yet they have prophesied.
+- 195790: I did not send these prophets, yet they have run with their message; I did not speak to them, ‖yet they have prophesied.
+- 196440: Hear the cry of the shepherds, ‖the wailing of the leaders of the flock, for the LORD is destroying their pasture.
+- 196440: Hear the cry of the shepherds, the wailing of the leaders of the flock, ‖for the LORD is destroying their pasture.
+- 196450: The peaceful meadows have been silenced ‖because of the LORD’s burning anger.
+- 197470: every man ‖with his hands on his stomach like a woman in labor
+- 197500: they will serve the LORD their God ‖and David their king, whom I will raise up for them
+- 197500: they will serve the LORD their God and David their king, ‖whom I will raise up for them
+- 197530: Your injury is incurable; ‖your wound is grievous
+- 197630: you will be My people, ‖and I will be your God
+- 197750: keep them ‖as a shepherd
+- 197760: ransomed Jacob ‖and redeemed him
+- 197960: with the house of Israel ‖and with the house of Judah
+- 197980: I will put My law in their minds ‖and inscribe it on their hearts
+- 197980: I will be their God, ‖and they will be My people
+- 198010: cease ‖to be a nation
+- 202160: I will make you small among nations, ‖despised among men
+- 202210: the plans ‖that the LORD has drawn up
+- 202260: How is the city of praise not forsaken, ‖the town that brings Me joy?
+- 202270: her young men will fall in the streets, ‖and all her warriors will be silenced in that day
+- 202310: for Nebuchadnezzar king of Babylon ‖has drawn up a plan
+- 202390: I will set My throne in Elam, ‖and destroy its king and officials
+- 202620: The noise of battle is in the land—‖the noise of great destruction
+- 202630: How the hammer of the whole earth ‖lies broken and shattered! What a horror Babylon has become among the nations!
+- 202630: How the hammer of the whole earth lies broken and shattered! ‖What a horror Babylon has become among the nations!
+- 202630: How the hammer of the whole earth lies broken and shattered! What a horror Babylon has become ‖among the nations!
+- 202790: So the desert creatures and hyenas will live there ‖and ostriches will dwell there. It will never again be inhabited or lived in from generation to generation.
+- 202790: So the desert creatures and hyenas will live there and ostriches will dwell there. ‖It will never again be inhabited or lived in from generation to generation.
+- 202790: So the desert creatures and hyenas will live there and ostriches will dwell there. It will never again be inhabited ‖or lived in from generation to generation.
+- 202800: As God overthrew Sodom and Gomorrah ‖along with their neighbors,” declares the LORD, “no one will dwell there; no man will abide there.
+- 202800: As God overthrew Sodom and Gomorrah along with their neighbors,” ‖declares the LORD, “no one will dwell there; no man will abide there.
+- 202800: As God overthrew Sodom and Gomorrah along with their neighbors,” declares the LORD, ‖“no one will dwell there; no man will abide there.
+- 202800: As God overthrew Sodom and Gomorrah along with their neighbors,” declares the LORD, “no one will dwell there; ‖no man will abide there.
+- 202810: Behold, an army is coming from the north; ‖a great nation and many kings are stirred up from the ends of the earth.
+- 202810: Behold, an army is coming from the north; a great nation and many kings are stirred up ‖from the ends of the earth.
+- 202860: At the sound of Babylon’s capture the earth will quake; ‖a cry will be heard among the nations.
+- 203070: shatter the horse and rider; ‖with you I shatter the chariot and driver
+- 203080: shatter man and woman; ‖with you I shatter the old man and the youth; with you I shatter the young man and the maiden
+- 203080: shatter man and woman; with you I shatter the old man and the youth; ‖with you I shatter the young man and the maiden
+- 203100: I will repay ‖Babylon and all the dwellers of Chaldea for all the evil they have done in Zion
+- 203100: I will repay Babylon and all the dwellers of Chaldea ‖for all the evil they have done in Zion
+- 203210: May the violence done to me ‖and to my flesh be upon Babylon
+- 203210: May the violence done to me and to my flesh ‖be upon Babylon
+- 203260: I will bring them down like lambs to the slaughter, ‖like rams with male goats
+- 203280: The sea has come up over Babylon; ‖she is covered in turbulent waves
+- 203340: heaven and earth and all that is in them ‖will shout for joy
+- 203350: Babylon must fall ‖on account of the slain of Israel
+- 203370: foreigners have entered ‖the holy places
+- 203400: The sound of a cry ‖comes from Babylon, the sound of great destruction from the land of the Chaldeans
+- 203400: The sound of a cry comes from Babylon, ‖the sound of great destruction from the land of the Chaldeans
+- 203400: The sound of a cry comes from Babylon, the sound of great destruction ‖from the land of the Chaldeans
+- 203890: Her children have gone away ‖as captives
+- 203900: All the splendor has departed ‖from the Daughter of Zion
+- 203940: has seized ‖all her treasures
+- 203940: seen the nations ‖enter her sanctuary
+- 203940: those You had forbidden ‖to enter Your assembly
+- 203970: desolate, ‖faint all the day long
+- 203990: rejected ‖all the mighty men
+- 204030: My priests and elders ‖perished
+- 204040: Outside, the sword bereaves; ‖inside, there is death
+- 204310: He keeps turning His hand ‖against me all day long
+- 204360: Even when I cry out and plead for help, ‖He shuts out my prayer
+- 204420: I am a laughingstock to all my people; ‖they mock me in song all day long
+- 204560: Let him sit alone in silence, ‖for the LORD has laid it upon him
+- 204590: For the Lord will not ‖cast us off forever
+- 204600: Even if He causes grief, He will show compassion ‖according to His abundant loving devotion
+- 204760: Streams of tears flow from my eyes ‖over the destruction of the daughter of my people
+- 204780: until the LORD ‖looks down from heaven and sees
+- 204830: I called on Your name, O LORD, ‖out of the depths of the Pit
+- 204880: You have seen all their malice, ‖all their plots against me
+- 204890: O LORD, You have heard their insults, ‖all their plots against me
+- 204920: You will pay them back what they deserve, O LORD, ‖according to the work of their hands
+- 205060: The kings of the earth did not believe, ‖nor any people of the world, that an enemy or a foe could enter the gates of Jerusalem
+- 205060: The kings of the earth did not believe, nor any people of the world, ‖that an enemy or a foe could enter the gates of Jerusalem
+- 205060: The kings of the earth did not believe, nor any people of the world, that an enemy or a foe ‖could enter the gates of Jerusalem
+- 205080: no one dared ‖to touch
+- 205180: Our inheritance has been turned over to strangers, ‖our houses to foreigners.
+- 205190: We have become fatherless orphans; ‖our mothers are widows.
+- 205250: We get our bread at the risk of our lives ‖because of the sword in the wilderness.
+- 205270: Women have been ravished in Zion, ‖virgins in the cities of Judah.
+- 205280: Princes have been hung up by their hands; ‖elders receive no respect.
+- 206560: This is what the Lord GOD says: ‖‘Disaster! An unprecedented disaster—behold, it is coming!
+- 206560: This is what the Lord GOD says: ‘Disaster! An unprecedented disaster—‖behold, it is coming!
+- 206600: the LORD, ‖who strikes the blow
+- 206630: buyer not rejoice ‖and the seller not mourn
+- 206660: The sword is outside; ‖plague and famine are within. Those in the country will die by the sword, and those in the city will be devoured by famine and plague.
+- 206660: The sword is outside; plague and famine are within. ‖Those in the country will die by the sword, and those in the city will be devoured by famine and plague.
+- 206660: The sword is outside; plague and famine are within. Those in the country will die by the sword, ‖and those in the city will be devoured by famine and plague.
+- 206660: The sword is outside; plague and famine are within. Those in the country will die by the sword, and those in the city will be devoured ‖by famine and plague.
+- 206700: stumbling block ‖that brought their iniquity
+- 206710: fashion ‖their vile images
+- 206710: make these ‖into something unclean
+- 206720: And I will hand these things over ‖as plunder to foreigners and loot to the wicked of the earth, who will defile them.
+- 206720: And I will hand these things over as plunder to foreigners ‖and loot to the wicked of the earth, who will defile them.
+- 206720: And I will hand these things over as plunder to foreigners and loot to the wicked of the earth, ‖who will defile them.
+- 206860: “Son of man,” He told me, “dig through the wall.” ‖So I dug through the wall and discovered a doorway.
+- 207030: Then He told them, “Defile the temple and fill the courts with the slain. Go forth!” ‖So they went out and began killing throughout the city.
+- 209380: He does not eat at the mountain ‖or look to the idols of the house of Israel. He does not defile his neighbor’s wife.
+- 209380: He does not eat at the mountain or look to the idols of the house of Israel. ‖He does not defile his neighbor’s wife.
+- 209520: Yet the house of Israel says, ‘The way of the Lord is not just.’ ‖Are My ways unjust, O house of Israel? Is it not your ways that are unjust?
+- 209620: The land and everything in it ‖shuddered
+- 210320: sword strike two times, ‖even three
+- 210440: Exalt the lowly ‖and bring low the exalted
+- 210450: A ruin, a ruin, ‖I will make it a ruin
+- 210470: placed on the necks ‖of the wicked
+- 210470: day has come, ‖the time of their final punishment
+- 211340: every good piece—‖thigh and shoulder—fill it with choice bones
+- 211340: every good piece—thigh and shoulder—‖fill it with choice bones
+- 211380: stir up wrath ‖and take vengeance
+- 212330: regarded your heart ‖as that of a god
+- 212350: gained your wealth ‖and amassed gold and silver
+- 212370: regard your heart ‖as the heart of a god
+- 212390: violent death ‖in the heart of the seas
+- 212470: drove you in disgrace ‖from the mountain of God
+- 212970: execute judgment on Egypt, ‖and they will know that I am the LORD
+- 213100: all the great nations ‖lived in its shade
+- 213250: I will spread My net over you ‖with a company of many peoples, and they will draw you up in My net
+- 213250: I will spread My net over you with a company of many peoples, ‖and they will draw you up in My net
+- 213260: I will abandon you on the land ‖and hurl you into the open field. I will cause all the birds of the air to settle upon you, and all the beasts of the earth to eat their fill of you
+- 213260: I will abandon you on the land and hurl you into the open field. ‖I will cause all the birds of the air to settle upon you, and all the beasts of the earth to eat their fill of you
+- 213260: I will abandon you on the land and hurl you into the open field. I will cause all the birds of the air ‖to settle upon you, and all the beasts of the earth to eat their fill of you
+- 213260: I will abandon you on the land and hurl you into the open field. I will cause all the birds of the air to settle upon you, ‖and all the beasts of the earth to eat their fill of you
+- 213260: I will abandon you on the land and hurl you into the open field. I will cause all the birds of the air to settle upon you, and all the beasts of the earth ‖to eat their fill of you
+- 213320: tremble ‖every moment
+- 213440: Assyria is there with her whole company; ‖her graves are all around her. All of them are slain, fallen by the sword
+- 213440: Assyria is there with her whole company; her graves are all around her. ‖All of them are slain, fallen by the sword
+- 213440: Assyria is there with her whole company; her graves are all around her. All of them are slain, ‖fallen by the sword
+- 213450: spread terror ‖in the land of the living
+- 213470: prepare ‖a resting place
+- 213480: All of them are uncircumcised, ‖slain by the sword
+- 213490: do not lie down ‖with the fallen warriors
+- 213500: you too will be shattered ‖and lie down among the uncircumcised, with those slain by the sword
+- 213500: you too will be shattered and lie down among the uncircumcised, ‖with those slain by the sword
+- 213540: I will spread My terror ‖in the land of the living, so that Pharaoh and all his multitude will be laid to rest among the uncircumcised, with those slain by the sword, declares the Lord GOD
+- 213540: I will spread My terror in the land of the living, ‖so that Pharaoh and all his multitude will be laid to rest among the uncircumcised, with those slain by the sword, declares the Lord GOD
+- 213540: I will spread My terror in the land of the living, so that Pharaoh and all his multitude ‖will be laid to rest among the uncircumcised, with those slain by the sword, declares the Lord GOD
+- 213540: I will spread My terror in the land of the living, so that Pharaoh and all his multitude will be laid to rest among the uncircumcised, ‖with those slain by the sword, declares the Lord GOD
+- 213540: I will spread My terror in the land of the living, so that Pharaoh and all his multitude will be laid to rest among the uncircumcised, with those slain by the sword, ‖declares the Lord GOD
+- 218550: given me ‖wisdom
+- 222140: exchanged their Glory ‖for a thing of disgrace
+- 222210: without understanding ‖will come to ruin
+- 222300: do not permit them ‖to return
+- 222520: I restore ‖My people
+- 222550: They delight the king with their evil, ‖and the princes with their lies.
+- 222680: ridiculed ‖in the land of Egypt
+- 222890: greatness ‖of your iniquity
+- 222920: detestable ‖as the thing they loved
+- 222950: bring out ‖his children for slaughter
+- 222990: wanderers ‖among the nations
+- 223030: judgment springs up ‖like poisonous weeds
+- 223110: righteousness ‖upon you like rain
+- 223340: find in me ‖no iniquity
+- 223350: LORD your God ‖ever since the land of Egypt
+- 223390: by a prophet the LORD brought Israel out of Egypt, ‖and by a prophet he was preserved
+- 223460: had pasture, ‖they became satisfied
+- 223470: like a lion I will pounce on them; ‖like a leopard I will lurk by the path
+- 223510: in My anger I gave you a king, ‖and in My wrath I took him away
+- 223520: The iniquity of Ephraim is bound up; ‖his sin is stored up
+- 223640: what have I to do ‖anymore with idols
+- 223680: Tell it to your children; ‖let your children tell it to their children, and their children to the next generation.
+- 223680: Tell it to your children; let your children tell it to their children, ‖and their children to the next generation.
+- 223780: grain and drink offerings ‖are withheld
+- 223830: How the cattle groan! ‖The herds wander in confusion because they have no pasture. Even the flocks of sheep are suffering.
+- 223830: How the cattle groan! The herds wander in confusion ‖because they have no pasture. Even the flocks of sheep are suffering.
+- 223830: How the cattle groan! The herds wander in confusion because they have no pasture. ‖Even the flocks of sheep are suffering.
+- 223870: never was of old, ‖nor will ever be
+- 223890: Their appearance is like that of horses, ‖and they gallop like swift steeds.
+- 224040: I will send you ‖grain
+- 224040: never again make you ‖a reproach
+- 224090: The threshing floors will be full of grain, ‖and the vats will overflow with new wine and oil.
+- 224110: plenty to eat, ‖until you are satisfied
+- 224110: never again ‖be put to shame
+- 224120: never again ‖be put to shame
+- 224140: Even on My menservants and maidservants, ‖I will pour out My Spirit in those days.
+- 224170: everyone who calls on the name of the LORD ‖will be saved
+- 224200: cast lots for My people; ‖they bartered a boy for a prostitute and sold a girl for wine to drink
+- 224200: cast lots for My people; they bartered a boy for a prostitute ‖and sold a girl for wine to drink
+- 224320: The sun and moon will grow dark, ‖and the stars will no longer shine.
+- 224530: king will go into exile—‖he and his princes together
+- 224560: I will cut off the ruler of Moab ‖and kill all the officials with him
+- 224600: A man and his father ‖have relations with the same girl
+- 224620: I who destroyed ‖the Amorite
+- 224620: I destroyed his fruit above ‖and his roots below
+- 224720: Can two walk together ‖without agreeing where to go?
+- 224740: Does a bird land in a snare ‖where no bait has been set? Does a trap spring from the ground when it has nothing to catch?
+- 224740: Does a bird land in a snare where no bait has been set? ‖Does a trap spring from the ground when it has nothing to catch?
+- 224740: Does a bird land in a snare where no bait has been set? Does a trap spring from the ground ‖when it has nothing to catch?
+- 224760: revealing His plan ‖to His servants the prophets
+- 224910: rain on one city ‖but withheld it from another
+- 224940: plagues among you ‖like those of Egypt
+- 224960: I will do ‖to you
+- 225160: flees from a lion, ‖only to encounter a bear
+- 225220: Did you bring Me sacrifices and offerings ‖forty years in the wilderness
+- 225610: Let us buy the poor with silver ‖and the needy for a pair of sandals, selling even the chaff with the wheat!
+- 225610: Let us buy the poor with silver and the needy for a pair of sandals, ‖selling even the chaff with the wheat!
+- 225680: the lovely young women—‖the young men as well—will faint from thirst
+- 225680: the lovely young women—the young men as well—‖will faint from thirst
+- 225860: I will make you small among the nations; ‖you will be deeply despised
+- 225930: mighty men, O Teman, ‖will be terrified
+- 226270: The waters engulfed me ‖to take my life; the watery depths closed around me; the seaweed wrapped around my head.
+- 226270: The waters engulfed me to take my life; ‖the watery depths closed around me; the seaweed wrapped around my head.
+- 226270: The waters engulfed me to take my life; the watery depths closed around me; ‖the seaweed wrapped around my head.
+- 226300: Those who cling to worthless idols ‖forsake His loving devotion.
+- 226980: sit under his own vine ‖and under his own fig tree
+- 226990: nations ‖may walk in the name of their gods
+- 227040: redeem you ‖from the hand
+- 227050: nations ‖have assembled against you
+- 227060: gathered them ‖like sheaves to the threshing floor
+- 227090: origins are of old, ‖from the days of eternity
+- 227100: will return ‖to the children of Israel
+- 227110: greatness will extend ‖to the ends of the earth
+- 227190: I will cut the sorceries from your hand, ‖and you will have no fortune-tellers
+- 227220: I will take vengeance in anger and wrath ‖upon the nations that have not obeyed Me
+- 227260: Moses before you, ‖as well as Aaron and Miriam
+- 227370: You will sow but not reap; ‖you will press olives but not anoint yourselves with oil; you will tread grapes but not drink the wine
+- 227370: You will sow but not reap; you will press olives but not anoint yourselves with oil; ‖you will tread grapes but not drink the wine
+- 227440: members ‖of his own household
+- 227480: trampled ‖like mud in the streets
+- 227500: they will come to you ‖from Assyria
+- 227570: cast out all our sins ‖into the depths of the sea
+- 227580: You will show faithfulness to Jacob ‖and loving devotion to Abraham, as You swore to our fathers from the days of old
+- 227580: You will show faithfulness to Jacob and loving devotion to Abraham, ‖as You swore to our fathers from the days of old
+- 227580: You will show faithfulness to Jacob and loving devotion to Abraham, as You swore to our fathers ‖from the days of old
+- 227610: will by no means ‖leave the guilty unpunished
+- 227720: no descendants ‖to carry on your name
+- 227750: splendor of Jacob ‖like the splendor of Israel
+- 227890: flashing sword, ‖shining spear
+- 227930: all who see you ‖will recoil
+- 227980: All your fortresses are fig trees ‖with the first ripe figs; when shaken, they fall into the mouth of the eater
+- 227980: All your fortresses are fig trees with the first ripe figs; ‖when shaken, they fall into the mouth of the eater
+- 227980: All your fortresses are fig trees with the first ripe figs; when shaken, they fall ‖into the mouth of the eater
+- 227990: gates of your land ‖are wide open
+- 228030: Your guards are like the swarming locust, ‖and your scribes like clouds of locusts that settle on the walls on a cold day. When the sun rises, they fly away, and no one knows where.
+- 228030: Your guards are like the swarming locust, and your scribes like clouds of locusts ‖that settle on the walls on a cold day. When the sun rises, they fly away, and no one knows where.
+- 228030: Your guards are like the swarming locust, and your scribes like clouds of locusts that settle on the walls on a cold day. ‖When the sun rises, they fly away, and no one knows where.
+- 228030: Your guards are like the swarming locust, and your scribes like clouds of locusts that settle on the walls on a cold day. When the sun rises, they fly away, ‖and no one knows where.
+- 228040: O king of Assyria, your shepherds slumber; ‖your officers sleep. Your people are scattered on the mountains with no one to gather them.
+- 228040: O king of Assyria, your shepherds slumber; your officers sleep. ‖Your people are scattered on the mountains with no one to gather them.
+- 228040: O king of Assyria, your shepherds slumber; your officers sleep. Your people are scattered on the mountains ‖with no one to gather them.
+- 228050: who has not experienced ‖your constant cruelty
+- 228170: appointed them ‖to execute judgment
+- 228170: established them ‖for correction
+- 228180: wicked swallow up ‖those more righteous
+- 228660: swear by the LORD ‖but also swear by Milcom
+- 229200: planted much ‖but harvested little
+- 229240: heavens have withheld their dew ‖and the earth has withheld its crops
+- 229410: does that item become holy?’” ‖“No,” replied the priests.
+- 229420: does it become defiled?” ‖“Yes, it becomes defiled,”
+- 230740: eyes of men ‖and of all the tribes of Israel are upon the LORD
+- 230740: eyes of men and of all the tribes of Israel ‖are upon the LORD
+- 230790: A mixed race will occupy Ashdod, ‖and I will cut off the pride of the Philistines
+- 230860: sword ‖of a mighty man
+- 230890: save them ‖as the flock
+- 230980: as numerous ‖as they once were
+- 230990: their children ‖will live
+- 231190: sword strike his arm ‖and his right eye
+- 232300: Shealtiel, ‖Shealtiel the father of Zerubbabel
+- 233120: mourn, ‖for they will be comforted
+- 235260: turn ‖‘a man against his father
+- 235430: Behold, I will send My messenger ahead of You, ‖who will prepare Your way before You
+- 235810: beloved, ‖in whom My soul delights
+- 236260: This is why I speak to them in parables: ‖‘Though seeing, they do not see; though hearing, they do not hear or understand.’
+- 236260: This is why I speak to them in parables: ‘Though seeing, they do not see; ‖though hearing, they do not hear or understand.’
+- 239420: stone the builders rejected ‖has become the cornerstone
+- 239900: put Your enemies ‖under Your feet
+- 242920: A voice of one calling in the wilderness, ‖‘Prepare the way for the Lord, make straight paths for Him.’
+- 242920: A voice of one calling in the wilderness, ‘Prepare the way for the Lord, ‖make straight paths for Him.’
+- 245190: “Go and see how many loaves you have,” He told them. ‖And after checking, they said, “Five—and two fish.”
+- 245940: And when I broke the seven loaves for the four thousand, how many basketfuls of broken pieces did you collect?” ‖“Seven,” they said.
+- 247580: This is from the Lord, ‖and it is marvelous in our eyes
+- 248150: But in those days, after that tribulation: ‖‘The sun will be darkened, and the moon will not give its light;
+- 248150: But in those days, after that tribulation: ‘The sun will be darkened, ‖and the moon will not give its light;
+- 248920: You have heard the blasphemy. What is your verdict?” ‖And they all condemned Him as deserving of death.
+- 249020: So Pilate questioned Him, “Are You the King of the Jews?” ‖“You have said so,” Jesus replied.
+- 250220: promised to our fathers, ‖to Abraham
+- 258960: until I make Your enemies ‖a footstool for Your feet.
+- 260470: posted an inscription: ‖THIS IS THE KING OF THE JEWS
+- 270430: wonders in the heavens above ‖and signs on the earth below, blood and fire and billows of smoke
+- 270430: wonders in the heavens above and signs on the earth below, ‖blood and fire and billows of smoke
+- 270440: sun will be turned to darkness, ‖and the moon to blood
+- 271230: against the Lord ‖and against His Anointed One
+- 275330: rebuild ‖the fallen tent of David
+- 282600: Sodom, ‖we would have resembled Gomorrah
+- 283190: Who has known the mind of the Lord? ‖Or who has been His counselor?
+- 283200: Who has first given to God, ‖that God should repay him?
+- 283900: “Praise the Lord, all you Gentiles, ‖and extol Him, all you peoples.”
+- 284000: “Those who were not told about Him will see, ‖and those who have not heard will understand.”
+- 284580: I will destroy the wisdom of the wise; ‖the intelligence of the intelligent I will frustrate.
+- 290230: He who gathered much had no excess, ‖and he who gathered little had no shortfall
+- 294730: did not consider equality with God ‖something to be grasped
+- 295010: though I myself could have such confidence. ‖If anyone else thinks he has grounds for confidence in the flesh, I have more:
+- 300440: You are My Son; ‖today I have become Your Father
+- 300440: I will be His Father, ‖and He will be My Son
+- 301570: For it is testified: ‖“You are a priest forever in the order of Melchizedek.”
+- 301570: For it is testified: “You are a priest forever ‖in the order of Melchizedek.”
+- 301770: the covenant ‖I made with their fathers
+- 301800: For I will forgive their iniquities ‖and will remember their sins no more.
+- 302250: “This is the covenant I will make with them ‖after those days, declares the Lord. I will put My laws in their hearts and inscribe them on their minds.”
+- 302250: “This is the covenant I will make with them after those days, declares the Lord. ‖I will put My laws in their hearts and inscribe them on their minds.”
+- 302250: “This is the covenant I will make with them after those days, declares the Lord. I will put My laws in their hearts ‖and inscribe them on their minds.”
+- 302460: For, ‖“In just a little while, He who is coming will come and will not delay.
+- 302460: For, “In just a little while, ‖He who is coming will come and will not delay.
+- 307630: Lord is coming ‖with myriads of His holy ones
+- 310910: God has pronounced for you ‖His judgment
+- 311790: The grace of the Lord Jesus be with all the saints. ‖Amen.

@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.user
+
+# Licensed text: never commit it. The reader enables S21 only when this file is present.
+Reader/json/optional/*.json
+build_deploy.txt

@@ -1,0 +1,122 @@
+@page "/{Book:int}/{Chapter:int}"
+@page "/{Book:int}/{Chapter:int}/{Tr}"
+@inject Corpus Corpus
+@inject NavigationManager Nav
+@inject IConfiguration Config
+
+@if (view is not null && verses is not null)
+{
+    var ui = view.T.Ui;
+    var bookName = view.BookName(Book);
+    var prev = view.Previous(Book, Chapter);
+    var next = view.Next(Book, Chapter);
+
+    <PageTitle>@bookName @Chapter – @ui.CrossReferences</PageTitle>
+    <HeadContent>
+        <meta name="description" content="@string.Format(ui.Description, $"{bookName} {Chapter}")" />
+    </HeadContent>
+
+    <div class="reader" data-book="@Book" data-chapter="@Chapter" data-tr="@view.T.Code" data-error="@ui.LoadError">
+        <BookNav View="view" Views="Corpus.Views" Book="Book" Chapter="Chapter" />
+
+        <main class="text-pane" id="text-pane">
+            <header class="chapter-head">
+                <button type="button" class="icon nav-toggle" aria-label="@ui.Books" aria-controls="nav">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+                </button>
+                @if (prev is { } p)
+                {
+                    <a class="icon step" href="@($"{p.Book}/{p.Chapter}/{view.T.Code}")" rel="prev" aria-label="@ui.PreviousChapter">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+                    </a>
+                }
+                else
+                {
+                    <span class="icon step" aria-hidden="true"></span>
+                }
+                @* The heading doubles as a reference input: reader.js swaps one for the other. *@
+                <h1><button type="button" class="goto" title="@ui.GoToReference">@bookName @Chapter</button></h1>
+                <div class="goto-box" hidden>
+                    <input class="goto-input" type="text" aria-label="@ui.GoToReference" enterkeyhint="go"
+                           autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                    <div class="goto-ghost" aria-hidden="true"></div>
+                </div>
+                @if (next is { } n)
+                {
+                    <a class="icon step" href="@($"{n.Book}/{n.Chapter}/{view.T.Code}")" rel="next" aria-label="@ui.NextChapter">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+                    </a>
+                }
+                else
+                {
+                    <span class="icon step" aria-hidden="true"></span>
+                }
+            </header>
+
+            <div class="scripture" lang="@view.T.HtmlLang">
+                @((MarkupString)html)
+            </div>
+
+            <footer class="chapter-foot">
+                @if (view.T == Translation.S21)
+                {
+                    <p class="copyright" lang="fr">
+                        Texte biblique de la Bible version Segond 21 © 2007 Société Biblique de Genève.
+                        Reproduit avec aimable autorisation. Tous droits réservés.
+                    </p>
+                }
+                <p>@ui.AttributionBefore <a href="https://github.com/CrossReferences-org/bible-cross-references">CrossReferences.org</a> @ui.AttributionAfter</p>
+            </footer>
+        </main>
+
+        <aside class="ref-pane" id="ref-pane" aria-label="@ui.CrossReferences">
+            <header class="pane-head">
+                <span>@ui.CrossReferences</span>
+                <button type="button" class="icon pane-close" aria-label="@ui.Close">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+                </button>
+            </header>
+            <div class="pane-body" id="pane-body" aria-live="polite">
+                <p class="hint">@ui.PaneHint</p>
+            </div>
+        </aside>
+    </div>
+}
+
+@code {
+    [Parameter] public int Book { get; set; }
+    [Parameter] public int Chapter { get; set; }
+    [Parameter] public string? Tr { get; set; }
+
+    private TranslationView? view;
+    private DisplayVerse[]? verses;
+    private string html = "";
+
+    protected override void OnInitialized()
+    {
+        var found = Corpus.Find(Tr);
+        var target = found ?? Corpus.Find(Config["Reader:DefaultTranslation"]) ?? Corpus.Views[0];
+
+        if (!target.BookById.TryGetValue(Book, out var book))
+        {
+            Nav.NotFound();
+            return;
+        }
+
+        // Chapter counts differ between translations; clamp rather than fail, since switching
+        // translation on the last chapter of a book lands here.
+        var chapter = Math.Clamp(Chapter, 1, book.Chapters);
+
+        // One canonical URL per chapter: known translation, its own casing, a chapter that exists.
+        if (found is null || Tr != target.T.Code || chapter != Chapter)
+        {
+            Nav.NavigateTo($"{Book}/{chapter}/{target.T.Code}");
+            return;
+        }
+
+        view = target;
+        verses = view.Chapter(Book, Chapter);
+        if (verses is null) Nav.NotFound();
+        else html = view.ChapterHtml[(Book, Chapter)];
+    }
+}
