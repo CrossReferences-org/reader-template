@@ -5,7 +5,7 @@ dataset: phrase-level cross-references from the Treasury of Scripture Knowledge,
 in each translation's own words. Select a highlighted word to see what it points to, or a
 verse number to see everything on that verse.
 
-Try it live at [CrossReferences.org](https://crossreferences.org/read/42/11/BSB/).
+Try it live [here](https://crossreferences.org/read/12/4/BSB/).
 
 ![The reader at 2 Kings 4](docs/screenshot.png)
 
