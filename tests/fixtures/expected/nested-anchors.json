@@ -1,0 +1,294 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 3,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 1,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Exodus 3:14",
+        "records": [15940],
+        "text": "And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.",
+        "cited_by": ["16590.2"]
+      },
+      {
+        "verse": "Exodus 6:3",
+        "records": [16590],
+        "text": "And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them.",
+        "placed": [
+          {"key":"16590.1","start":72,"end":84,"match":"God Almighty","colour":1,"case_fallback":false},
+          {"key":"16590.2","start":101,"end":108,"match":"JEHOVAH","colour":2,"case_fallback":false}
+        ],
+        "not_found": ["16590.3"],
+        "segments": [
+          ["And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of ",[]],
+          ["God Almighty",["16590.1"]],
+          [", but by my name ",[]],
+          ["JEHOVAH",["16590.2"]],
+          [" was I not known to them.",[]]
+        ]
+      },
+      {
+        "verse": "Psalms 83:18",
+        "records": [153230],
+        "text": "That men may know that thou, whose name alone is JEHOVAH, art the most high over all the earth.",
+        "cited_by": ["16590.3"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["16590.2","16590.3"]},
+        "pane": {
+          "title": "Exodus 6:3",
+          "groups": [
+            {
+              "key": "16590.2",
+              "heading": "JEHOVAH",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Exodus 3:14","href":"2/3/KJV#v14"}]
+            },
+            {
+              "key": "16590.3",
+              "heading": "JAH",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 0,
+              "items": [{"label":"Psalms 83:18","href":"19/83/KJV#v18"}]
+            }
+          ],
+          "cited_by": null
+        }
+      },
+      {
+        "request": {"verse_of":16590},
+        "pane": {
+          "title": "Exodus 6:3",
+          "groups": [
+            {
+              "key": "16590.2",
+              "heading": "JEHOVAH",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Exodus 3:14","href":"2/3/KJV#v14"}]
+            },
+            {
+              "key": "16590.3",
+              "heading": "JAH",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 0,
+              "items": [{"label":"Psalms 83:18","href":"19/83/KJV#v18"}]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 3,
+      "placed": 3,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 1,
+      "overlap_segments": 1,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Exodus 3:14",
+        "records": [15940],
+        "text": "God said to Moses, “I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’”",
+        "cited_by": ["16590.2"]
+      },
+      {
+        "verse": "Exodus 6:3",
+        "records": [16590],
+        "text": "I appeared to Abraham, to Isaac, and to Jacob as God Almighty, but by My name the LORD I did not make Myself known to them.",
+        "placed": [
+          {"key":"16590.1","start":49,"end":61,"match":"God Almighty","colour":1,"case_fallback":false},
+          {"key":"16590.3","start":70,"end":86,"match":"My name the LORD","colour":2,"case_fallback":false},
+          {"key":"16590.2","start":78,"end":86,"match":"the LORD","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["I appeared to Abraham, to Isaac, and to Jacob as ",[]],
+          ["God Almighty",["16590.1"]],
+          [", but by ",[]],
+          ["My name ",["16590.3"]],
+          ["the LORD",["16590.2","16590.3"]],
+          [" I did not make Myself known to them.",[]]
+        ]
+      },
+      {
+        "verse": "Psalms 83:18",
+        "records": [153230],
+        "text": "May they know that You alone, whose name is the LORD, are Most High over all the earth.",
+        "cited_by": ["16590.3"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["16590.2","16590.3"]},
+        "pane": {
+          "title": "Exodus 6:3",
+          "groups": [
+            {
+              "key": "16590.2",
+              "heading": "the LORD",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 3,
+              "items": [{"label":"Exodus 3:14","href":"2/3/BSB#v14"}]
+            },
+            {
+              "key": "16590.3",
+              "heading": "My name the LORD",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Psalms 83:18","href":"19/83/BSB#v18"}]
+            }
+          ],
+          "cited_by": null
+        }
+      },
+      {
+        "request": {"verse_of":16590},
+        "pane": {
+          "title": "Exodus 6:3",
+          "groups": [
+            {
+              "key": "16590.2",
+              "heading": "the LORD",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 3,
+              "items": [{"label":"Exodus 3:14","href":"2/3/BSB#v14"}]
+            },
+            {
+              "key": "16590.3",
+              "heading": "My name the LORD",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Psalms 83:18","href":"19/83/BSB#v18"}]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 3,
+      "placed": 2,
+      "no_phrase": 1,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Eksodus 3:14",
+        "records": [15940],
+        "text": "En God sê vir Moses: EK IS WAT EK IS. Ook sê Hy: So moet jy die kinders van Israel antwoord: EK IS het my na julle gestuur.",
+        "cited_by": ["16590.2"]
+      },
+      {
+        "verse": "Eksodus 6:2",
+        "records": [16590],
+        "text": "En Ek het aan Abraham, aan Isak en aan Jakob verskyn as God, die Almagtige, maar met my Naam HERE het Ek My nie aan hulle bekend gemaak nie.",
+        "placed": [
+          {"key":"16590.1","start":56,"end":74,"match":"God, die Almagtige","colour":1,"case_fallback":false},
+          {"key":"16590.2","start":85,"end":97,"match":"my Naam HERE","colour":2,"case_fallback":false}
+        ],
+        "no_phrase": ["16590.3"],
+        "segments": [
+          ["En Ek het aan Abraham, aan Isak en aan Jakob verskyn as ",[]],
+          ["God, die Almagtige",["16590.1"]],
+          [", maar met ",[]],
+          ["my Naam HERE",["16590.2"]],
+          [" het Ek My nie aan hulle bekend gemaak nie.",[]]
+        ]
+      },
+      {
+        "verse": "Psalms 83:19",
+        "records": [153230],
+        "text": "sodat hulle kan weet dat U, wie se Naam HERE is, alleen die Allerhoogste is oor die hele aarde.",
+        "cited_by": ["16590.3"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["16590.2","16590.3"]},
+        "pane": {
+          "title": "Eksodus 6:2",
+          "groups": [
+            {
+              "key": "16590.2",
+              "heading": "my Naam HERE",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Eksodus 3:14","href":"2/3/AOV#v14"}]
+            },
+            {
+              "key": "16590.3",
+              "heading": "JAH",
+              "kjv_fallback": true,
+              "kjv_note": null,
+              "colour": 0,
+              "items": [{"label":"Psalms 83:19","href":"19/83/AOV#v19"}]
+            }
+          ],
+          "cited_by": null
+        }
+      },
+      {
+        "request": {"verse_of":16590},
+        "pane": {
+          "title": "Eksodus 6:2",
+          "groups": [
+            {
+              "key": "16590.2",
+              "heading": "my Naam HERE",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Eksodus 3:14","href":"2/3/AOV#v14"}]
+            },
+            {
+              "key": "16590.3",
+              "heading": "JAH",
+              "kjv_fallback": true,
+              "kjv_note": null,
+              "colour": 0,
+              "items": [{"label":"Psalms 83:19","href":"19/83/AOV#v19"}]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  }
+}

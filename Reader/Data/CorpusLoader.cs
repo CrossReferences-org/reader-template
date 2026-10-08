@@ -224,6 +224,7 @@ public static class CorpusLoader
             ByFragment = byFragment,
             CitedBy = citedBy,
             Colour = colours,
+            Stats = stats,
         };
     }
 

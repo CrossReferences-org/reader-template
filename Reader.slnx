@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Reader/Reader.csproj" />
+  <Project Path="tests/Reader.Tests/Reader.Tests.csproj" />
 </Solution>

@@ -106,6 +106,9 @@ public sealed class TranslationView
     /// <summary>Anchor key to its colour slot (1–4), for anchors placed in the text.</summary>
     public required IReadOnlyDictionary<string, int> Colour { get; init; }
 
+    /// <summary>How placing this translation's anchors went; logged at startup.</summary>
+    public required PlacementStats Stats { get; init; }
+
     public DisplayVerse[]? Chapter(int book, int chapter) =>
         Chapters.TryGetValue((book, chapter), out var verses) ? verses : null;
 

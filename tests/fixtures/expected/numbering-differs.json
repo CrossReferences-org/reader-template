@@ -1,0 +1,204 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 7,
+      "placed": 7,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 1,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Mark 12:14",
+        "records": [247610],
+        "text": "And when they were come, they say unto him, Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Caesar, or not?",
+        "placed": [
+          {"key":"247610.1","start":44,"end":50,"match":"Master","colour":1,"case_fallback":false},
+          {"key":"247610.2","start":52,"end":59,"match":"we know","colour":2,"case_fallback":false},
+          {"key":"247610.3","start":84,"end":90,"match":"carest","colour":3,"case_fallback":false},
+          {"key":"247610.4","start":103,"end":111,"match":"for thou","colour":4,"case_fallback":false},
+          {"key":"247610.5","start":183,"end":188,"match":"Is it","colour":1,"case_fallback":true}
+        ],
+        "segments": [
+          ["And when they were come, they say unto him, ",[]],
+          ["Master",["247610.1"]],
+          [", ",[]],
+          ["we know",["247610.2"]],
+          [" that thou art true, and ",[]],
+          ["carest",["247610.3"]],
+          [" for no man: ",[]],
+          ["for thou",["247610.4"]],
+          [" regardest not the person of men, but teachest the way of God in truth: ",[]],
+          ["Is it",["247610.5"]],
+          [" lawful to give tribute to Caesar, or not?",[]]
+        ]
+      },
+      {
+        "verse": "Mark 12:15",
+        "records": [247615,247620],
+        "text": "Shall we give, or shall we not give? But he, knowing their hypocrisy, said unto them, Why tempt ye me? bring me a penny, that I may see it.",
+        "placed": [
+          {"key":"247620.1","start":45,"end":52,"match":"knowing","colour":1,"case_fallback":false},
+          {"key":"247620.2","start":86,"end":89,"match":"Why","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["Shall we give, or shall we not give? But he, ",[]],
+          ["knowing",["247620.1"]],
+          [" their hypocrisy, said unto them, ",[]],
+          ["Why",["247620.2"]],
+          [" tempt ye me? bring me a penny, that I may see it.",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 7,
+      "placed": 7,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Mark 12:14",
+        "records": [247610,247615],
+        "text": "“Teacher,” they said, “we know that You are honest and seek favor from no one. Indeed, You are impartial and teach the way of God in accordance with the truth. Is it lawful to pay taxes to Caesar or not? Should we pay them or not?”",
+        "placed": [
+          {"key":"247610.1","start":1,"end":8,"match":"Teacher","colour":1,"case_fallback":false},
+          {"key":"247610.2","start":23,"end":30,"match":"we know","colour":2,"case_fallback":false},
+          {
+            "key": "247610.3",
+            "start": 55,
+            "end": 77,
+            "match": "seek favor from no one",
+            "colour": 3,
+            "case_fallback": false
+          },
+          {"key":"247610.4","start":87,"end":104,"match":"You are impartial","colour":4,"case_fallback":false},
+          {"key":"247610.5","start":160,"end":172,"match":"Is it lawful","colour":1,"case_fallback":false}
+        ],
+        "segments": [
+          ["“",[]],
+          ["Teacher",["247610.1"]],
+          [",” they said, “",[]],
+          ["we know",["247610.2"]],
+          [" that You are honest and ",[]],
+          ["seek favor from no one",["247610.3"]],
+          [". Indeed, ",[]],
+          ["You are impartial",["247610.4"]],
+          [" and teach the way of God in accordance with the truth. ",[]],
+          ["Is it lawful",["247610.5"]],
+          [" to pay taxes to Caesar or not? Should we pay them or not?”",[]]
+        ]
+      },
+      {
+        "verse": "Mark 12:15",
+        "records": [247620],
+        "text": "But Jesus saw through their hypocrisy and said, “Why are you testing Me? Bring Me a denarius to inspect.”",
+        "placed": [
+          {"key":"247620.1","start":10,"end":21,"match":"saw through","colour":1,"case_fallback":false},
+          {"key":"247620.2","start":49,"end":52,"match":"Why","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["But Jesus ",[]],
+          ["saw through",["247620.1"]],
+          [" their hypocrisy and said, “",[]],
+          ["Why",["247620.2"]],
+          [" are you testing Me? Bring Me a denarius to inspect.”",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 7,
+      "placed": 7,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Markus 12:14",
+        "records": [247610,247615],
+        "text": "En hulle kom en sê vir Hom: Meester, ons weet dat U waaragtig is en U aan niemand steur nie; want U sien nie die persoon van mense aan nie, maar U leer die weg van God in waarheid. Is dit geoorloof om aan die keiser belasting te betaal of nie? Moet ons betaal of moet ons nie betaal nie?",
+        "placed": [
+          {"key":"247610.1","start":28,"end":35,"match":"Meester","colour":1,"case_fallback":false},
+          {"key":"247610.2","start":50,"end":64,"match":"U waaragtig is","colour":2,"case_fallback":false},
+          {
+            "key": "247610.3",
+            "start": 70,
+            "end": 91,
+            "match": "aan niemand steur nie",
+            "colour": 3,
+            "case_fallback": false
+          },
+          {
+            "key": "247610.4",
+            "start": 113,
+            "end": 138,
+            "match": "persoon van mense aan nie",
+            "colour": 4,
+            "case_fallback": false
+          },
+          {
+            "key": "247610.5",
+            "start": 216,
+            "end": 235,
+            "match": "belasting te betaal",
+            "colour": 1,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["En hulle kom en sê vir Hom: ",[]],
+          ["Meester",["247610.1"]],
+          [", ons weet dat ",[]],
+          ["U waaragtig is",["247610.2"]],
+          [" en U ",[]],
+          ["aan niemand steur nie",["247610.3"]],
+          ["; want U sien nie die ",[]],
+          ["persoon van mense aan nie",["247610.4"]],
+          [", maar U leer die weg van God in waarheid. Is dit geoorloof om aan die keiser ",[]],
+          ["belasting te betaal",["247610.5"]],
+          [" of nie? Moet ons betaal of moet ons nie betaal nie?",[]]
+        ]
+      },
+      {
+        "verse": "Markus 12:15",
+        "records": [247620],
+        "text": "Maar Hy het hulle geveinsdheid geken en vir hulle gesê: Waarom versoek julle My? Bring vir My ’n penning, dat Ek dit kan sien.",
+        "placed": [
+          {"key":"247620.1","start":31,"end":36,"match":"geken","colour":1,"case_fallback":false},
+          {"key":"247620.2","start":63,"end":70,"match":"versoek","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["Maar Hy het hulle geveinsdheid ",[]],
+          ["geken",["247620.1"]],
+          [" en vir hulle gesê: Waarom ",[]],
+          ["versoek",["247620.2"]],
+          [" julle My? Bring vir My ’n penning, dat Ek dit kan sien.",[]]
+        ]
+      }
+    ],
+    "panes": []
+  }
+}

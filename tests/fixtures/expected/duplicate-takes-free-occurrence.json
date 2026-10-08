@@ -1,0 +1,131 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 3,
+      "placed": 3,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Galatians 4:21",
+        "records": [292280],
+        "text": "Tell me, ye that desire to be under the law, do ye not hear the law?",
+        "placed": [
+          {"key":"292280.1","start":9,"end":16,"match":"ye that","colour":1,"case_fallback":false},
+          {"key":"292280.2","start":45,"end":47,"match":"do","colour":2,"case_fallback":false},
+          {"key":"292280.3","start":60,"end":67,"match":"the law","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["Tell me, ",[]],
+          ["ye that",["292280.1"]],
+          [" desire to be under the law, ",[]],
+          ["do",["292280.2"]],
+          [" ye not hear ",[]],
+          ["the law",["292280.3"]],
+          ["?",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 3,
+      "placed": 3,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 1,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Galatians 4:21",
+        "records": [292280],
+        "text": "Tell me, you who want to be under the law, do you not understand what the law says?",
+        "placed": [
+          {
+            "key": "292280.1",
+            "start": 9,
+            "end": 41,
+            "match": "you who want to be under the law",
+            "colour": 1,
+            "case_fallback": false
+          },
+          {
+            "key": "292280.2",
+            "start": 43,
+            "end": 64,
+            "match": "do you not understand",
+            "colour": 2,
+            "case_fallback": false
+          },
+          {"key":"292280.3","start":70,"end":77,"match":"the law","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["Tell me, ",[]],
+          ["you who want to be under the law",["292280.1"]],
+          [", ",[]],
+          ["do you not understand",["292280.2"]],
+          [" what ",[]],
+          ["the law",["292280.3"]],
+          [" says?",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 3,
+      "placed": 3,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 1,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Galásiërs 4:21",
+        "records": [292280],
+        "text": "Julle wat onder die wet wil wees, sê vir my, luister julle nie na die wet nie?",
+        "placed": [
+          {
+            "key": "292280.1",
+            "start": 10,
+            "end": 32,
+            "match": "onder die wet wil wees",
+            "colour": 1,
+            "case_fallback": false
+          },
+          {"key":"292280.2","start":45,"end":62,"match":"luister julle nie","colour":2,"case_fallback":false},
+          {"key":"292280.3","start":70,"end":73,"match":"wet","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["Julle wat ",[]],
+          ["onder die wet wil wees",["292280.1"]],
+          [", sê vir my, ",[]],
+          ["luister julle nie",["292280.2"]],
+          [" na die ",[]],
+          ["wet",["292280.3"]],
+          [" nie?",[]]
+        ]
+      }
+    ],
+    "panes": []
+  }
+}

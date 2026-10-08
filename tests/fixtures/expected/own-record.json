@@ -1,0 +1,239 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 7,
+      "placed": 6,
+      "no_phrase": 0,
+      "not_found": 1,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Hebrews 1:1",
+        "records": [300400],
+        "text": "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,",
+        "placed": [
+          {"key":"300400.1","start":9,"end":11,"match":"at","colour":1,"case_fallback":false},
+          {"key":"300400.2","start":29,"end":31,"match":"in","colour":2,"case_fallback":false},
+          {"key":"300400.3","start":71,"end":82,"match":"the fathers","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["God, who ",[]],
+          ["at",["300400.1"]],
+          [" sundry times and ",[]],
+          ["in",["300400.2"]],
+          [" divers manners spake in time past unto ",[]],
+          ["the fathers",["300400.3"]],
+          [" by the prophets,",[]]
+        ]
+      },
+      {
+        "verse": "Hebrews 1:2",
+        "records": [300405],
+        "text": "Hath in these last days spoken unto us by his Son,",
+        "placed": [
+          {"key":"300405.1","start":8,"end":13,"match":"these","colour":1,"case_fallback":false},
+          {"key":"300405.2","start":24,"end":30,"match":"spoken","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["Hath in ",[]],
+          ["these",["300405.1"]],
+          [" last days ",[]],
+          ["spoken",["300405.2"]],
+          [" unto us by his Son,",[]]
+        ]
+      },
+      {
+        "verse": "Hebrews 11:19",
+        "records": [302665,302670],
+        "text": "Accounting that God was able to raise him up, even from the dead; from whence also he received him in a figure.",
+        "placed": [{"key":"302665.1","start":16,"end":19,"match":"God","colour":1,"case_fallback":false}],
+        "not_found": ["302670.1"],
+        "segments": [
+          ["Accounting that ",[]],
+          ["God",["302665.1"]],
+          [" was able to raise him up, even from the dead; from whence also he received him in a figure.",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 7,
+      "placed": 7,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Hebrews 1:1",
+        "records": [300400],
+        "text": "On many past occasions and in many different ways, God spoke to our fathers through the prophets.",
+        "placed": [
+          {
+            "key": "300400.1",
+            "start": 0,
+            "end": 22,
+            "match": "On many past occasions",
+            "colour": 1,
+            "case_fallback": false
+          },
+          {
+            "key": "300400.2",
+            "start": 27,
+            "end": 49,
+            "match": "in many different ways",
+            "colour": 2,
+            "case_fallback": false
+          },
+          {"key":"300400.3","start":64,"end":75,"match":"our fathers","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["On many past occasions",["300400.1"]],
+          [" and ",[]],
+          ["in many different ways",["300400.2"]],
+          [", God spoke to ",[]],
+          ["our fathers",["300400.3"]],
+          [" through the prophets.",[]]
+        ]
+      },
+      {
+        "verse": "Hebrews 1:2",
+        "records": [300405],
+        "text": "But in these last days He has spoken to us by His Son,",
+        "placed": [
+          {"key":"300405.1","start":13,"end":22,"match":"last days","colour":1,"case_fallback":false},
+          {
+            "key": "300405.2",
+            "start": 30,
+            "end": 53,
+            "match": "spoken to us by His Son",
+            "colour": 2,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["But in these ",[]],
+          ["last days",["300405.1"]],
+          [" He has ",[]],
+          ["spoken to us by His Son",["300405.2"]],
+          [",",[]]
+        ]
+      },
+      {
+        "verse": "Hebrews 11:19",
+        "records": [302665,302670],
+        "text": "Abraham reasoned that God could raise the dead, and in a sense, he did receive Isaac back from death.",
+        "placed": [
+          {
+            "key": "302665.1",
+            "start": 22,
+            "end": 46,
+            "match": "God could raise the dead",
+            "colour": 1,
+            "case_fallback": false
+          },
+          {
+            "key": "302670.1",
+            "start": 71,
+            "end": 100,
+            "match": "receive Isaac back from death",
+            "colour": 2,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["Abraham reasoned that ",[]],
+          ["God could raise the dead",["302665.1"]],
+          [", and in a sense, he did ",[]],
+          ["receive Isaac back from death",["302670.1"]],
+          [".",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 7,
+      "placed": 7,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Hebreërs 1:1",
+        "records": [300400,300405],
+        "text": "NADAT God baiekeer en op baie maniere in die ou tyd gespreek het tot die vaders deur die profete, het Hy in hierdie laaste dae tot ons gespreek deur die Seun",
+        "placed": [
+          {"key":"300400.1","start":10,"end":18,"match":"baiekeer","colour":1,"case_fallback":false},
+          {"key":"300400.2","start":25,"end":37,"match":"baie maniere","colour":2,"case_fallback":false},
+          {"key":"300400.3","start":69,"end":79,"match":"die vaders","colour":3,"case_fallback":false},
+          {
+            "key": "300405.1",
+            "start": 108,
+            "end": 126,
+            "match": "hierdie laaste dae",
+            "colour": 4,
+            "case_fallback": false
+          },
+          {"key":"300405.2","start":135,"end":143,"match":"gespreek","colour":1,"case_fallback":false}
+        ],
+        "segments": [
+          ["NADAT God ",[]],
+          ["baiekeer",["300400.1"]],
+          [" en op ",[]],
+          ["baie maniere",["300400.2"]],
+          [" in die ou tyd gespreek het tot ",[]],
+          ["die vaders",["300400.3"]],
+          [" deur die profete, het Hy in ",[]],
+          ["hierdie laaste dae",["300405.1"]],
+          [" tot ons ",[]],
+          ["gespreek",["300405.2"]],
+          [" deur die Seun",[]]
+        ]
+      },
+      {
+        "verse": "Hebreërs 11:18",
+        "records": [302665],
+        "text": "want hy het gereken dat God mag het om selfs uit die dode op te wek;",
+        "placed": [
+          {"key":"302665.1","start":24,"end":35,"match":"God mag het","colour":1,"case_fallback":false}
+        ],
+        "segments": [
+          ["want hy het gereken dat ",[]],
+          ["God mag het",["302665.1"]],
+          [" om selfs uit die dode op te wek;",[]]
+        ]
+      },
+      {
+        "verse": "Hebreërs 11:19",
+        "records": [302670],
+        "text": "daaruit het hy hom ook, om so te spreek, terug ontvang.",
+        "placed": [
+          {"key":"302670.1","start":41,"end":54,"match":"terug ontvang","colour":1,"case_fallback":false}
+        ],
+        "segments": [["daaruit het hy hom ook, om so te spreek, ",[]],["terug ontvang",["302670.1"]],[".",[]]]
+      }
+    ],
+    "panes": []
+  }
+}

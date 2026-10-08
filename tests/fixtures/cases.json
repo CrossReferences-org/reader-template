@@ -1,0 +1,238 @@
+{
+  "books": [
+    {"id": 1, "name_eng": "Genesis", "name_fra": "Genèse", "name_afr": "Genesis", "abbreviation_eng": "Gen", "abbreviation_fra": "Gn", "abbreviation_afr": "Gen"},
+    {"id": 2, "name_eng": "Exodus", "name_fra": "Exode", "name_afr": "Eksodus", "abbreviation_eng": "Exod", "abbreviation_fra": "Ex", "abbreviation_afr": "Eks"},
+    {"id": 4, "name_eng": "Numbers", "name_fra": "Nombres", "name_afr": "Númeri", "abbreviation_eng": "Num", "abbreviation_fra": "Nb", "abbreviation_afr": "Num"},
+    {"id": 6, "name_eng": "Joshua", "name_fra": "Josué", "name_afr": "Josua", "abbreviation_eng": "Josh", "abbreviation_fra": "Jos", "abbreviation_afr": "Jos"},
+    {"id": 14, "name_eng": "2 Chronicles", "name_fra": "2 Chroniques", "name_afr": "2 Kronieke", "abbreviation_eng": "2 Chr", "abbreviation_fra": "2 Ch", "abbreviation_afr": "2 Kron"},
+    {"id": 16, "name_eng": "Nehemiah", "name_fra": "Néhémie", "name_afr": "Nehemia", "abbreviation_eng": "Neh", "abbreviation_fra": "Ne", "abbreviation_afr": "Neh"},
+    {"id": 19, "name_eng": "Psalms", "name_fra": "Psaumes", "name_afr": "Psalms", "abbreviation_eng": "Ps", "abbreviation_fra": "Ps", "abbreviation_afr": "Ps"},
+    {"id": 20, "name_eng": "Proverbs", "name_fra": "Proverbes", "name_afr": "Spreuke", "abbreviation_eng": "Prov", "abbreviation_fra": "Pr", "abbreviation_afr": "Spr"},
+    {"id": 23, "name_eng": "Isaiah", "name_fra": "Ésaïe", "name_afr": "Jesaja", "abbreviation_eng": "Isa", "abbreviation_fra": "Es", "abbreviation_afr": "Jes"},
+    {"id": 27, "name_eng": "Daniel", "name_fra": "Daniel", "name_afr": "Daniël", "abbreviation_eng": "Dan", "abbreviation_fra": "Dn", "abbreviation_afr": "Dan"},
+    {"id": 40, "name_eng": "Matthew", "name_fra": "Matthieu", "name_afr": "Mattheüs", "abbreviation_eng": "Matt", "abbreviation_fra": "Mt", "abbreviation_afr": "Matt"},
+    {"id": 41, "name_eng": "Mark", "name_fra": "Marc", "name_afr": "Markus", "abbreviation_eng": "Mark", "abbreviation_fra": "Mc", "abbreviation_afr": "Mark"},
+    {"id": 43, "name_eng": "John", "name_fra": "Jean", "name_afr": "Johannes", "abbreviation_eng": "John", "abbreviation_fra": "Jn", "abbreviation_afr": "Joh"},
+    {"id": 44, "name_eng": "Acts", "name_fra": "Actes", "name_afr": "Handelinge", "abbreviation_eng": "Acts", "abbreviation_fra": "Ac", "abbreviation_afr": "Hand"},
+    {"id": 48, "name_eng": "Galatians", "name_fra": "Galates", "name_afr": "Galásiërs", "abbreviation_eng": "Gal", "abbreviation_fra": "Ga", "abbreviation_afr": "Gal"},
+    {"id": 58, "name_eng": "Hebrews", "name_fra": "Hébreux", "name_afr": "Hebreërs", "abbreviation_eng": "Heb", "abbreviation_fra": "He", "abbreviation_afr": "Heb"},
+    {"id": 66, "name_eng": "Revelation", "name_fra": "Apocalypse", "name_afr": "Openbaring", "abbreviation_eng": "Rev", "abbreviation_fra": "Ap", "abbreviation_afr": "Opb"}
+  ],
+  "cases": [
+    {
+      "name": "split-verse",
+      "rule": "A verse is rebuilt from every record a translation numbers as that verse, ordered by that translation's sort. Acts 3:19-20 is split three ways: record 270905 belongs to 3:19 in the KJV and AOV but to 3:20 in the BSB.",
+      "bible_verses": [
+        {"id": 270900, "book_id": 44, "kjv_ch": 3, "kjv_vs": 19, "kjv_sort": 1, "kjv_text": "Repent ye therefore, and be converted, that your sins may be blotted out,", "bsb_ch": 3, "bsb_vs": 19, "bsb_sort": 1, "bsb_text": "Repent, then, and turn back, so that your sins may be wiped away,", "aov_ch": 3, "aov_vs": 19, "aov_sort": 1, "aov_text": "Kom dan tot inkeer en bekeer julle, sodat julle sondes uitgewis kan word"},
+        {"id": 270905, "book_id": 44, "kjv_ch": 3, "kjv_vs": 19, "kjv_sort": 2, "kjv_text": "when the times of refreshing shall come from the presence of the Lord;", "bsb_ch": 3, "bsb_vs": 20, "bsb_sort": 1, "bsb_text": "that times of refreshing may come from the presence of the Lord,", "aov_ch": 3, "aov_vs": 19, "aov_sort": 2, "aov_text": "en tye van verkwikking van die aangesig van die Here mag kom,"},
+        {"id": 270910, "book_id": 44, "kjv_ch": 3, "kjv_vs": 20, "kjv_sort": 1, "kjv_text": "And he shall send Jesus Christ, which before was preached unto you:", "bsb_ch": 3, "bsb_vs": 20, "bsb_sort": 2, "bsb_text": "and that He may send Jesus, the Christ, who has been appointed for you.", "aov_ch": 3, "aov_vs": 20, "aov_sort": 1, "aov_text": "en Hy Hom mag stuur wat vooraf aan julle verkondig is, naamlik Jesus Christus,"}
+      ],
+      "cross_references": [
+        {"verse_id": 270900, "sort": 1, "kjv": "Repent", "bsb": "Repent", "aov": "tot inkeer", "s21": "Changez", "refs": []},
+        {"verse_id": 270900, "sort": 2, "kjv": "be", "bsb": "turn back", "aov": "bekeer", "s21": "convertissez-vous", "refs": []},
+        {"verse_id": 270900, "sort": 3, "kjv": "that", "bsb": "so that your sins may be wiped away", "aov": "sondes uitgewis", "s21": "effacés", "refs": []},
+        {"verse_id": 270905, "sort": 1, "kjv": "when", "bsb": "times of refreshing", "aov": "tye van verkwikking", "s21": "temps de rafraîchissement", "refs": []},
+        {"verse_id": 270910, "sort": 1, "kjv": "And he shall send Jesus Christ, which before was preached unto you:", "bsb": "that He may send Jesus, the Christ, who has been appointed for you", "aov": "Hy Hom mag stuur", "s21": "enverra le Messie", "refs": []}
+      ],
+      "panes": []
+    },
+    {
+      "name": "own-record",
+      "rule": "Each anchor is searched for only inside its own record, even when its verse is made of several. In the AOV, Hebrews 1:1 is records 300400 and 300405, and \"gespreek\" occurs in both: anchor 300405.2 takes the one in its own record, the second. In the KJV, Hebrews 11:19 is records 302665 and 302670: \"from the\" (302670.1) occurs only in the other record (\"from the dead\"), so it is not found.",
+      "bible_verses": [
+        {"id": 300400, "book_id": 58, "kjv_ch": 1, "kjv_vs": 1, "kjv_sort": 1, "kjv_text": "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,", "bsb_ch": 1, "bsb_vs": 1, "bsb_sort": 1, "bsb_text": "On many past occasions and in many different ways, God spoke to our fathers through the prophets.", "aov_ch": 1, "aov_vs": 1, "aov_sort": 1, "aov_text": "NADAT God baiekeer en op baie maniere in die ou tyd gespreek het tot die vaders deur die profete,"},
+        {"id": 300405, "book_id": 58, "kjv_ch": 1, "kjv_vs": 2, "kjv_sort": 1, "kjv_text": "Hath in these last days spoken unto us by his Son,", "bsb_ch": 1, "bsb_vs": 2, "bsb_sort": 1, "bsb_text": "But in these last days He has spoken to us by His Son,", "aov_ch": 1, "aov_vs": 1, "aov_sort": 2, "aov_text": "het Hy in hierdie laaste dae tot ons gespreek deur die Seun"},
+        {"id": 302665, "book_id": 58, "kjv_ch": 11, "kjv_vs": 19, "kjv_sort": 1, "kjv_text": "Accounting that God was able to raise him up, even from the dead;", "bsb_ch": 11, "bsb_vs": 19, "bsb_sort": 1, "bsb_text": "Abraham reasoned that God could raise the dead,", "aov_ch": 11, "aov_vs": 18, "aov_sort": 2, "aov_text": "want hy het gereken dat God mag het om selfs uit die dode op te wek;"},
+        {"id": 302670, "book_id": 58, "kjv_ch": 11, "kjv_vs": 19, "kjv_sort": 2, "kjv_text": "from whence also he received him in a figure.", "bsb_ch": 11, "bsb_vs": 19, "bsb_sort": 2, "bsb_text": "and in a sense, he did receive Isaac back from death.", "aov_ch": 11, "aov_vs": 19, "aov_sort": 1, "aov_text": "daaruit het hy hom ook, om so te spreek, terug ontvang."}
+      ],
+      "cross_references": [
+        {"verse_id": 300400, "sort": 1, "kjv": "at", "bsb": "On many past occasions", "aov": "baiekeer", "s21": "de nombreuses reprises", "refs": []},
+        {"verse_id": 300400, "sort": 2, "kjv": "in", "bsb": "in many different ways", "aov": "baie maniere", "s21": "de bien des manières", "refs": []},
+        {"verse_id": 300400, "sort": 3, "kjv": "the fathers", "bsb": "our fathers", "aov": "die vaders", "s21": "ancêtres", "refs": []},
+        {"verse_id": 300405, "sort": 1, "kjv": "these", "bsb": "last days", "aov": "hierdie laaste dae", "s21": "ces jours qui sont les derniers", "refs": []},
+        {"verse_id": 300405, "sort": 2, "kjv": "spoken", "bsb": "spoken to us by His Son", "aov": "gespreek", "s21": "a parlé par le Fils", "refs": []},
+        {"verse_id": 302665, "sort": 1, "kjv": "God", "bsb": "God could raise the dead", "aov": "God mag het", "s21": "Dieu était capable", "refs": []},
+        {"verse_id": 302670, "sort": 1, "kjv": "from the", "bsb": "receive Isaac back from death", "aov": "terug ontvang", "s21": "retrouvé son fils", "refs": []}
+      ],
+      "panes": []
+    },
+    {
+      "name": "numbering-differs",
+      "rule": "The same record can carry a different verse number per translation: record 247615 is Mark 12:15 in the KJV but 12:14 in the BSB and AOV.",
+      "bible_verses": [
+        {"id": 247610, "book_id": 41, "kjv_ch": 12, "kjv_vs": 14, "kjv_sort": 1, "kjv_text": "And when they were come, they say unto him, Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Caesar, or not?", "bsb_ch": 12, "bsb_vs": 14, "bsb_sort": 1, "bsb_text": "“Teacher,” they said, “we know that You are honest and seek favor from no one. Indeed, You are impartial and teach the way of God in accordance with the truth. Is it lawful to pay taxes to Caesar or not?", "aov_ch": 12, "aov_vs": 14, "aov_sort": 1, "aov_text": "En hulle kom en sê vir Hom: Meester, ons weet dat U waaragtig is en U aan niemand steur nie; want U sien nie die persoon van mense aan nie, maar U leer die weg van God in waarheid. Is dit geoorloof om aan die keiser belasting te betaal of nie?"},
+        {"id": 247615, "book_id": 41, "kjv_ch": 12, "kjv_vs": 15, "kjv_sort": 1, "kjv_text": "Shall we give, or shall we not give?", "bsb_ch": 12, "bsb_vs": 14, "bsb_sort": 2, "bsb_text": "Should we pay them or not?”", "aov_ch": 12, "aov_vs": 14, "aov_sort": 2, "aov_text": "Moet ons betaal of moet ons nie betaal nie?"},
+        {"id": 247620, "book_id": 41, "kjv_ch": 12, "kjv_vs": 15, "kjv_sort": 2, "kjv_text": "But he, knowing their hypocrisy, said unto them, Why tempt ye me? bring me a penny, that I may see it.", "bsb_ch": 12, "bsb_vs": 15, "bsb_sort": 1, "bsb_text": "But Jesus saw through their hypocrisy and said, “Why are you testing Me? Bring Me a denarius to inspect.”", "aov_ch": 12, "aov_vs": 15, "aov_sort": 1, "aov_text": "Maar Hy het hulle geveinsdheid geken en vir hulle gesê: Waarom versoek julle My? Bring vir My ’n penning, dat Ek dit kan sien."}
+      ],
+      "cross_references": [
+        {"verse_id": 247610, "sort": 1, "kjv": "Master", "bsb": "Teacher", "aov": "Meester", "s21": "Maître", "refs": []},
+        {"verse_id": 247610, "sort": 2, "kjv": "we know", "bsb": "we know", "aov": "U waaragtig is", "s21": "nous savons", "refs": []},
+        {"verse_id": 247610, "sort": 3, "kjv": "carest", "bsb": "seek favor from no one", "aov": "aan niemand steur nie", "s21": "tu ne te laisses influencer par personne", "refs": []},
+        {"verse_id": 247610, "sort": 4, "kjv": "for thou", "bsb": "You are impartial", "aov": "persoon van mense aan nie", "s21": "car tu ne regardes pas à l'apparence des gens", "refs": []},
+        {"verse_id": 247610, "sort": 5, "kjv": "is it", "bsb": "Is it lawful", "aov": "belasting te betaal", "s21": "Est-il permis", "refs": []},
+        {"verse_id": 247620, "sort": 1, "kjv": "knowing", "bsb": "saw through", "aov": "geken", "s21": "connaissant", "refs": []},
+        {"verse_id": 247620, "sort": 2, "kjv": "Why", "bsb": "Why", "aov": "versoek", "s21": "Pourquoi", "refs": []}
+      ],
+      "panes": []
+    },
+    {
+      "name": "kjv-cursor",
+      "rule": "KJV anchors follow the TSK cursor: each anchor is placed at the first occurrence after the end of the previous one. In Psalm 60:11 the anchors are \"Give\", \"vain\", \"help\", so \"help\" (148670.3) is the second \"help\", the one after \"vain\". In 2 Chronicles 2:1, \"an house\" (112170.3) comes after \"for the name\", so it is the second \"an house\".",
+      "bible_verses": [
+        {"id": 148670, "book_id": 19, "kjv_ch": 60, "kjv_vs": 11, "kjv_sort": 1, "kjv_text": "Give us help from trouble: for vain is the help of man.", "bsb_ch": 60, "bsb_vs": 11, "bsb_sort": 1, "bsb_text": "Give us aid against the enemy, for the help of man is worthless.", "aov_ch": 60, "aov_vs": 13, "aov_sort": 1, "aov_text": "Verleen ons hulp teen die vyand, want die mens se hulp is ydelheid."},
+        {"id": 112170, "book_id": 14, "kjv_ch": 2, "kjv_vs": 1, "kjv_sort": 1, "kjv_text": "And Solomon determined to build an house for the name of the LORD, and an house for his kingdom.", "bsb_ch": 2, "bsb_vs": 1, "bsb_sort": 1, "bsb_text": "Now Solomon purposed to build a house for the Name of the LORD and a royal palace for himself.", "aov_ch": 2, "aov_vs": 1, "aov_sort": 1, "aov_text": "EN Salomo het gedink om vir die Naam van die HERE ’n huis te bou en ’n huis vir sy koningskap."}
+      ],
+      "cross_references": [
+        {"verse_id": 148670, "sort": 1, "kjv": "Give", "bsb": "Give us aid", "aov": "Verleen ons hulp", "s21": "Viens nous aider", "refs": []},
+        {"verse_id": 148670, "sort": 2, "kjv": "vain", "bsb": "worthless", "aov": "ydelheid", "s21": "n'est qu'illusion", "refs": []},
+        {"verse_id": 148670, "sort": 3, "kjv": "help", "bsb": "help of man", "aov": "hulp", "s21": "secours", "refs": []},
+        {"verse_id": 112170, "sort": 1, "kjv": "determined", "bsb": "purposed", "aov": "het gedink om", "s21": "ordonna", "refs": []},
+        {"verse_id": 112170, "sort": 2, "kjv": "for the name", "bsb": "for the Name", "aov": "vir die Naam", "s21": "pour l'Eternel", "refs": []},
+        {"verse_id": 112170, "sort": 3, "kjv": "an house", "bsb": "royal palace", "aov": "’n huis vir sy koningskap", "s21": "palais pour lui-même", "refs": []}
+      ],
+      "panes": []
+    },
+    {
+      "name": "case-fallback",
+      "rule": "A phrase is matched case-sensitively first and case-insensitively only if that fails, which is counted. KJV \"Lord\" (355.1) matches \"LORD\" in Genesis 2:4. Genesis 2:4 is also two records in every translation.",
+      "bible_verses": [
+        {"id": 350, "book_id": 1, "kjv_ch": 2, "kjv_vs": 4, "kjv_sort": 1, "kjv_text": "These are the generations of the heavens and of the earth when they were created,", "bsb_ch": 2, "bsb_vs": 4, "bsb_sort": 1, "bsb_text": "This is the account of the heavens and the earth when they were created,", "aov_ch": 2, "aov_vs": 4, "aov_sort": 1, "aov_text": "DIT is die geskiedenis van die hemel en die aarde toe hulle geskape is."},
+        {"id": 355, "book_id": 1, "kjv_ch": 2, "kjv_vs": 4, "kjv_sort": 2, "kjv_text": "in the day that the LORD God made the earth and the heavens,", "bsb_ch": 2, "bsb_vs": 4, "bsb_sort": 2, "bsb_text": "in the day that the LORD God made them.", "aov_ch": 2, "aov_vs": 4, "aov_sort": 2, "aov_text": "Die dag toe die HERE God die aarde en die hemel gemaak het,"}
+      ],
+      "cross_references": [
+        {"verse_id": 350, "sort": 1, "kjv": "the generations", "bsb": "the account", "aov": "die geskiedenis", "s21": "l'histoire", "refs": []},
+        {"verse_id": 355, "sort": 1, "kjv": "Lord", "bsb": "LORD", "aov": "HERE", "s21": "l'Eternel", "refs": []}
+      ],
+      "panes": []
+    },
+    {
+      "name": "whole-words",
+      "rule": "A phrase matches whole words only: BSB \"Ozni\" (45060.1) skips \"Oznite\" and lands on \"Ozni\". The KJV phrase is a TSK note (\"or, Ezbon\") that is not in the text, so it is reported as not placed.",
+      "bible_verses": [
+        {"id": 45060, "book_id": 4, "kjv_ch": 26, "kjv_vs": 16, "kjv_sort": 1, "kjv_text": "Of Ozni, the family of the Oznites: of Eri, the family of the Erites:", "bsb_ch": 26, "bsb_vs": 16, "bsb_sort": 1, "bsb_text": "the Oznite clan from Ozni, the Erite clan from Eri,", "aov_ch": 26, "aov_vs": 16, "aov_sort": 1, "aov_text": "van Osni die geslag van die Osniete; van Eri die geslag van die Eriete;"}
+      ],
+      "cross_references": [
+        {"verse_id": 45060, "sort": 1, "kjv": "or, Ezbon", "bsb": "Ozni", "aov": "Osni", "s21": "Ozni", "refs": []}
+      ],
+      "panes": []
+    },
+    {
+      "name": "punctuation-edge",
+      "rule": "The word-boundary check applies only at an edge that is itself a word character, so an anchor ending in an em dash may touch the next word: BSB \"…and there was morning—\" (50.2) is placed.",
+      "bible_verses": [
+        {"id": 50, "book_id": 1, "kjv_ch": 1, "kjv_vs": 5, "kjv_sort": 1, "kjv_text": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.", "bsb_ch": 1, "bsb_vs": 5, "bsb_sort": 1, "bsb_text": "God called the light “day,” and the darkness He called “night.” And there was evening, and there was morning—the first day.", "aov_ch": 1, "aov_vs": 5, "aov_sort": 1, "aov_text": "en God het die lig dag genoem, en die duisternis het Hy nag genoem. En dit was aand en dit was môre, die eerste dag."}
+      ],
+      "cross_references": [
+        {"verse_id": 50, "sort": 1, "kjv": "Day, and", "bsb": "day,” and", "aov": "lig dag genoem, en die duisternis", "s21": "jour, et", "refs": []},
+        {"verse_id": 50, "sort": 2, "kjv": "And the evening and the morning were", "bsb": "And there was evening, and there was morning—", "aov": "En dit was aand en dit was môre", "s21": "Il y eut un soir et il y eut un matin", "refs": []}
+      ],
+      "panes": []
+    },
+    {
+      "name": "duplicate-takes-free-occurrence",
+      "rule": "Outside the KJV, anchors that occur once are placed first; an anchor that occurs more than once then takes its first occurrence not overlapping one already placed. In Galatians 4:21 the BSB \"the law\" (292280.3) skips the occurrence inside \"you who want to be under the law\" and takes the second.",
+      "bible_verses": [
+        {"id": 292280, "book_id": 48, "kjv_ch": 4, "kjv_vs": 21, "kjv_sort": 1, "kjv_text": "Tell me, ye that desire to be under the law, do ye not hear the law?", "bsb_ch": 4, "bsb_vs": 21, "bsb_sort": 1, "bsb_text": "Tell me, you who want to be under the law, do you not understand what the law says?", "aov_ch": 4, "aov_vs": 21, "aov_sort": 1, "aov_text": "Julle wat onder die wet wil wees, sê vir my, luister julle nie na die wet nie?"}
+      ],
+      "cross_references": [
+        {"verse_id": 292280, "sort": 1, "kjv": "ye that", "bsb": "you who want to be under the law", "aov": "onder die wet wil wees", "s21": "vous qui", "refs": []},
+        {"verse_id": 292280, "sort": 2, "kjv": "do", "bsb": "do you not understand", "aov": "luister julle nie", "s21": "ne comprenez-vous pas", "refs": []},
+        {"verse_id": 292280, "sort": 3, "kjv": "the law", "bsb": "the law", "aov": "wet", "s21": "la loi", "refs": []}
+      ],
+      "panes": []
+    },
+    {
+      "name": "alternate-spellings",
+      "rule": "The TSK lists alternate spellings (Sichem, Sychar; Hai, Aija, Aiath) as separate anchors. In the KJV only the spelling in the text is placed, and only once: the second \"Sichem\" (3050.4) is not found, because the cursor is already past the only Sichem. In the BSB they all land on one modern word: anchors on an identical span share one colour, the segment lists all of them, and in a pane where their headings collide each group shows its KJV phrase as a note.",
+      "bible_verses": [
+        {"id": 3050, "book_id": 1, "kjv_ch": 12, "kjv_vs": 6, "kjv_sort": 1, "kjv_text": "And Abram passed through the land unto the place of Sichem, unto the plain of Moreh. And the Canaanite was then in the land.", "bsb_ch": 12, "bsb_vs": 6, "bsb_sort": 1, "bsb_text": "Abram traveled through the land as far as the site of the Oak of Moreh at Shechem. And at that time the Canaanites were in the land.", "aov_ch": 12, "aov_vs": 6, "aov_sort": 1, "aov_text": "En Abram het deur die land getrek na die plek Sigem, tot by die terpentynboom More. Die Kanaäniete was toe in die land."},
+        {"id": 3070, "book_id": 1, "kjv_ch": 12, "kjv_vs": 8, "kjv_sort": 1, "kjv_text": "And he removed from thence unto a mountain on the east of Bethel, and pitched his tent, having Bethel on the west, and Hai on the east: and there he builded an altar unto the LORD, and called upon the name of the LORD.", "bsb_ch": 12, "bsb_vs": 8, "bsb_sort": 1, "bsb_text": "From there Abram moved on to the hill country east of Bethel and pitched his tent, with Bethel to the west and Ai to the east. There he built an altar to the LORD, and he called on the name of the LORD.", "aov_ch": 12, "aov_vs": 8, "aov_sort": 1, "aov_text": "En daarvandaan het hy verder versit na die gebergte oos van Bet-el en sy tent opgeslaan tussen Bet-el aan die weste- en Ai aan die oostekant, en daar vir die HERE ’n altaar gebou en die Naam van die HERE aangeroep."},
+        {"id": 9790, "book_id": 1, "kjv_ch": 33, "kjv_vs": 18, "kjv_sort": 1, "kjv_text": "And Jacob came to Shalem, a city of Shechem, which is in the land of Canaan, when he came from Padanaram; and pitched his tent before the city.", "bsb_ch": 33, "bsb_vs": 18, "bsb_sort": 1, "bsb_text": "After Jacob had come from Paddan-aram, he arrived safely at the city of Shechem in the land of Canaan, and he camped just outside the city.", "aov_ch": 33, "aov_vs": 18, "aov_sort": 1, "aov_text": "En Jakob het behoue aangekom by die stad Sigem wat in die land Kanaän is, toe hy van Paddan-Aram gekom het—hy het sy laer voor die stad opgeslaan"},
+        {"id": 262360, "book_id": 43, "kjv_ch": 4, "kjv_vs": 5, "kjv_sort": 1, "kjv_text": "Then cometh he to a city of Samaria, which is called Sychar, near to the parcel of ground that Jacob gave to his son Joseph.", "bsb_ch": 4, "bsb_vs": 5, "bsb_sort": 1, "bsb_text": "So He came to a town of Samaria called Sychar, near the plot of ground that Jacob had given to his son Joseph.", "aov_ch": 4, "aov_vs": 5, "aov_sort": 1, "aov_text": "Hy kom toe by ’n stad van Samaría wat Sígar genoem word, naby die stuk grond wat Jakob aan sy seun Josef gegee het."},
+        {"id": 272070, "book_id": 44, "kjv_ch": 7, "kjv_vs": 16, "kjv_sort": 1, "kjv_text": "And were carried over into Sychem, and laid in the sepulchre that Abraham bought for a sum of money of the sons of Emmor the father of Sychem.", "bsb_ch": 7, "bsb_vs": 16, "bsb_sort": 1, "bsb_text": "Their bones were carried back to Shechem and placed in the tomb that Abraham had bought from the sons of Hamor at Shechem for a price he paid in silver.", "aov_ch": 7, "aov_vs": 16, "aov_sort": 1, "aov_text": "En hulle is oorgebring na Sigem en weggelê in die graf wat Abraham vir ’n som geld gekoop het van die seuns van Hemor, die vader van Sigem."},
+        {"id": 59790, "book_id": 6, "kjv_ch": 7, "kjv_vs": 2, "kjv_sort": 1, "kjv_text": "And Joshua sent men from Jericho to Ai, which is beside Bethaven, on the east side of Bethel, and spake unto them, saying, Go up and view the country.  And the men went up and viewed Ai.", "bsb_ch": 7, "bsb_vs": 2, "bsb_sort": 1, "bsb_text": "Meanwhile, Joshua sent men from Jericho to Ai, which is near Beth-aven to the east of Bethel, and told them, “Go up and spy out the land.” So the men went up and spied out Ai.", "aov_ch": 7, "aov_vs": 2, "aov_sort": 1, "aov_text": "Daarop het Josua manne van Jérigo af gestuur na Ai wat by Bet-Awen lê, oostelik van Bet-el, en hy het met hulle gespreek en gesê: Trek op en verken die land; en die manne het opgetrek en Ai verken."},
+        {"id": 126250, "book_id": 16, "kjv_ch": 11, "kjv_vs": 31, "kjv_sort": 1, "kjv_text": "The children also of Benjamin from Geba dwelt at Michmash, and Aija, and Bethel, and in their villages,", "bsb_ch": 11, "bsb_vs": 31, "bsb_sort": 1, "bsb_text": "The descendants of Benjamin from Geba lived in Michmash, Aija, and Bethel with its villages;", "aov_ch": 11, "aov_vs": 31, "aov_sort": 1, "aov_text": "En die kinders van Benjamin: van Geba af in Migmas en Aja en Bet-el en sy onderhorige plekke,"},
+        {"id": 179520, "book_id": 23, "kjv_ch": 10, "kjv_vs": 28, "kjv_sort": 1, "kjv_text": "He is come to Aiath, he is passed to Migron; at Michmash he hath laid up his carriages:", "bsb_ch": 10, "bsb_vs": 28, "bsb_sort": 1, "bsb_text": "Assyria has entered Aiath and passed through Migron, storing their supplies at Michmash.", "aov_ch": 10, "aov_vs": 28, "aov_sort": 1, "aov_text": "Hy oorval Ajat; hy trek deur Migron; in Migmas laat hy sy pakgoed agterbly."}
+      ],
+      "cross_references": [
+        {"verse_id": 3050, "sort": 1, "kjv": "passed", "bsb": "traveled through", "aov": "deur die land getrek", "s21": "traversa", "refs": []},
+        {"verse_id": 3050, "sort": 2, "kjv": "Sichem", "bsb": "Shechem", "aov": "Sigem", "s21": "Sichem", "refs": [[9790]]},
+        {"verse_id": 3050, "sort": 3, "kjv": "Sychar", "bsb": "Shechem", "aov": "Sigem", "s21": "Sychar", "refs": [[262360]]},
+        {"verse_id": 3050, "sort": 4, "kjv": "Sichem", "bsb": "Shechem", "aov": "Sigem", "s21": "Sichem", "refs": [[272070]]},
+        {"verse_id": 3050, "sort": 5, "kjv": "Moreh", "bsb": "Moreh", "aov": "More", "s21": "Moré", "refs": []},
+        {"verse_id": 3050, "sort": 6, "kjv": "Canaanite", "bsb": "Canaanites", "aov": "Kanaäniete", "s21": "Cananéens", "refs": []},
+        {"verse_id": 3070, "sort": 1, "kjv": "of Bethel", "bsb": "Bethel", "aov": "Bet-el", "s21": "de Béthel", "refs": []},
+        {"verse_id": 3070, "sort": 2, "kjv": "Hai", "bsb": "Ai", "aov": "Ai", "s21": "Aï", "refs": [[59790]]},
+        {"verse_id": 3070, "sort": 3, "kjv": "Aija", "bsb": "Ai", "aov": "Ai", "s21": "Ajja", "refs": [[126250]]},
+        {"verse_id": 3070, "sort": 4, "kjv": "Aiath", "bsb": "Ai", "aov": "Ai", "s21": "Ajjath", "refs": [[179520]]},
+        {"verse_id": 3070, "sort": 5, "kjv": "called", "bsb": "called on the name of the LORD", "aov": "Naam van die HERE aangeroep", "s21": "fit appel", "refs": []}
+      ],
+      "panes": [{"keys": ["3050.2", "3050.3", "3050.4"]}, {"keys": ["3070.2", "3070.3", "3070.4"]}]
+    },
+    {
+      "name": "nested-anchors",
+      "rule": "Anchors may nest: BSB \"the LORD\" (16590.2) lies inside \"My name the LORD\" (16590.3). The text is cut at every anchor boundary; a segment covered by several anchors lists them innermost (shortest) first and takes the innermost anchor's colour. The KJV phrase \"JAH\" (16590.3) is not in the KJV text, so it is not placed. The AOV has no phrase for 16590.3, so its pane heading falls back to the KJV phrase. Exodus 6:3 is 6:2 in the AOV.",
+      "bible_verses": [
+        {"id": 16590, "book_id": 2, "kjv_ch": 6, "kjv_vs": 3, "kjv_sort": 1, "kjv_text": "And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them.", "bsb_ch": 6, "bsb_vs": 3, "bsb_sort": 1, "bsb_text": "I appeared to Abraham, to Isaac, and to Jacob as God Almighty, but by My name the LORD I did not make Myself known to them.", "aov_ch": 6, "aov_vs": 2, "aov_sort": 1, "aov_text": "En Ek het aan Abraham, aan Isak en aan Jakob verskyn as God, die Almagtige, maar met my Naam HERE het Ek My nie aan hulle bekend gemaak nie."},
+        {"id": 15940, "book_id": 2, "kjv_ch": 3, "kjv_vs": 14, "kjv_sort": 1, "kjv_text": "And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.", "bsb_ch": 3, "bsb_vs": 14, "bsb_sort": 1, "bsb_text": "God said to Moses, “I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’”", "aov_ch": 3, "aov_vs": 14, "aov_sort": 1, "aov_text": "En God sê vir Moses: EK IS WAT EK IS. Ook sê Hy: So moet jy die kinders van Israel antwoord: EK IS het my na julle gestuur."},
+        {"id": 153230, "book_id": 19, "kjv_ch": 83, "kjv_vs": 18, "kjv_sort": 1, "kjv_text": "That men may know that thou, whose name alone is JEHOVAH, art the most high over all the earth.", "bsb_ch": 83, "bsb_vs": 18, "bsb_sort": 1, "bsb_text": "May they know that You alone, whose name is the LORD, are Most High over all the earth.", "aov_ch": 83, "aov_vs": 19, "aov_sort": 1, "aov_text": "sodat hulle kan weet dat U, wie se Naam HERE is, alleen die Allerhoogste is oor die hele aarde."}
+      ],
+      "cross_references": [
+        {"verse_id": 16590, "sort": 1, "kjv": "God Almighty", "bsb": "God Almighty", "aov": "God, die Almagtige", "s21": "Dieu tout-puissant", "refs": []},
+        {"verse_id": 16590, "sort": 2, "kjv": "JEHOVAH", "bsb": "the LORD", "aov": "my Naam HERE", "s21": "l'Eternel", "refs": [[15940]]},
+        {"verse_id": 16590, "sort": 3, "kjv": "JAH", "bsb": "My name the LORD", "aov": "", "s21": "l'Eternel", "refs": [[153230]]}
+      ],
+      "panes": [{"keys": ["16590.2", "16590.3"]}, {"verse_of": 16590}]
+    },
+    {
+      "name": "omitted-verse",
+      "rule": "The BSB omits Matthew 17:21. The record stays, so lookups resolve it, but the verse is not rendered, its anchors are not placed, it cites nothing and nothing cites it. In the KJV, Mark 9:29 \"by prayer\" cites it. The BSB has no phrase for \"fasting\" (246410.3), so that pane group is headed by the KJV phrase; the BSB \"by prayer\" group is dropped because its only reference has no text.",
+      "bible_verses": [
+        {"id": 237950, "book_id": 40, "kjv_ch": 17, "kjv_vs": 21, "kjv_sort": 1, "kjv_text": "Howbeit this kind goeth not out but by prayer and fasting.", "bsb_ch": 17, "bsb_vs": 21, "bsb_sort": 1, "bsb_text": "", "aov_ch": 17, "aov_vs": 21, "aov_sort": 1, "aov_text": "Maar hierdie geslag gaan nie uit behalwe deur gebed en vas nie."},
+        {"id": 246410, "book_id": 41, "kjv_ch": 9, "kjv_vs": 29, "kjv_sort": 1, "kjv_text": "And he said unto them, This kind can come forth by nothing, but by prayer and fasting.", "bsb_ch": 9, "bsb_vs": 29, "bsb_sort": 1, "bsb_text": "Jesus answered, “This kind cannot come out, except by prayer.”", "aov_ch": 9, "aov_vs": 29, "aov_sort": 1, "aov_text": "En Hy sê vir hulle: Hierdie geslag kan deur niks anders uitgaan as deur gebed en vas nie."},
+        {"id": 236080, "book_id": 40, "kjv_ch": 12, "kjv_vs": 45, "kjv_sort": 1, "kjv_text": "Then goeth he, and taketh with himself seven other spirits more wicked than himself, and they enter in and dwell there: and the last state of that man is worse than the first. Even so shall it be also unto this wicked generation.", "bsb_ch": 12, "bsb_vs": 45, "bsb_sort": 1, "bsb_text": "Then it goes and brings with it seven other spirits more wicked than itself, and they go in and dwell there. And the final plight of that man is worse than the first. So will it be with this wicked generation.”", "aov_ch": 12, "aov_vs": 45, "aov_sort": 1, "aov_text": "Dan gaan hy en neem sewe ander geeste slegter as hy self met hom saam, en hulle kom in en woon daar; en die laaste van daardie mens word erger as die eerste. Só sal dit ook wees met hierdie bose geslag."},
+        {"id": 220650, "book_id": 27, "kjv_ch": 9, "kjv_vs": 3, "kjv_sort": 1, "kjv_text": "And I set my face unto the Lord God, to seek by prayer and supplications, with fasting, and sackcloth, and ashes:", "bsb_ch": 9, "bsb_vs": 3, "bsb_sort": 1, "bsb_text": "So I turned my attention to the Lord God to seek Him by prayer and petition, with fasting, sackcloth, and ashes.", "aov_ch": 9, "aov_vs": 3, "aov_sort": 1, "aov_text": "En ek het my aangesig tot die Here God gerig om met vas, en in roukleed en as, my aan gebed en smekinge te wy."}
+      ],
+      "cross_references": [
+        {"verse_id": 237950, "sort": 1, "kjv": "this", "bsb": "", "aov": "hierdie geslag", "s21": "cette", "refs": [[236080]]},
+        {"verse_id": 237950, "sort": 2, "kjv": "but", "bsb": "", "aov": "gebed en vas", "s21": "par la prière et par le jeûne", "refs": []},
+        {"verse_id": 246410, "sort": 1, "kjv": "This", "bsb": "This kind", "aov": "Hierdie geslag", "s21": "Cette espèce-là", "refs": []},
+        {"verse_id": 246410, "sort": 2, "kjv": "by prayer", "bsb": "by prayer", "aov": "gebed", "s21": "la prière", "refs": [[237950]]},
+        {"verse_id": 246410, "sort": 3, "kjv": "fasting", "bsb": "", "aov": "vas", "s21": "le jeûne", "refs": [[220650]]}
+      ],
+      "panes": [{"verse_of": 246410}, {"verse_of": 237950}]
+    },
+    {
+      "name": "multi-verse-reference",
+      "rule": "One reference can span several records: Genesis 1:1 \"beginning\" points to Proverbs 8:22-24 and John 1:1-3, each shown as one item with a compressed label and a link to the first chapter with the verses in the fragment.",
+      "bible_verses": [
+        {"id": 10, "book_id": 1, "kjv_ch": 1, "kjv_vs": 1, "kjv_sort": 1, "kjv_text": "In the beginning God created the heaven and the earth.", "bsb_ch": 1, "bsb_vs": 1, "bsb_sort": 1, "bsb_text": "In the beginning God created the heavens and the earth.", "aov_ch": 1, "aov_vs": 1, "aov_sort": 1, "aov_text": "IN die begin het God die hemel en die aarde geskape."},
+        {"id": 166970, "book_id": 20, "kjv_ch": 8, "kjv_vs": 22, "kjv_sort": 1, "kjv_text": "The LORD possessed me in the beginning of his way, before his works of old.", "bsb_ch": 8, "bsb_vs": 22, "bsb_sort": 1, "bsb_text": "The LORD created me as His first course, before His works of old.", "aov_ch": 8, "aov_vs": 22, "aov_sort": 1, "aov_text": "DIE HERE het my berei as eersteling van sy weg, voor sy werke, van ouds af."},
+        {"id": 166980, "book_id": 20, "kjv_ch": 8, "kjv_vs": 23, "kjv_sort": 1, "kjv_text": "I was set up from everlasting, from the beginning, or ever the earth was.", "bsb_ch": 8, "bsb_vs": 23, "bsb_sort": 1, "bsb_text": "From everlasting I was established, from the beginning, before the earth began.", "aov_ch": 8, "aov_vs": 23, "aov_sort": 1, "aov_text": "Van ewigheid af is ek geformeer, van die begin af, van die voortyd van die aarde af."},
+        {"id": 166990, "book_id": 20, "kjv_ch": 8, "kjv_vs": 24, "kjv_sort": 1, "kjv_text": "When there were no depths, I was brought forth; when there were no fountains abounding with water.", "bsb_ch": 8, "bsb_vs": 24, "bsb_sort": 1, "bsb_text": "When there were no watery depths, I was brought forth, when no springs were overflowing with water.", "aov_ch": 8, "aov_vs": 24, "aov_sort": 1, "aov_text": "Toe daar nog geen wêreldvloede was nie, is ek gebore; toe fonteine, swaar van water, nog nie daar was nie;"},
+        {"id": 261190, "book_id": 43, "kjv_ch": 1, "kjv_vs": 1, "kjv_sort": 1, "kjv_text": "In the beginning was the Word, and the Word was with God, and the Word was God.", "bsb_ch": 1, "bsb_vs": 1, "bsb_sort": 1, "bsb_text": "In the beginning was the Word, and the Word was with God, and the Word was God.", "aov_ch": 1, "aov_vs": 1, "aov_sort": 1, "aov_text": "IN die begin was die Woord, en die Woord was by God, en die Woord was God."},
+        {"id": 261200, "book_id": 43, "kjv_ch": 1, "kjv_vs": 2, "kjv_sort": 1, "kjv_text": "The same was in the beginning with God.", "bsb_ch": 1, "bsb_vs": 2, "bsb_sort": 1, "bsb_text": "He was with God in the beginning.", "aov_ch": 1, "aov_vs": 2, "aov_sort": 1, "aov_text": "Hy was in die begin by God."},
+        {"id": 261210, "book_id": 43, "kjv_ch": 1, "kjv_vs": 3, "kjv_sort": 1, "kjv_text": "All things were made by him; and without him was not any thing made that was made.", "bsb_ch": 1, "bsb_vs": 3, "bsb_sort": 1, "bsb_text": "Through Him all things were made, and without Him nothing was made that has been made.", "aov_ch": 1, "aov_vs": 3, "aov_sort": 1, "aov_text": "Alle dinge het deur Hom ontstaan, en sonder Hom het nie een ding ontstaan wat ontstaan het nie."}
+      ],
+      "cross_references": [
+        {"verse_id": 10, "sort": 1, "kjv": "beginning", "bsb": "beginning", "aov": "IN die begin", "s21": "commencement", "refs": [[166970, 166980, 166990], [261190, 261200, 261210]]},
+        {"verse_id": 10, "sort": 2, "kjv": "God", "bsb": "God", "aov": "God die hemel en die aarde geskape", "s21": "Dieu", "refs": []}
+      ],
+      "panes": [{"keys": ["10.1"]}]
+    },
+    {
+      "name": "reference-across-chapters",
+      "rule": "A reference is resolved to the verses each translation numbers it as. Daniel 7:3 \"beasts\" points to records 309860 and 309870: in the KJV both are Revelation 13:1 (one verse, shown once), in the BSB they are Revelation 12:17 and 13:1.",
+      "bible_verses": [
+        {"id": 220100, "book_id": 27, "kjv_ch": 7, "kjv_vs": 3, "kjv_sort": 1, "kjv_text": "And four great beasts came up from the sea, diverse one from another.", "bsb_ch": 7, "bsb_vs": 3, "bsb_sort": 1, "bsb_text": "Then four great beasts came up out of the sea, each one different from the others:", "aov_ch": 7, "aov_vs": 3, "aov_sort": 1, "aov_text": "en vier groot diere het uit die see opgeklim, die een verskillend van die ander."},
+        {"id": 309860, "book_id": 66, "kjv_ch": 13, "kjv_vs": 1, "kjv_sort": 1, "kjv_text": "And I stood upon the sand of the sea,", "bsb_ch": 12, "bsb_vs": 17, "bsb_sort": 2, "bsb_text": "And the dragon stood on the shore of the sea.", "aov_ch": 12, "aov_vs": 18, "aov_sort": 1, "aov_text": "EN ek het op die sand van die see gaan staan."},
+        {"id": 309870, "book_id": 66, "kjv_ch": 13, "kjv_vs": 1, "kjv_sort": 2, "kjv_text": "and saw a beast rise up out of the sea, having seven heads and ten horns, and upon his horns ten crowns, and upon his heads the name of blasphemy.", "bsb_ch": 13, "bsb_vs": 1, "bsb_sort": 1, "bsb_text": "Then I saw a beast with ten horns and seven heads rising out of the sea. There were ten royal crowns on its horns and blasphemous names on its heads.", "aov_ch": 13, "aov_vs": 1, "aov_sort": 1, "aov_text": "EN ek het ’n dier uit die see sien opkom met sewe koppe en tien horings, en op sy horings tien krone en op sy koppe ’n naam van godslastering."}
+      ],
+      "cross_references": [
+        {"verse_id": 220100, "sort": 1, "kjv": "four", "bsb": "four", "aov": "vier", "s21": "Quatre", "refs": []},
+        {"verse_id": 220100, "sort": 2, "kjv": "beasts", "bsb": "beasts", "aov": "diere", "s21": "bêtes", "refs": [[309860, 309870]]}
+      ],
+      "panes": [{"keys": ["220100.2"]}]
+    }
+  ]
+}

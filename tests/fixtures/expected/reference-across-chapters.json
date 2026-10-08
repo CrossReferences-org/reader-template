@@ -1,0 +1,185 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Daniel 7:3",
+        "records": [220100],
+        "text": "And four great beasts came up from the sea, diverse one from another.",
+        "placed": [
+          {"key":"220100.1","start":4,"end":8,"match":"four","colour":1,"case_fallback":false},
+          {"key":"220100.2","start":15,"end":21,"match":"beasts","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["And ",[]],
+          ["four",["220100.1"]],
+          [" great ",[]],
+          ["beasts",["220100.2"]],
+          [" came up from the sea, diverse one from another.",[]]
+        ]
+      },
+      {
+        "verse": "Revelation 13:1",
+        "records": [309860,309870],
+        "text": "And I stood upon the sand of the sea, and saw a beast rise up out of the sea, having seven heads and ten horns, and upon his horns ten crowns, and upon his heads the name of blasphemy.",
+        "cited_by": ["220100.2"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["220100.2"]},
+        "pane": {
+          "title": "Daniel 7:3",
+          "groups": [
+            {
+              "key": "220100.2",
+              "heading": "beasts",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Revelation 13:1","href":"66/13/KJV#v1"}]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Daniel 7:3",
+        "records": [220100],
+        "text": "Then four great beasts came up out of the sea, each one different from the others:",
+        "placed": [
+          {"key":"220100.1","start":5,"end":9,"match":"four","colour":1,"case_fallback":false},
+          {"key":"220100.2","start":16,"end":22,"match":"beasts","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["Then ",[]],
+          ["four",["220100.1"]],
+          [" great ",[]],
+          ["beasts",["220100.2"]],
+          [" came up out of the sea, each one different from the others:",[]]
+        ]
+      },
+      {
+        "verse": "Revelation 12:17",
+        "records": [309860],
+        "text": "And the dragon stood on the shore of the sea.",
+        "cited_by": ["220100.2"]
+      },
+      {
+        "verse": "Revelation 13:1",
+        "records": [309870],
+        "text": "Then I saw a beast with ten horns and seven heads rising out of the sea. There were ten royal crowns on its horns and blasphemous names on its heads.",
+        "cited_by": ["220100.2"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["220100.2"]},
+        "pane": {
+          "title": "Daniel 7:3",
+          "groups": [
+            {
+              "key": "220100.2",
+              "heading": "beasts",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Revelation 12:17; 13:1","href":"66/12/BSB#v17"}]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Daniël 7:3",
+        "records": [220100],
+        "text": "en vier groot diere het uit die see opgeklim, die een verskillend van die ander.",
+        "placed": [
+          {"key":"220100.1","start":3,"end":7,"match":"vier","colour":1,"case_fallback":false},
+          {"key":"220100.2","start":14,"end":19,"match":"diere","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["en ",[]],
+          ["vier",["220100.1"]],
+          [" groot ",[]],
+          ["diere",["220100.2"]],
+          [" het uit die see opgeklim, die een verskillend van die ander.",[]]
+        ]
+      },
+      {
+        "verse": "Openbaring 12:18",
+        "records": [309860],
+        "text": "EN ek het op die sand van die see gaan staan.",
+        "cited_by": ["220100.2"]
+      },
+      {
+        "verse": "Openbaring 13:1",
+        "records": [309870],
+        "text": "EN ek het ’n dier uit die see sien opkom met sewe koppe en tien horings, en op sy horings tien krone en op sy koppe ’n naam van godslastering.",
+        "cited_by": ["220100.2"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["220100.2"]},
+        "pane": {
+          "title": "Daniël 7:3",
+          "groups": [
+            {
+              "key": "220100.2",
+              "heading": "diere",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Openbaring 12:18; 13:1","href":"66/12/AOV#v18"}]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 5,
+      "placed": 5,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Acts 3:19",
+        "records": [270900,270905],
+        "text": "Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord;",
+        "placed": [
+          {"key":"270900.1","start":0,"end":6,"match":"Repent","colour":1,"case_fallback":false},
+          {"key":"270900.2","start":25,"end":27,"match":"be","colour":2,"case_fallback":false},
+          {"key":"270900.3","start":39,"end":43,"match":"that","colour":3,"case_fallback":false},
+          {"key":"270905.1","start":74,"end":78,"match":"when","colour":4,"case_fallback":false}
+        ],
+        "segments": [
+          ["Repent",["270900.1"]],
+          [" ye therefore, and ",[]],
+          ["be",["270900.2"]],
+          [" converted, ",[]],
+          ["that",["270900.3"]],
+          [" your sins may be blotted out, ",[]],
+          ["when",["270905.1"]],
+          [" the times of refreshing shall come from the presence of the Lord;",[]]
+        ]
+      },
+      {
+        "verse": "Acts 3:20",
+        "records": [270910],
+        "text": "And he shall send Jesus Christ, which before was preached unto you:",
+        "placed": [
+          {
+            "key": "270910.1",
+            "start": 0,
+            "end": 67,
+            "match": "And he shall send Jesus Christ, which before was preached unto you:",
+            "colour": 1,
+            "case_fallback": false
+          }
+        ],
+        "segments": [["And he shall send Jesus Christ, which before was preached unto you:",["270910.1"]]]
+      }
+    ],
+    "panes": []
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 5,
+      "placed": 5,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Acts 3:19",
+        "records": [270900],
+        "text": "Repent, then, and turn back, so that your sins may be wiped away,",
+        "placed": [
+          {"key":"270900.1","start":0,"end":6,"match":"Repent","colour":1,"case_fallback":false},
+          {"key":"270900.2","start":18,"end":27,"match":"turn back","colour":2,"case_fallback":false},
+          {
+            "key": "270900.3",
+            "start": 29,
+            "end": 64,
+            "match": "so that your sins may be wiped away",
+            "colour": 3,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["Repent",["270900.1"]],
+          [", then, and ",[]],
+          ["turn back",["270900.2"]],
+          [", ",[]],
+          ["so that your sins may be wiped away",["270900.3"]],
+          [",",[]]
+        ]
+      },
+      {
+        "verse": "Acts 3:20",
+        "records": [270905,270910],
+        "text": "that times of refreshing may come from the presence of the Lord, and that He may send Jesus, the Christ, who has been appointed for you.",
+        "placed": [
+          {"key":"270905.1","start":5,"end":24,"match":"times of refreshing","colour":1,"case_fallback":false},
+          {
+            "key": "270910.1",
+            "start": 69,
+            "end": 135,
+            "match": "that He may send Jesus, the Christ, who has been appointed for you",
+            "colour": 2,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["that ",[]],
+          ["times of refreshing",["270905.1"]],
+          [" may come from the presence of the Lord, and ",[]],
+          ["that He may send Jesus, the Christ, who has been appointed for you",["270910.1"]],
+          [".",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 5,
+      "placed": 5,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Handelinge 3:19",
+        "records": [270900,270905],
+        "text": "Kom dan tot inkeer en bekeer julle, sodat julle sondes uitgewis kan word en tye van verkwikking van die aangesig van die Here mag kom,",
+        "placed": [
+          {"key":"270900.1","start":8,"end":18,"match":"tot inkeer","colour":1,"case_fallback":false},
+          {"key":"270900.2","start":22,"end":28,"match":"bekeer","colour":2,"case_fallback":false},
+          {"key":"270900.3","start":48,"end":63,"match":"sondes uitgewis","colour":3,"case_fallback":false},
+          {
+            "key": "270905.1",
+            "start": 76,
+            "end": 95,
+            "match": "tye van verkwikking",
+            "colour": 4,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["Kom dan ",[]],
+          ["tot inkeer",["270900.1"]],
+          [" en ",[]],
+          ["bekeer",["270900.2"]],
+          [" julle, sodat julle ",[]],
+          ["sondes uitgewis",["270900.3"]],
+          [" kan word en ",[]],
+          ["tye van verkwikking",["270905.1"]],
+          [" van die aangesig van die Here mag kom,",[]]
+        ]
+      },
+      {
+        "verse": "Handelinge 3:20",
+        "records": [270910],
+        "text": "en Hy Hom mag stuur wat vooraf aan julle verkondig is, naamlik Jesus Christus,",
+        "placed": [
+          {"key":"270910.1","start":3,"end":19,"match":"Hy Hom mag stuur","colour":1,"case_fallback":false}
+        ],
+        "segments": [
+          ["en ",[]],
+          ["Hy Hom mag stuur",["270910.1"]],
+          [" wat vooraf aan julle verkondig is, naamlik Jesus Christus,",[]]
+        ]
+      }
+    ],
+    "panes": []
+  }
+}

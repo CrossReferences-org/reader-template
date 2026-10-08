@@ -1,0 +1,509 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 11,
+      "placed": 7,
+      "no_phrase": 0,
+      "not_found": 4,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 12:6",
+        "records": [3050],
+        "text": "And Abram passed through the land unto the place of Sichem, unto the plain of Moreh. And the Canaanite was then in the land.",
+        "placed": [
+          {"key":"3050.1","start":10,"end":16,"match":"passed","colour":1,"case_fallback":false},
+          {"key":"3050.2","start":52,"end":58,"match":"Sichem","colour":2,"case_fallback":false},
+          {"key":"3050.5","start":78,"end":83,"match":"Moreh","colour":3,"case_fallback":false},
+          {"key":"3050.6","start":93,"end":102,"match":"Canaanite","colour":4,"case_fallback":false}
+        ],
+        "not_found": ["3050.3","3050.4"],
+        "segments": [
+          ["And Abram ",[]],
+          ["passed",["3050.1"]],
+          [" through the land unto the place of ",[]],
+          ["Sichem",["3050.2"]],
+          [", unto the plain of ",[]],
+          ["Moreh",["3050.5"]],
+          [". And the ",[]],
+          ["Canaanite",["3050.6"]],
+          [" was then in the land.",[]]
+        ]
+      },
+      {
+        "verse": "Genesis 12:8",
+        "records": [3070],
+        "text": "And he removed from thence unto a mountain on the east of Bethel, and pitched his tent, having Bethel on the west, and Hai on the east: and there he builded an altar unto the LORD, and called upon the name of the LORD.",
+        "placed": [
+          {"key":"3070.1","start":55,"end":64,"match":"of Bethel","colour":1,"case_fallback":false},
+          {"key":"3070.2","start":119,"end":122,"match":"Hai","colour":2,"case_fallback":false},
+          {"key":"3070.5","start":185,"end":191,"match":"called","colour":3,"case_fallback":false}
+        ],
+        "not_found": ["3070.3","3070.4"],
+        "segments": [
+          ["And he removed from thence unto a mountain on the east ",[]],
+          ["of Bethel",["3070.1"]],
+          [", and pitched his tent, having Bethel on the west, and ",[]],
+          ["Hai",["3070.2"]],
+          [" on the east: and there he builded an altar unto the LORD, and ",[]],
+          ["called",["3070.5"]],
+          [" upon the name of the LORD.",[]]
+        ]
+      },
+      {
+        "verse": "Genesis 33:18",
+        "records": [9790],
+        "text": "And Jacob came to Shalem, a city of Shechem, which is in the land of Canaan, when he came from Padanaram; and pitched his tent before the city.",
+        "cited_by": ["3050.2"]
+      },
+      {
+        "verse": "Joshua 7:2",
+        "records": [59790],
+        "text": "And Joshua sent men from Jericho to Ai, which is beside Bethaven, on the east side of Bethel, and spake unto them, saying, Go up and view the country.  And the men went up and viewed Ai.",
+        "cited_by": ["3070.2"]
+      },
+      {
+        "verse": "Nehemiah 11:31",
+        "records": [126250],
+        "text": "The children also of Benjamin from Geba dwelt at Michmash, and Aija, and Bethel, and in their villages,",
+        "cited_by": ["3070.3"]
+      },
+      {
+        "verse": "Isaiah 10:28",
+        "records": [179520],
+        "text": "He is come to Aiath, he is passed to Migron; at Michmash he hath laid up his carriages:",
+        "cited_by": ["3070.4"]
+      },
+      {
+        "verse": "John 4:5",
+        "records": [262360],
+        "text": "Then cometh he to a city of Samaria, which is called Sychar, near to the parcel of ground that Jacob gave to his son Joseph.",
+        "cited_by": ["3050.3"]
+      },
+      {
+        "verse": "Acts 7:16",
+        "records": [272070],
+        "text": "And were carried over into Sychem, and laid in the sepulchre that Abraham bought for a sum of money of the sons of Emmor the father of Sychem.",
+        "cited_by": ["3050.4"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["3050.2","3050.3","3050.4"]},
+        "pane": {
+          "title": "Genesis 12:6",
+          "groups": [
+            {
+              "key": "3050.2",
+              "heading": "Sichem",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Genesis 33:18","href":"1/33/KJV#v18"}]
+            },
+            {
+              "key": "3050.3",
+              "heading": "Sychar",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 0,
+              "items": [{"label":"John 4:5","href":"43/4/KJV#v5"}]
+            },
+            {
+              "key": "3050.4",
+              "heading": "Sichem",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 0,
+              "items": [{"label":"Acts 7:16","href":"44/7/KJV#v16"}]
+            }
+          ],
+          "cited_by": null
+        }
+      },
+      {
+        "request": {"keys":["3070.2","3070.3","3070.4"]},
+        "pane": {
+          "title": "Genesis 12:8",
+          "groups": [
+            {
+              "key": "3070.2",
+              "heading": "Hai",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Joshua 7:2","href":"6/7/KJV#v2"}]
+            },
+            {
+              "key": "3070.3",
+              "heading": "Aija",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 0,
+              "items": [{"label":"Nehemiah 11:31","href":"16/11/KJV#v31"}]
+            },
+            {
+              "key": "3070.4",
+              "heading": "Aiath",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 0,
+              "items": [{"label":"Isaiah 10:28","href":"23/10/KJV#v28"}]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 11,
+      "placed": 11,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 1,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 2
+    },
+    "verses": [
+      {
+        "verse": "Genesis 12:6",
+        "records": [3050],
+        "text": "Abram traveled through the land as far as the site of the Oak of Moreh at Shechem. And at that time the Canaanites were in the land.",
+        "placed": [
+          {"key":"3050.1","start":6,"end":22,"match":"traveled through","colour":1,"case_fallback":false},
+          {"key":"3050.5","start":65,"end":70,"match":"Moreh","colour":2,"case_fallback":false},
+          {"key":"3050.2","start":74,"end":81,"match":"Shechem","colour":3,"case_fallback":false},
+          {"key":"3050.3","start":74,"end":81,"match":"Shechem","colour":3,"case_fallback":false},
+          {"key":"3050.4","start":74,"end":81,"match":"Shechem","colour":3,"case_fallback":false},
+          {"key":"3050.6","start":104,"end":114,"match":"Canaanites","colour":4,"case_fallback":false}
+        ],
+        "segments": [
+          ["Abram ",[]],
+          ["traveled through",["3050.1"]],
+          [" the land as far as the site of the Oak of ",[]],
+          ["Moreh",["3050.5"]],
+          [" at ",[]],
+          ["Shechem",["3050.2","3050.3","3050.4"]],
+          [". And at that time the ",[]],
+          ["Canaanites",["3050.6"]],
+          [" were in the land.",[]]
+        ]
+      },
+      {
+        "verse": "Genesis 12:8",
+        "records": [3070],
+        "text": "From there Abram moved on to the hill country east of Bethel and pitched his tent, with Bethel to the west and Ai to the east. There he built an altar to the LORD, and he called on the name of the LORD.",
+        "placed": [
+          {"key":"3070.1","start":54,"end":60,"match":"Bethel","colour":1,"case_fallback":false},
+          {"key":"3070.2","start":111,"end":113,"match":"Ai","colour":2,"case_fallback":false},
+          {"key":"3070.3","start":111,"end":113,"match":"Ai","colour":2,"case_fallback":false},
+          {"key":"3070.4","start":111,"end":113,"match":"Ai","colour":2,"case_fallback":false},
+          {
+            "key": "3070.5",
+            "start": 171,
+            "end": 201,
+            "match": "called on the name of the LORD",
+            "colour": 3,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["From there Abram moved on to the hill country east of ",[]],
+          ["Bethel",["3070.1"]],
+          [" and pitched his tent, with Bethel to the west and ",[]],
+          ["Ai",["3070.2","3070.3","3070.4"]],
+          [" to the east. There he built an altar to the LORD, and he ",[]],
+          ["called on the name of the LORD",["3070.5"]],
+          [".",[]]
+        ]
+      },
+      {
+        "verse": "Genesis 33:18",
+        "records": [9790],
+        "text": "After Jacob had come from Paddan-aram, he arrived safely at the city of Shechem in the land of Canaan, and he camped just outside the city.",
+        "cited_by": ["3050.2"]
+      },
+      {
+        "verse": "Joshua 7:2",
+        "records": [59790],
+        "text": "Meanwhile, Joshua sent men from Jericho to Ai, which is near Beth-aven to the east of Bethel, and told them, “Go up and spy out the land.” So the men went up and spied out Ai.",
+        "cited_by": ["3070.2"]
+      },
+      {
+        "verse": "Nehemiah 11:31",
+        "records": [126250],
+        "text": "The descendants of Benjamin from Geba lived in Michmash, Aija, and Bethel with its villages;",
+        "cited_by": ["3070.3"]
+      },
+      {
+        "verse": "Isaiah 10:28",
+        "records": [179520],
+        "text": "Assyria has entered Aiath and passed through Migron, storing their supplies at Michmash.",
+        "cited_by": ["3070.4"]
+      },
+      {
+        "verse": "John 4:5",
+        "records": [262360],
+        "text": "So He came to a town of Samaria called Sychar, near the plot of ground that Jacob had given to his son Joseph.",
+        "cited_by": ["3050.3"]
+      },
+      {
+        "verse": "Acts 7:16",
+        "records": [272070],
+        "text": "Their bones were carried back to Shechem and placed in the tomb that Abraham had bought from the sons of Hamor at Shechem for a price he paid in silver.",
+        "cited_by": ["3050.4"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["3050.2","3050.3","3050.4"]},
+        "pane": {
+          "title": "Genesis 12:6",
+          "groups": [
+            {
+              "key": "3050.2",
+              "heading": "Shechem",
+              "kjv_fallback": false,
+              "kjv_note": "Sichem",
+              "colour": 3,
+              "items": [{"label":"Genesis 33:18","href":"1/33/BSB#v18"}]
+            },
+            {
+              "key": "3050.3",
+              "heading": "Shechem",
+              "kjv_fallback": false,
+              "kjv_note": "Sychar",
+              "colour": 3,
+              "items": [{"label":"John 4:5","href":"43/4/BSB#v5"}]
+            },
+            {
+              "key": "3050.4",
+              "heading": "Shechem",
+              "kjv_fallback": false,
+              "kjv_note": "Sichem",
+              "colour": 3,
+              "items": [{"label":"Acts 7:16","href":"44/7/BSB#v16"}]
+            }
+          ],
+          "cited_by": null
+        }
+      },
+      {
+        "request": {"keys":["3070.2","3070.3","3070.4"]},
+        "pane": {
+          "title": "Genesis 12:8",
+          "groups": [
+            {
+              "key": "3070.2",
+              "heading": "Ai",
+              "kjv_fallback": false,
+              "kjv_note": "Hai",
+              "colour": 2,
+              "items": [{"label":"Joshua 7:2","href":"6/7/BSB#v2"}]
+            },
+            {
+              "key": "3070.3",
+              "heading": "Ai",
+              "kjv_fallback": false,
+              "kjv_note": "Aija",
+              "colour": 2,
+              "items": [{"label":"Nehemiah 11:31","href":"16/11/BSB#v31"}]
+            },
+            {
+              "key": "3070.4",
+              "heading": "Ai",
+              "kjv_fallback": false,
+              "kjv_note": "Aiath",
+              "colour": 2,
+              "items": [{"label":"Isaiah 10:28","href":"23/10/BSB#v28"}]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 11,
+      "placed": 11,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 1,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 2
+    },
+    "verses": [
+      {
+        "verse": "Genesis 12:6",
+        "records": [3050],
+        "text": "En Abram het deur die land getrek na die plek Sigem, tot by die terpentynboom More. Die Kanaäniete was toe in die land.",
+        "placed": [
+          {"key":"3050.1","start":13,"end":33,"match":"deur die land getrek","colour":1,"case_fallback":false},
+          {"key":"3050.2","start":46,"end":51,"match":"Sigem","colour":2,"case_fallback":false},
+          {"key":"3050.3","start":46,"end":51,"match":"Sigem","colour":2,"case_fallback":false},
+          {"key":"3050.4","start":46,"end":51,"match":"Sigem","colour":2,"case_fallback":false},
+          {"key":"3050.5","start":78,"end":82,"match":"More","colour":3,"case_fallback":false},
+          {"key":"3050.6","start":88,"end":98,"match":"Kanaäniete","colour":4,"case_fallback":false}
+        ],
+        "segments": [
+          ["En Abram het ",[]],
+          ["deur die land getrek",["3050.1"]],
+          [" na die plek ",[]],
+          ["Sigem",["3050.2","3050.3","3050.4"]],
+          [", tot by die terpentynboom ",[]],
+          ["More",["3050.5"]],
+          [". Die ",[]],
+          ["Kanaäniete",["3050.6"]],
+          [" was toe in die land.",[]]
+        ]
+      },
+      {
+        "verse": "Genesis 12:8",
+        "records": [3070],
+        "text": "En daarvandaan het hy verder versit na die gebergte oos van Bet-el en sy tent opgeslaan tussen Bet-el aan die weste- en Ai aan die oostekant, en daar vir die HERE ’n altaar gebou en die Naam van die HERE aangeroep.",
+        "placed": [
+          {"key":"3070.1","start":60,"end":66,"match":"Bet-el","colour":1,"case_fallback":false},
+          {"key":"3070.2","start":120,"end":122,"match":"Ai","colour":2,"case_fallback":false},
+          {"key":"3070.3","start":120,"end":122,"match":"Ai","colour":2,"case_fallback":false},
+          {"key":"3070.4","start":120,"end":122,"match":"Ai","colour":2,"case_fallback":false},
+          {
+            "key": "3070.5",
+            "start": 186,
+            "end": 213,
+            "match": "Naam van die HERE aangeroep",
+            "colour": 3,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["En daarvandaan het hy verder versit na die gebergte oos van ",[]],
+          ["Bet-el",["3070.1"]],
+          [" en sy tent opgeslaan tussen Bet-el aan die weste- en ",[]],
+          ["Ai",["3070.2","3070.3","3070.4"]],
+          [" aan die oostekant, en daar vir die HERE ’n altaar gebou en die ",[]],
+          ["Naam van die HERE aangeroep",["3070.5"]],
+          [".",[]]
+        ]
+      },
+      {
+        "verse": "Genesis 33:18",
+        "records": [9790],
+        "text": "En Jakob het behoue aangekom by die stad Sigem wat in die land Kanaän is, toe hy van Paddan-Aram gekom het—hy het sy laer voor die stad opgeslaan",
+        "cited_by": ["3050.2"]
+      },
+      {
+        "verse": "Josua 7:2",
+        "records": [59790],
+        "text": "Daarop het Josua manne van Jérigo af gestuur na Ai wat by Bet-Awen lê, oostelik van Bet-el, en hy het met hulle gespreek en gesê: Trek op en verken die land; en die manne het opgetrek en Ai verken.",
+        "cited_by": ["3070.2"]
+      },
+      {
+        "verse": "Nehemia 11:31",
+        "records": [126250],
+        "text": "En die kinders van Benjamin: van Geba af in Migmas en Aja en Bet-el en sy onderhorige plekke,",
+        "cited_by": ["3070.3"]
+      },
+      {
+        "verse": "Jesaja 10:28",
+        "records": [179520],
+        "text": "Hy oorval Ajat; hy trek deur Migron; in Migmas laat hy sy pakgoed agterbly.",
+        "cited_by": ["3070.4"]
+      },
+      {
+        "verse": "Johannes 4:5",
+        "records": [262360],
+        "text": "Hy kom toe by ’n stad van Samaría wat Sígar genoem word, naby die stuk grond wat Jakob aan sy seun Josef gegee het.",
+        "cited_by": ["3050.3"]
+      },
+      {
+        "verse": "Handelinge 7:16",
+        "records": [272070],
+        "text": "En hulle is oorgebring na Sigem en weggelê in die graf wat Abraham vir ’n som geld gekoop het van die seuns van Hemor, die vader van Sigem.",
+        "cited_by": ["3050.4"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["3050.2","3050.3","3050.4"]},
+        "pane": {
+          "title": "Genesis 12:6",
+          "groups": [
+            {
+              "key": "3050.2",
+              "heading": "Sigem",
+              "kjv_fallback": false,
+              "kjv_note": "Sichem",
+              "colour": 2,
+              "items": [{"label":"Genesis 33:18","href":"1/33/AOV#v18"}]
+            },
+            {
+              "key": "3050.3",
+              "heading": "Sigem",
+              "kjv_fallback": false,
+              "kjv_note": "Sychar",
+              "colour": 2,
+              "items": [{"label":"Johannes 4:5","href":"43/4/AOV#v5"}]
+            },
+            {
+              "key": "3050.4",
+              "heading": "Sigem",
+              "kjv_fallback": false,
+              "kjv_note": "Sichem",
+              "colour": 2,
+              "items": [{"label":"Handelinge 7:16","href":"44/7/AOV#v16"}]
+            }
+          ],
+          "cited_by": null
+        }
+      },
+      {
+        "request": {"keys":["3070.2","3070.3","3070.4"]},
+        "pane": {
+          "title": "Genesis 12:8",
+          "groups": [
+            {
+              "key": "3070.2",
+              "heading": "Ai",
+              "kjv_fallback": false,
+              "kjv_note": "Hai",
+              "colour": 2,
+              "items": [{"label":"Josua 7:2","href":"6/7/AOV#v2"}]
+            },
+            {
+              "key": "3070.3",
+              "heading": "Ai",
+              "kjv_fallback": false,
+              "kjv_note": "Aija",
+              "colour": 2,
+              "items": [{"label":"Nehemia 11:31","href":"16/11/AOV#v31"}]
+            },
+            {
+              "key": "3070.4",
+              "heading": "Ai",
+              "kjv_fallback": false,
+              "kjv_note": "Aiath",
+              "colour": 2,
+              "items": [{"label":"Jesaja 10:28","href":"23/10/AOV#v28"}]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  }
+}

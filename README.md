@@ -49,6 +49,12 @@ Anchors are not meant to overlap, but some do. The text is cut at every anchor b
 a piece of text covered by several anchors opens all of them, innermost first. It is marked
 with a double underline.
 
+### Tests
+
+`tests/fixtures/` holds a dozen real verses, each showing one of these rules, with what the
+reader builds from them. `dotnet test` checks the reader against them. If you write your own
+reader, you can check it against the same files; see `tests/fixtures/README.md`.
+
 ## Configuration
 
 `Reader/appsettings.json`:

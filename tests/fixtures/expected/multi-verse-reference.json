@@ -1,0 +1,268 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 1:1",
+        "records": [10],
+        "text": "In the beginning God created the heaven and the earth.",
+        "placed": [
+          {"key":"10.1","start":7,"end":16,"match":"beginning","colour":1,"case_fallback":false},
+          {"key":"10.2","start":17,"end":20,"match":"God","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["In the ",[]],
+          ["beginning",["10.1"]],
+          [" ",[]],
+          ["God",["10.2"]],
+          [" created the heaven and the earth.",[]]
+        ]
+      },
+      {
+        "verse": "Proverbs 8:22",
+        "records": [166970],
+        "text": "The LORD possessed me in the beginning of his way, before his works of old.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "Proverbs 8:23",
+        "records": [166980],
+        "text": "I was set up from everlasting, from the beginning, or ever the earth was.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "Proverbs 8:24",
+        "records": [166990],
+        "text": "When there were no depths, I was brought forth; when there were no fountains abounding with water.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "John 1:1",
+        "records": [261190],
+        "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "John 1:2",
+        "records": [261200],
+        "text": "The same was in the beginning with God.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "John 1:3",
+        "records": [261210],
+        "text": "All things were made by him; and without him was not any thing made that was made.",
+        "cited_by": ["10.1"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["10.1"]},
+        "pane": {
+          "title": "Genesis 1:1",
+          "groups": [
+            {
+              "key": "10.1",
+              "heading": "beginning",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 1,
+              "items": [
+                {"label":"Proverbs 8:22-24","href":"20/8/KJV#v22-24"},
+                {"label":"John 1:1-3","href":"43/1/KJV#v1-3"}
+              ]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 1:1",
+        "records": [10],
+        "text": "In the beginning God created the heavens and the earth.",
+        "placed": [
+          {"key":"10.1","start":7,"end":16,"match":"beginning","colour":1,"case_fallback":false},
+          {"key":"10.2","start":17,"end":20,"match":"God","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["In the ",[]],
+          ["beginning",["10.1"]],
+          [" ",[]],
+          ["God",["10.2"]],
+          [" created the heavens and the earth.",[]]
+        ]
+      },
+      {
+        "verse": "Proverbs 8:22",
+        "records": [166970],
+        "text": "The LORD created me as His first course, before His works of old.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "Proverbs 8:23",
+        "records": [166980],
+        "text": "From everlasting I was established, from the beginning, before the earth began.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "Proverbs 8:24",
+        "records": [166990],
+        "text": "When there were no watery depths, I was brought forth, when no springs were overflowing with water.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "John 1:1",
+        "records": [261190],
+        "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+        "cited_by": ["10.1"]
+      },
+      {"verse":"John 1:2","records":[261200],"text":"He was with God in the beginning.","cited_by":["10.1"]},
+      {
+        "verse": "John 1:3",
+        "records": [261210],
+        "text": "Through Him all things were made, and without Him nothing was made that has been made.",
+        "cited_by": ["10.1"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["10.1"]},
+        "pane": {
+          "title": "Genesis 1:1",
+          "groups": [
+            {
+              "key": "10.1",
+              "heading": "beginning",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 1,
+              "items": [
+                {"label":"Proverbs 8:22-24","href":"20/8/BSB#v22-24"},
+                {"label":"John 1:1-3","href":"43/1/BSB#v1-3"}
+              ]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 1:1",
+        "records": [10],
+        "text": "IN die begin het God die hemel en die aarde geskape.",
+        "placed": [
+          {"key":"10.1","start":0,"end":12,"match":"IN die begin","colour":1,"case_fallback":false},
+          {
+            "key": "10.2",
+            "start": 17,
+            "end": 51,
+            "match": "God die hemel en die aarde geskape",
+            "colour": 2,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["IN die begin",["10.1"]],
+          [" het ",[]],
+          ["God die hemel en die aarde geskape",["10.2"]],
+          [".",[]]
+        ]
+      },
+      {
+        "verse": "Spreuke 8:22",
+        "records": [166970],
+        "text": "DIE HERE het my berei as eersteling van sy weg, voor sy werke, van ouds af.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "Spreuke 8:23",
+        "records": [166980],
+        "text": "Van ewigheid af is ek geformeer, van die begin af, van die voortyd van die aarde af.",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "Spreuke 8:24",
+        "records": [166990],
+        "text": "Toe daar nog geen wêreldvloede was nie, is ek gebore; toe fonteine, swaar van water, nog nie daar was nie;",
+        "cited_by": ["10.1"]
+      },
+      {
+        "verse": "Johannes 1:1",
+        "records": [261190],
+        "text": "IN die begin was die Woord, en die Woord was by God, en die Woord was God.",
+        "cited_by": ["10.1"]
+      },
+      {"verse":"Johannes 1:2","records":[261200],"text":"Hy was in die begin by God.","cited_by":["10.1"]},
+      {
+        "verse": "Johannes 1:3",
+        "records": [261210],
+        "text": "Alle dinge het deur Hom ontstaan, en sonder Hom het nie een ding ontstaan wat ontstaan het nie.",
+        "cited_by": ["10.1"]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"keys":["10.1"]},
+        "pane": {
+          "title": "Genesis 1:1",
+          "groups": [
+            {
+              "key": "10.1",
+              "heading": "IN die begin",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 1,
+              "items": [
+                {"label":"Spreuke 8:22-24","href":"20/8/AOV#v22-24"},
+                {"label":"Johannes 1:1-3","href":"43/1/AOV#v1-3"}
+              ]
+            }
+          ],
+          "cited_by": null
+        }
+      }
+    ]
+  }
+}

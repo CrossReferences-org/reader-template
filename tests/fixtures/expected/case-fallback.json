@@ -1,0 +1,101 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 1,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 2:4",
+        "records": [350,355],
+        "text": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,",
+        "placed": [
+          {"key":"350.1","start":10,"end":25,"match":"the generations","colour":1,"case_fallback":false},
+          {"key":"355.1","start":102,"end":106,"match":"LORD","colour":2,"case_fallback":true}
+        ],
+        "segments": [
+          ["These are ",[]],
+          ["the generations",["350.1"]],
+          [" of the heavens and of the earth when they were created, in the day that the ",[]],
+          ["LORD",["355.1"]],
+          [" God made the earth and the heavens,",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 2:4",
+        "records": [350,355],
+        "text": "This is the account of the heavens and the earth when they were created, in the day that the LORD God made them.",
+        "placed": [
+          {"key":"350.1","start":8,"end":19,"match":"the account","colour":1,"case_fallback":false},
+          {"key":"355.1","start":93,"end":97,"match":"LORD","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["This is ",[]],
+          ["the account",["350.1"]],
+          [" of the heavens and the earth when they were created, in the day that the ",[]],
+          ["LORD",["355.1"]],
+          [" God made them.",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 2:4",
+        "records": [350,355],
+        "text": "DIT is die geskiedenis van die hemel en die aarde toe hulle geskape is. Die dag toe die HERE God die aarde en die hemel gemaak het,",
+        "placed": [
+          {"key":"350.1","start":7,"end":22,"match":"die geskiedenis","colour":1,"case_fallback":false},
+          {"key":"355.1","start":88,"end":92,"match":"HERE","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["DIT is ",[]],
+          ["die geskiedenis",["350.1"]],
+          [" van die hemel en die aarde toe hulle geskape is. Die dag toe die ",[]],
+          ["HERE",["355.1"]],
+          [" God die aarde en die hemel gemaak het,",[]]
+        ]
+      }
+    ],
+    "panes": []
+  }
+}

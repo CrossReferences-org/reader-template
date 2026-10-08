@@ -1,0 +1,129 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 1:5",
+        "records": [50],
+        "text": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+        "placed": [
+          {"key":"50.1","start":25,"end":33,"match":"Day, and","colour":1,"case_fallback":false},
+          {
+            "key": "50.2",
+            "start": 64,
+            "end": 100,
+            "match": "And the evening and the morning were",
+            "colour": 2,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["And God called the light ",[]],
+          ["Day, and",["50.1"]],
+          [" the darkness he called Night. ",[]],
+          ["And the evening and the morning were",["50.2"]],
+          [" the first day.",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 1:5",
+        "records": [50],
+        "text": "God called the light “day,” and the darkness He called “night.” And there was evening, and there was morning—the first day.",
+        "placed": [
+          {"key":"50.1","start":22,"end":31,"match":"day,” and","colour":1,"case_fallback":false},
+          {
+            "key": "50.2",
+            "start": 64,
+            "end": 109,
+            "match": "And there was evening, and there was morning—",
+            "colour": 2,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["God called the light “",[]],
+          ["day,” and",["50.1"]],
+          [" the darkness He called “night.” ",[]],
+          ["And there was evening, and there was morning—",["50.2"]],
+          ["the first day.",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 2,
+      "placed": 2,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Genesis 1:5",
+        "records": [50],
+        "text": "en God het die lig dag genoem, en die duisternis het Hy nag genoem. En dit was aand en dit was môre, die eerste dag.",
+        "placed": [
+          {
+            "key": "50.1",
+            "start": 15,
+            "end": 48,
+            "match": "lig dag genoem, en die duisternis",
+            "colour": 1,
+            "case_fallback": false
+          },
+          {
+            "key": "50.2",
+            "start": 68,
+            "end": 99,
+            "match": "En dit was aand en dit was môre",
+            "colour": 2,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["en God het die ",[]],
+          ["lig dag genoem, en die duisternis",["50.1"]],
+          [" het Hy nag genoem. ",[]],
+          ["En dit was aand en dit was môre",["50.2"]],
+          [", die eerste dag.",[]]
+        ]
+      }
+    ],
+    "panes": []
+  }
+}

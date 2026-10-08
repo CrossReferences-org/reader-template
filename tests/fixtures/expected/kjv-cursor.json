@@ -1,0 +1,171 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 6,
+      "placed": 6,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "2 Chronicles 2:1",
+        "records": [112170],
+        "text": "And Solomon determined to build an house for the name of the LORD, and an house for his kingdom.",
+        "placed": [
+          {"key":"112170.1","start":12,"end":22,"match":"determined","colour":1,"case_fallback":false},
+          {"key":"112170.2","start":41,"end":53,"match":"for the name","colour":2,"case_fallback":false},
+          {"key":"112170.3","start":71,"end":79,"match":"an house","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["And Solomon ",[]],
+          ["determined",["112170.1"]],
+          [" to build an house ",[]],
+          ["for the name",["112170.2"]],
+          [" of the LORD, and ",[]],
+          ["an house",["112170.3"]],
+          [" for his kingdom.",[]]
+        ]
+      },
+      {
+        "verse": "Psalms 60:11",
+        "records": [148670],
+        "text": "Give us help from trouble: for vain is the help of man.",
+        "placed": [
+          {"key":"148670.1","start":0,"end":4,"match":"Give","colour":1,"case_fallback":false},
+          {"key":"148670.2","start":31,"end":35,"match":"vain","colour":2,"case_fallback":false},
+          {"key":"148670.3","start":43,"end":47,"match":"help","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["Give",["148670.1"]],
+          [" us help from trouble: for ",[]],
+          ["vain",["148670.2"]],
+          [" is the ",[]],
+          ["help",["148670.3"]],
+          [" of man.",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 6,
+      "placed": 6,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "2 Chronicles 2:1",
+        "records": [112170],
+        "text": "Now Solomon purposed to build a house for the Name of the LORD and a royal palace for himself.",
+        "placed": [
+          {"key":"112170.1","start":12,"end":20,"match":"purposed","colour":1,"case_fallback":false},
+          {"key":"112170.2","start":38,"end":50,"match":"for the Name","colour":2,"case_fallback":false},
+          {"key":"112170.3","start":69,"end":81,"match":"royal palace","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["Now Solomon ",[]],
+          ["purposed",["112170.1"]],
+          [" to build a house ",[]],
+          ["for the Name",["112170.2"]],
+          [" of the LORD and a ",[]],
+          ["royal palace",["112170.3"]],
+          [" for himself.",[]]
+        ]
+      },
+      {
+        "verse": "Psalms 60:11",
+        "records": [148670],
+        "text": "Give us aid against the enemy, for the help of man is worthless.",
+        "placed": [
+          {"key":"148670.1","start":0,"end":11,"match":"Give us aid","colour":1,"case_fallback":false},
+          {"key":"148670.3","start":39,"end":50,"match":"help of man","colour":2,"case_fallback":false},
+          {"key":"148670.2","start":54,"end":63,"match":"worthless","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["Give us aid",["148670.1"]],
+          [" against the enemy, for the ",[]],
+          ["help of man",["148670.3"]],
+          [" is ",[]],
+          ["worthless",["148670.2"]],
+          [".",[]]
+        ]
+      }
+    ],
+    "panes": []
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 6,
+      "placed": 6,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 1,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "2 Kronieke 2:1",
+        "records": [112170],
+        "text": "EN Salomo het gedink om vir die Naam van die HERE ’n huis te bou en ’n huis vir sy koningskap.",
+        "placed": [
+          {"key":"112170.1","start":10,"end":23,"match":"het gedink om","colour":1,"case_fallback":false},
+          {"key":"112170.2","start":24,"end":36,"match":"vir die Naam","colour":2,"case_fallback":false},
+          {
+            "key": "112170.3",
+            "start": 68,
+            "end": 93,
+            "match": "’n huis vir sy koningskap",
+            "colour": 3,
+            "case_fallback": false
+          }
+        ],
+        "segments": [
+          ["EN Salomo ",[]],
+          ["het gedink om",["112170.1"]],
+          [" ",[]],
+          ["vir die Naam",["112170.2"]],
+          [" van die HERE ’n huis te bou en ",[]],
+          ["’n huis vir sy koningskap",["112170.3"]],
+          [".",[]]
+        ]
+      },
+      {
+        "verse": "Psalms 60:13",
+        "records": [148670],
+        "text": "Verleen ons hulp teen die vyand, want die mens se hulp is ydelheid.",
+        "placed": [
+          {"key":"148670.1","start":0,"end":16,"match":"Verleen ons hulp","colour":1,"case_fallback":false},
+          {"key":"148670.3","start":50,"end":54,"match":"hulp","colour":2,"case_fallback":false},
+          {"key":"148670.2","start":58,"end":66,"match":"ydelheid","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["Verleen ons hulp",["148670.1"]],
+          [" teen die vyand, want die mens se ",[]],
+          ["hulp",["148670.3"]],
+          [" is ",[]],
+          ["ydelheid",["148670.2"]],
+          [".",[]]
+        ]
+      }
+    ],
+    "panes": []
+  }
+}

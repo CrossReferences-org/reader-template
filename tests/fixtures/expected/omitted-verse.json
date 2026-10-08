@@ -1,0 +1,299 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 5,
+      "placed": 5,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Daniel 9:3",
+        "records": [220650],
+        "text": "And I set my face unto the Lord God, to seek by prayer and supplications, with fasting, and sackcloth, and ashes:",
+        "cited_by": ["246410.3"]
+      },
+      {
+        "verse": "Matthew 12:45",
+        "records": [236080],
+        "text": "Then goeth he, and taketh with himself seven other spirits more wicked than himself, and they enter in and dwell there: and the last state of that man is worse than the first. Even so shall it be also unto this wicked generation.",
+        "cited_by": ["237950.1"]
+      },
+      {
+        "verse": "Matthew 17:21",
+        "records": [237950],
+        "text": "Howbeit this kind goeth not out but by prayer and fasting.",
+        "cited_by": ["246410.2"],
+        "placed": [
+          {"key":"237950.1","start":8,"end":12,"match":"this","colour":1,"case_fallback":false},
+          {"key":"237950.2","start":32,"end":35,"match":"but","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["Howbeit ",[]],
+          ["this",["237950.1"]],
+          [" kind goeth not out ",[]],
+          ["but",["237950.2"]],
+          [" by prayer and fasting.",[]]
+        ]
+      },
+      {
+        "verse": "Mark 9:29",
+        "records": [246410],
+        "text": "And he said unto them, This kind can come forth by nothing, but by prayer and fasting.",
+        "placed": [
+          {"key":"246410.1","start":23,"end":27,"match":"This","colour":1,"case_fallback":false},
+          {"key":"246410.2","start":64,"end":73,"match":"by prayer","colour":2,"case_fallback":false},
+          {"key":"246410.3","start":78,"end":85,"match":"fasting","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["And he said unto them, ",[]],
+          ["This",["246410.1"]],
+          [" kind can come forth by nothing, but ",[]],
+          ["by prayer",["246410.2"]],
+          [" and ",[]],
+          ["fasting",["246410.3"]],
+          [".",[]]
+        ]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"verse_of":246410},
+        "pane": {
+          "title": "Mark 9:29",
+          "groups": [
+            {
+              "key": "246410.2",
+              "heading": "by prayer",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Matthew 17:21","href":"40/17/KJV#v21"}]
+            },
+            {
+              "key": "246410.3",
+              "heading": "fasting",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 3,
+              "items": [{"label":"Daniel 9:3","href":"27/9/KJV#v3"}]
+            }
+          ],
+          "cited_by": null
+        }
+      },
+      {
+        "request": {"verse_of":237950},
+        "pane": {
+          "title": "Matthew 17:21",
+          "groups": [
+            {
+              "key": "237950.1",
+              "heading": "this",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 1,
+              "items": [{"label":"Matthew 12:45","href":"40/12/KJV#v45"}]
+            }
+          ],
+          "cited_by": {
+            "heading": "Matthew 17:21 is cited by 1",
+            "entries": [
+              {
+                "label": "Mark 9:29",
+                "href": "41/9/KJV#v29",
+                "keys": "246410.2",
+                "phrases": "by prayer",
+                "dimmed": false
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 3,
+      "placed": 2,
+      "no_phrase": 1,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Daniel 9:3",
+        "records": [220650],
+        "text": "So I turned my attention to the Lord God to seek Him by prayer and petition, with fasting, sackcloth, and ashes.",
+        "cited_by": ["246410.3"]
+      },
+      {
+        "verse": "Matthew 12:45",
+        "records": [236080],
+        "text": "Then it goes and brings with it seven other spirits more wicked than itself, and they go in and dwell there. And the final plight of that man is worse than the first. So will it be with this wicked generation.”"
+      },
+      {"verse":"Matthew 17:21","records":[237950],"text":""},
+      {
+        "verse": "Mark 9:29",
+        "records": [246410],
+        "text": "Jesus answered, “This kind cannot come out, except by prayer.”",
+        "placed": [
+          {"key":"246410.1","start":17,"end":26,"match":"This kind","colour":1,"case_fallback":false},
+          {"key":"246410.2","start":51,"end":60,"match":"by prayer","colour":2,"case_fallback":false}
+        ],
+        "no_phrase": ["246410.3"],
+        "segments": [
+          ["Jesus answered, “",[]],
+          ["This kind",["246410.1"]],
+          [" cannot come out, except ",[]],
+          ["by prayer",["246410.2"]],
+          [".”",[]]
+        ]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"verse_of":246410},
+        "pane": {
+          "title": "Mark 9:29",
+          "groups": [
+            {
+              "key": "246410.3",
+              "heading": "fasting",
+              "kjv_fallback": true,
+              "kjv_note": null,
+              "colour": 0,
+              "items": [{"label":"Daniel 9:3","href":"27/9/BSB#v3"}]
+            }
+          ],
+          "cited_by": null
+        }
+      },
+      {"request":{"verse_of":237950},"pane":null}
+    ]
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 5,
+      "placed": 5,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Daniël 9:3",
+        "records": [220650],
+        "text": "En ek het my aangesig tot die Here God gerig om met vas, en in roukleed en as, my aan gebed en smekinge te wy.",
+        "cited_by": ["246410.3"]
+      },
+      {
+        "verse": "Mattheüs 12:45",
+        "records": [236080],
+        "text": "Dan gaan hy en neem sewe ander geeste slegter as hy self met hom saam, en hulle kom in en woon daar; en die laaste van daardie mens word erger as die eerste. Só sal dit ook wees met hierdie bose geslag.",
+        "cited_by": ["237950.1"]
+      },
+      {
+        "verse": "Mattheüs 17:21",
+        "records": [237950],
+        "text": "Maar hierdie geslag gaan nie uit behalwe deur gebed en vas nie.",
+        "cited_by": ["246410.2"],
+        "placed": [
+          {"key":"237950.1","start":5,"end":19,"match":"hierdie geslag","colour":1,"case_fallback":false},
+          {"key":"237950.2","start":46,"end":58,"match":"gebed en vas","colour":2,"case_fallback":false}
+        ],
+        "segments": [
+          ["Maar ",[]],
+          ["hierdie geslag",["237950.1"]],
+          [" gaan nie uit behalwe deur ",[]],
+          ["gebed en vas",["237950.2"]],
+          [" nie.",[]]
+        ]
+      },
+      {
+        "verse": "Markus 9:29",
+        "records": [246410],
+        "text": "En Hy sê vir hulle: Hierdie geslag kan deur niks anders uitgaan as deur gebed en vas nie.",
+        "placed": [
+          {"key":"246410.1","start":20,"end":34,"match":"Hierdie geslag","colour":1,"case_fallback":false},
+          {"key":"246410.2","start":72,"end":77,"match":"gebed","colour":2,"case_fallback":false},
+          {"key":"246410.3","start":81,"end":84,"match":"vas","colour":3,"case_fallback":false}
+        ],
+        "segments": [
+          ["En Hy sê vir hulle: ",[]],
+          ["Hierdie geslag",["246410.1"]],
+          [" kan deur niks anders uitgaan as deur ",[]],
+          ["gebed",["246410.2"]],
+          [" en ",[]],
+          ["vas",["246410.3"]],
+          [" nie.",[]]
+        ]
+      }
+    ],
+    "panes": [
+      {
+        "request": {"verse_of":246410},
+        "pane": {
+          "title": "Markus 9:29",
+          "groups": [
+            {
+              "key": "246410.2",
+              "heading": "gebed",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 2,
+              "items": [{"label":"Mattheüs 17:21","href":"40/17/AOV#v21"}]
+            },
+            {
+              "key": "246410.3",
+              "heading": "vas",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 3,
+              "items": [{"label":"Daniël 9:3","href":"27/9/AOV#v3"}]
+            }
+          ],
+          "cited_by": null
+        }
+      },
+      {
+        "request": {"verse_of":237950},
+        "pane": {
+          "title": "Mattheüs 17:21",
+          "groups": [
+            {
+              "key": "237950.1",
+              "heading": "hierdie geslag",
+              "kjv_fallback": false,
+              "kjv_note": null,
+              "colour": 1,
+              "items": [{"label":"Mattheüs 12:45","href":"40/12/AOV#v45"}]
+            }
+          ],
+          "cited_by": {
+            "heading": "Mattheüs 17:21 word aangehaal deur 1",
+            "entries": [
+              {"label":"Markus 9:29","href":"41/9/AOV#v29","keys":"246410.2","phrases":"gebed","dimmed":false}
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

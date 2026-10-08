@@ -1,0 +1,77 @@
+{
+  "KJV": {
+    "stats": {
+      "anchors": 1,
+      "placed": 0,
+      "no_phrase": 0,
+      "not_found": 1,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Numbers 26:16",
+        "records": [45060],
+        "text": "Of Ozni, the family of the Oznites: of Eri, the family of the Erites:",
+        "not_found": ["45060.1"]
+      }
+    ],
+    "panes": []
+  },
+  "BSB": {
+    "stats": {
+      "anchors": 1,
+      "placed": 1,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Numbers 26:16",
+        "records": [45060],
+        "text": "the Oznite clan from Ozni, the Erite clan from Eri,",
+        "placed": [{"key":"45060.1","start":21,"end":25,"match":"Ozni","colour":1,"case_fallback":false}],
+        "segments": [["the Oznite clan from ",[]],["Ozni",["45060.1"]],[", the Erite clan from Eri,",[]]]
+      }
+    ],
+    "panes": []
+  },
+  "AOV": {
+    "stats": {
+      "anchors": 1,
+      "placed": 1,
+      "no_phrase": 0,
+      "not_found": 0,
+      "case_fallback": 0,
+      "occur_more_than_once": 0,
+      "no_free_occurrence": 0,
+      "verses_with_overlap": 0,
+      "overlap_segments": 0,
+      "shared_span_segments": 0
+    },
+    "verses": [
+      {
+        "verse": "Númeri 26:16",
+        "records": [45060],
+        "text": "van Osni die geslag van die Osniete; van Eri die geslag van die Eriete;",
+        "placed": [{"key":"45060.1","start":4,"end":8,"match":"Osni","colour":1,"case_fallback":false}],
+        "segments": [
+          ["van ",[]],
+          ["Osni",["45060.1"]],
+          [" die geslag van die Osniete; van Eri die geslag van die Eriete;",[]]
+        ]
+      }
+    ],
+    "panes": []
+  }
+}
