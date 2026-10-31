@@ -64,7 +64,7 @@ public partial class FixtureTests
         foreach (var v in view.ByFragment.Values.Distinct()
                      .OrderBy(v => v.BookId).ThenBy(v => v.Chapter).ThenBy(v => v.Number))
         {
-            verses.Add(Describe(view, v, c));
+            verses.Add(Describe(corpus, view, v, c));
         }
 
         var panes = new JsonArray();
@@ -74,7 +74,7 @@ public partial class FixtureTests
             if (request["verse_of"] is { } id)
             {
                 var v = view.ByFragment[id.GetValue<int>()];
-                pane = PaneBuilder.ForVerse(view, v.BookId, v.Chapter, v.Number);
+                pane = PaneBuilder.ForVerse(corpus, view, v.BookId, v.Chapter, v.Number);
             }
             else
             {
@@ -103,7 +103,7 @@ public partial class FixtureTests
         };
     }
 
-    private static JsonObject Describe(TranslationView view, DisplayVerse v, Fixtures.Case c)
+    private static JsonObject Describe(Corpus corpus, TranslationView view, DisplayVerse v, Fixtures.Case c)
     {
         var sortField = view.T.Code.ToLowerInvariant() + "_sort";
         var records = view.ByFragment.Where(kv => kv.Value == v).Select(kv => kv.Key)
@@ -116,7 +116,7 @@ public partial class FixtureTests
             ["text"] = v.Text,
         };
         // Listed even for a verse without text, where it must stay empty.
-        if (view.CitedBy.TryGetValue(v, out var citing)) AddKeys(o, "cited_by", citing);
+        AddKeys(o, "cited_by", PaneBuilder.Citing(corpus, view, v));
         if (!v.HasText) return o;
 
         var tr = view.T.Index;
@@ -151,7 +151,7 @@ public partial class FixtureTests
     /// </summary>
     private static JsonArray Segments(TranslationView view, DisplayVerse v)
     {
-        var html = view.ChapterHtml[(v.BookId, v.Chapter)];
+        var html = view.RenderChapter(view.Chapter(v.BookId, v.Chapter)!, new PlacementStats());
         var paragraph = Regex.Match(html, $"<p class=\"verse\" id=\"v{v.Number}\"><span class=\"vn\"[^>]*>\\d+</span> (.*?)</p>");
         Assert.True(paragraph.Success, $"verse {v.Number} not found in the chapter HTML");
 

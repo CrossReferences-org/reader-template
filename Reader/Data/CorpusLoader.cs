@@ -5,9 +5,9 @@ using System.Text.Json;
 namespace Reader.Data;
 
 /// <summary>
-/// Reads the three JSON files (plus the optional S21 text) and precomputes everything
-/// the reader serves: display verses, rendered verse HTML and anchor colours.
-/// The data never changes while the app runs, so no request does this work again.
+/// Reads the three JSON files (plus the optional S21 text) and precomputes what the reader
+/// serves: display verses, anchor placements and colours, and the cited-by index.
+/// The data never changes while the app runs; requests only render HTML from it.
 /// </summary>
 public static class CorpusLoader
 {
@@ -85,6 +85,18 @@ public static class CorpusLoader
             .GroupBy(a => a.VerseId)
             .ToDictionary(g => g.Key, g => g.OrderBy(a => a.Sort).ToArray());
 
+        // Reverse index, shared by all translations: verse record to the anchors that cite it.
+        var citing = new Dictionary<int, List<Anchor>>();
+        foreach (var a in anchors.Values)
+        {
+            foreach (var id in a.Refs.SelectMany(r => r).Distinct())
+            {
+                if (!citing.TryGetValue(id, out var list)) citing[id] = list = [];
+                list.Add(a);
+            }
+        }
+        var citedBy = citing.ToDictionary(kv => kv.Key, kv => kv.Value.ToArray());
+
         var bsbLayout = Layout.Load(directory, Layout.BsbFile, log);
 
         var views = new List<TranslationView>();
@@ -92,12 +104,15 @@ public static class CorpusLoader
         {
             if (t == Translation.S21 && !hasS21) continue;
             var stats = new PlacementStats();
-            views.Add(BuildView(t, books, fragments, anchorsByFragment, t == Translation.Bsb ? bsbLayout : null, stats));
+            var view = BuildView(t, books, fragments, anchorsByFragment, t == Translation.Bsb ? bsbLayout : null, stats);
+            // Rendering counts the overlapping segments; the HTML itself is rendered again on request.
+            foreach (var verses in view.Chapters.Values) view.RenderChapter(verses, stats);
+            views.Add(view);
             log.LogInformation("{Code}: {Stats}", t.Code, stats);
         }
 
         log.LogInformation("Corpus loaded in {Ms} ms", clock.ElapsedMilliseconds);
-        return new Corpus(anchors, views);
+        return new Corpus(anchors, citedBy, views);
     }
 
     private static TranslationView BuildView(
@@ -110,7 +125,6 @@ public static class CorpusLoader
     {
         var tr = t.Index;
         var chapters = new Dictionary<(int, int), DisplayVerse[]>();
-        var chapterHtml = new Dictionary<(int, int), string>();
         var byFragment = new Dictionary<int, DisplayVerse>();
         var colours = new Dictionary<string, int>();
 
@@ -121,7 +135,6 @@ public static class CorpusLoader
         foreach (var chapter in grouped)
         {
             var verses = new List<DisplayVerse>();
-            var html = new StringBuilder();
 
             foreach (var verse in chapter.GroupBy(f => f.Coords[tr].Verse).OrderBy(g => g.Key))
             {
@@ -162,6 +175,7 @@ public static class CorpusLoader
                     Chapter = chapter.Key.Chapter,
                     Number = verse.Key,
                     Text = text.ToString(),
+                    Fragments = parts.Select(p => p.Id).ToArray(),
                     Anchors = verseAnchors.ToArray(),
                     Breaks = breaks.ToArray(),
                 };
@@ -174,37 +188,12 @@ public static class CorpusLoader
                 var placed = AnchorPlacer.Place(dv.Text, slots, tr, t.Sequential, stats);
                 AnchorPlacer.AssignColours(placed, colours);
                 dv.Placements = placed.ToArray();
-                if (layout is null) html.Append(AnchorPlacer.RenderVerse(dv, placed, colours, stats));
                 verses.Add(dv);
             }
 
             if (verses.Count == 0) continue;
             chapters[chapter.Key] = verses.ToArray();
-            // With a layout, blocks run across verses, so the chapter is rendered as a whole
-            // once every verse's anchors have their colours.
-            chapterHtml[chapter.Key] = layout is null ? html.ToString() : Layout.RenderChapter(verses, colours, t.Code, stats);
         }
-
-        // Reverse index. Verses without text in this translation neither cite nor are cited,
-        // and a verse citing itself is not listed.
-        var incoming = new Dictionary<DisplayVerse, List<Anchor>>();
-        foreach (var own in anchorsByFragment.Values)
-        {
-            foreach (var a in own)
-            {
-                if (!byFragment.TryGetValue(a.VerseId, out var source) || !source.HasText) continue;
-                foreach (var group in a.Refs)
-                {
-                    foreach (var id in group)
-                    {
-                        if (!byFragment.TryGetValue(id, out var target) || target == source || !target.HasText) continue;
-                        if (!incoming.TryGetValue(target, out var list)) incoming[target] = list = [];
-                        if (list.Count == 0 || list[^1] != a) list.Add(a);
-                    }
-                }
-            }
-        }
-        var citedBy = incoming.ToDictionary(kv => kv.Key, kv => kv.Value.Distinct().OrderBy(a => a.VerseId).ThenBy(a => a.Sort).ToArray());
 
         var entries = new List<BookEntry>();
         foreach (var b in books)
@@ -220,9 +209,8 @@ public static class CorpusLoader
             Books = entries,
             BookById = entries.ToDictionary(e => e.Id),
             Chapters = chapters,
-            ChapterHtml = chapterHtml,
+            HasLayout = layout is not null,
             ByFragment = byFragment,
-            CitedBy = citedBy,
             Colour = colours,
             Stats = stats,
         };

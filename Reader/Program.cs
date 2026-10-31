@@ -1,3 +1,4 @@
+using System.Runtime;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -20,6 +21,12 @@ var app = builder.Build();
 
 // Load the data before accepting requests, so the first reader doesn't wait for it.
 var corpus = app.Services.GetRequiredService<Corpus>();
+
+// Startup parses ~37 MB of JSON into temporary records; one compacting collection returns
+// that space to the OS.
+GCSettings.LargeObjectHeapCompactionMode = GCLargeObjectHeapCompactionMode.CompactOnce;
+GC.Collect(2, GCCollectionMode.Aggressive, blocking: true, compacting: true);
+
 var defaultTranslation = corpus.Find(app.Configuration["Reader:DefaultTranslation"]) ?? corpus.Views[0];
 
 // Hosting under a sub-path (e.g. behind nginx at /reader) only needs Reader:PathBase set.
@@ -63,7 +70,7 @@ pane.MapGet("/anchors", Results<RazorComponentResult<PaneFragment>, NotFound> (s
 pane.MapGet("/verse/{book:int}/{chapter:int}/{verse:int}", Results<RazorComponentResult<PaneFragment>, NotFound> (string tr, int book, int chapter, int verse, HttpContext http) =>
 {
     if (corpus.Find(tr) is not { } view) return TypedResults.NotFound();
-    var model = PaneBuilder.ForVerse(view, book, chapter, verse);
+    var model = PaneBuilder.ForVerse(corpus, view, book, chapter, verse);
     return model is null ? TypedResults.NotFound() : Fragment(http, model);
 });
 

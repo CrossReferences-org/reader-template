@@ -144,7 +144,7 @@ public static class AnchorPlacer
     /// <summary>
     /// Renders the verse paragraph: one verse per line, for translations without a layout.
     /// </summary>
-    public static string RenderVerse(DisplayVerse verse, List<Placement> placed, IReadOnlyDictionary<string, int> colours, PlacementStats stats)
+    public static string RenderVerse(DisplayVerse verse, IReadOnlyDictionary<string, int> colours, PlacementStats stats)
     {
         var text = verse.Text;
         var sb = new StringBuilder(text.Length * 2 + 64);
@@ -153,7 +153,7 @@ public static class AnchorPlacer
           .Append(verse.Number).Append("</span> ");
 
         var hadOverlap = false;
-        AppendSegments(sb, text, 0, text.Length, placed, colours, stats, ref hadOverlap);
+        AppendSegments(sb, text, 0, text.Length, verse.Placements, colours, stats, ref hadOverlap);
 
         if (hadOverlap) stats.VersesWithOverlap++;
         sb.Append("</p>");

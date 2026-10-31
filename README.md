@@ -21,7 +21,7 @@ dotnet run --project Reader
 and open `http://localhost:5080`. The data ships with the repo, so there's nothing to wire up.
 
 If you host your own copy, please give it your own name (`Reader/wwwroot/manifest.webmanifest`).
-It needs about 500 MB of memory.
+It needs about 250 MB of memory.
 
 ## How it works
 
@@ -29,8 +29,9 @@ It needs about 500 MB of memory.
 
 At startup the app reads the JSON in `Reader/json/` and builds everything it serves: each
 translation's verses (split records joined in that translation's order), where every anchor
-sits in its verse, and the verse HTML itself. The log reports how many anchors were placed,
-and how many could not be, per translation.
+sits in its verse, and their colours. Chapter HTML is rendered on request, which keeps the
+app's memory down. The log reports how many anchors were placed, and how many could not be,
+per translation.
 
 Pages are rendered on the server. The reference pane is filled with small HTML fragments
 from `/pane/...`, fetched by `wwwroot/js/reader.js` when a word or verse number is selected.

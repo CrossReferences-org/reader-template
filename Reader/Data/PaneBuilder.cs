@@ -51,17 +51,17 @@ public static class PaneBuilder
         var verse = view.ByFragment[anchors[0].VerseId];
         var shown = new HashSet<DisplayVerse>();
         var groups = Groups(view, anchors, shown);
-        return new PaneModel(view.T.Ui, Title(view, verse), groups, CitedBy(view, verse, shown));
+        return new PaneModel(view.T.Ui, Title(view, verse), groups, CitedBy(corpus, view, verse, shown));
     }
 
     /// <summary>Every group on a verse, including those whose anchor has no phrase in this translation.</summary>
-    public static PaneModel? ForVerse(TranslationView view, int book, int chapter, int number)
+    public static PaneModel? ForVerse(Corpus corpus, TranslationView view, int book, int chapter, int number)
     {
         var verse = view.Verse(book, chapter, number);
         if (verse is null) return null;
         var shown = new HashSet<DisplayVerse>();
         var groups = Groups(view, verse.Anchors, shown);
-        return new PaneModel(view.T.Ui, Title(view, verse), groups, CitedBy(view, verse, shown));
+        return new PaneModel(view.T.Ui, Title(view, verse), groups, CitedBy(corpus, view, verse, shown));
     }
 
     private static string Title(TranslationView view, DisplayVerse v) =>
@@ -121,13 +121,30 @@ public static class PaneBuilder
     }
 
     /// <summary>
+    /// The anchors elsewhere whose references include this verse, by verse record then sort.
+    /// Verses without text in this translation neither cite nor are cited, and a verse citing
+    /// itself is not listed.
+    /// </summary>
+    public static List<Anchor> Citing(Corpus corpus, TranslationView view, DisplayVerse verse)
+    {
+        if (!verse.HasText) return [];
+        return verse.Fragments
+            .SelectMany(id => corpus.CitedBy.TryGetValue(id, out var anchors) ? anchors : [])
+            .Where(a => view.ByFragment.TryGetValue(a.VerseId, out var source) && source.HasText && source != verse)
+            .Distinct()
+            .OrderBy(a => a.VerseId).ThenBy(a => a.Sort)
+            .ToList();
+    }
+
+    /// <summary>
     /// Every other verse whose anchors point at this one, in canonical order, each listed once
     /// with the phrases that do the pointing. Incoming references land on the verse, not on a
     /// phrase in it, so the same list follows both the anchor view and the verse view.
     /// </summary>
-    private static CitedSection? CitedBy(TranslationView view, DisplayVerse verse, HashSet<DisplayVerse> shown)
+    private static CitedSection? CitedBy(Corpus corpus, TranslationView view, DisplayVerse verse, HashSet<DisplayVerse> shown)
     {
-        if (!view.CitedBy.TryGetValue(verse, out var citing)) return null;
+        var citing = Citing(corpus, view, verse);
+        if (citing.Count == 0) return null;
 
         var tr = view.T.Index;
         var entries = new List<CitedEntry>();

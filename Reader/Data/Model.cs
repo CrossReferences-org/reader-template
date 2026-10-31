@@ -63,6 +63,9 @@ public sealed class DisplayVerse
     public required int Number { get; init; }
     public required string Text { get; init; }
 
+    /// <summary>The ids of the verse records it is made of.</summary>
+    public required int[] Fragments { get; init; }
+
     /// <summary>Anchors on this verse, in reading order: by fragment, then by anchor sort.</summary>
     public required Anchor[] Anchors { get; init; }
 
@@ -91,23 +94,26 @@ public sealed class TranslationView
     public required IReadOnlyDictionary<int, BookEntry> BookById { get; init; }
     public required IReadOnlyDictionary<(int Book, int Chapter), DisplayVerse[]> Chapters { get; init; }
 
-    /// <summary>Each chapter's text, pre-rendered with its anchor segments (and layout, where there is one).</summary>
-    public required IReadOnlyDictionary<(int Book, int Chapter), string> ChapterHtml { get; init; }
+    /// <summary>Chapters flow in paragraphs and poetry from a layout file, rather than one verse per line.</summary>
+    public required bool HasLayout { get; init; }
 
     /// <summary>Fragment id to the display verse that contains it, in this translation.</summary>
     public required IReadOnlyDictionary<int, DisplayVerse> ByFragment { get; init; }
-
-    /// <summary>
-    /// For each verse, the anchors elsewhere whose references include it: the corpus read in
-    /// the reverse direction. Each citing anchor appears once per verse it points into.
-    /// </summary>
-    public required IReadOnlyDictionary<DisplayVerse, Anchor[]> CitedBy { get; init; }
 
     /// <summary>Anchor key to its colour slot (1–4), for anchors placed in the text.</summary>
     public required IReadOnlyDictionary<string, int> Colour { get; init; }
 
     /// <summary>How placing this translation's anchors went; logged at startup.</summary>
     public required PlacementStats Stats { get; init; }
+
+    /// <summary>
+    /// A chapter's text with its anchor segments (and layout, where there is one). Rendered on
+    /// request rather than kept: held for every chapter, the HTML was the largest thing in memory.
+    /// </summary>
+    public string RenderChapter(DisplayVerse[] verses, PlacementStats stats) =>
+        HasLayout
+            ? Layout.RenderChapter(verses, Colour, T.Code, stats)
+            : string.Concat(verses.Select(v => AnchorPlacer.RenderVerse(v, Colour, stats)));
 
     public DisplayVerse[]? Chapter(int book, int chapter) =>
         Chapters.TryGetValue((book, chapter), out var verses) ? verses : null;
@@ -140,9 +146,19 @@ public sealed class TranslationView
     }
 }
 
-public sealed class Corpus(IReadOnlyDictionary<string, Anchor> anchors, IReadOnlyList<TranslationView> views)
+public sealed class Corpus(
+    IReadOnlyDictionary<string, Anchor> anchors,
+    IReadOnlyDictionary<int, Anchor[]> citedBy,
+    IReadOnlyList<TranslationView> views)
 {
     public IReadOnlyDictionary<string, Anchor> Anchors { get; } = anchors;
+
+    /// <summary>
+    /// Verse record id to the anchors whose references include it: the corpus read in the
+    /// reverse direction. One index for every translation, which each filters on request.
+    /// </summary>
+    public IReadOnlyDictionary<int, Anchor[]> CitedBy { get; } = citedBy;
+
     public IReadOnlyList<TranslationView> Views { get; } = views;
 
     public TranslationView? Find(string? code) =>

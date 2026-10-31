@@ -5,6 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+    <!-- Workstation GC: traffic is light, so memory matters more than GC throughput. -->
+    <ServerGarbageCollection>false</ServerGarbageCollection>
   </PropertyGroup>
 
   <!-- The data ships with the app: copied beside the binaries so a published build runs as-is. -->
